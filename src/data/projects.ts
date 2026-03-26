@@ -355,6 +355,8 @@ import wentworth2Img from "@/assets/wentworth2.png";
 import kurukshetraHero from "@/assets/kurukshetra_hero.png";
 import sunderlalHero from "@/assets/sunderlal_hero.jpg";
 import crsuHero from "@/assets/crsu_hero.png";
+import llrpHero from "@/assets/llrp17.jpeg";
+import bpsHero from "@/assets/bpshero.jpg";
 
 // BSA Projects
 import crsuBsa1 from "@/assets/BSA/BSA/Chaudary Ranvir Singh University/1.jpeg";
@@ -593,7 +595,7 @@ export const allProjects: ProjectData[] = [
     category: "Education",
     location: "Jind, Haryana",
     year: "2017",
-    image: crsuBsa1,
+    image: crsuHero,
     gallery: [
       crsuBsa1, crsuBsa2, crsuBsa3, crsuBsa4, crsuBsa5, crsuBsa6, crsuBsa7, crsuBsa8, crsuBsa9, crsuBsa10,
       crsuBsa11, crsuBsa12, crsuBsa13, crsuBsa14, crsuBsa15, crsuBsa16, crsuBsa17, crsuBsa18, crsuBsa19, crsuBsa20, crsuBsa21
@@ -612,7 +614,7 @@ export const allProjects: ProjectData[] = [
     category: "Education",
     location: "Sirsa, Haryana",
     year: "",
-    image: cdl1,
+    image: crsuHero,
     gallery: [cdl2, cdl3, cdl4, cdl5, cdl6, cdl7, cdl8, cdl9,cdl10,cdl11,cdl12,cdl13],
     tagline: "",
     description: "The campus of Chaudhary Devi Lal University in Sirsa, Haryana, is envisioned as a comprehensive academic precinct spread across an expansive site, designed to function as a self-sustaining institutional ecosystem.\n\nThe planning strategy establishes a well-defined spatial structure that integrates core academic facilities—including teaching departments, research centers, administrative blocks, and a central library—with residential and support infrastructure such as hostels, faculty housing, and recreational amenities.\n\nThe master plan emphasizes clarity in zoning and seamless circulation, ensuring efficient movement while fostering strong visual and physical connectivity across the campus. Landscaped greens, shaded pathways, and open gathering spaces are interwoven throughout, creating a balanced dialogue between built form and the natural environment.\n\nThrough a considered approach to scale, hierarchy, and open space design, the campus cultivates a dynamic and engaging environment that supports academic excellence, interdisciplinary interaction, and a vibrant campus life, reinforcing its role as a key educational hub in the region.",
@@ -624,7 +626,7 @@ export const allProjects: ProjectData[] = [
     category: "Education",
     location: "Hisar, Haryana",
     year: "2018",
-    image: llruBsa1,
+    image: llrpHero,
     gallery: [
       llruBsa1, llruBsa2, llruBsa3, llruBsa4, llruBsa5, llruBsa6, llruBsa7, llruBsa8, llruBsa9, llruBsa10,
       llruBsa11, llruBsa12, llruBsa13, llruBsa14, llruBsa15, llruBsa16
@@ -645,7 +647,7 @@ export const allProjects: ProjectData[] = [
     category: "Education",
     location: "Sonepat, Haryana",
     year: "2016",
-    image: bpsBsa1,
+    image: bpsHero,
     gallery: [
       bpsBsa1, bpsBsa2, bpsBsa3, bpsBsa4, bpsBsa5, bpsBsa6, bpsBsa7, bpsBsa8, bpsBsa9, bpsBsa10,
       bpsBsa11, bpsBsa12, bpsBsa13, bpsBsa14, bpsBsa15, bpsBsa16, bpsBsa17, bpsBsa18, bpsBsa19
@@ -910,7 +912,7 @@ export const allProjects: ProjectData[] = [
     category: "Education",
     location: "Bilaspur, Chhattisgarh",
     year: "2016",
-    image: sunderlalBsa1,
+    image: sunderlalHero,
     gallery: [sunderlalBsa1],
     tagline: "An open university campus designed for accessible higher education.",
     description:
