@@ -1,0 +1,221 @@
+/* Fonts are preloaded async in index.html — no render-blocking import */
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  :root {
+    /* Light theme - Warm Off-White Background */
+    --background: 34 16% 90%;
+    --foreground: 23 17% 9%;
+
+    --card: 34 16% 90%;
+    --card-foreground: 23 17% 9%;
+
+    --popover: 34 16% 90%;
+    --popover-foreground: 23 17% 9%;
+
+    --primary: 23 17% 9%;
+    --primary-foreground: 35 30% 91%;
+
+    --secondary: 23 18% 14%;
+    --secondary-foreground: 35 30% 91%;
+
+    --muted: 34 16% 88%;
+    --muted-foreground: 30 13% 78%;
+
+    --accent: 35 52% 53%;
+    --accent-foreground: 35 30% 91%;
+
+    --destructive: 0 84.2% 60.2%;
+    --destructive-foreground: 35 30% 91%;
+
+    --border: 30 13% 80%;
+    --input: 30 13% 80%;
+    --ring: 35 52% 53%;
+
+    --radius: 0.25rem;
+
+    --stone: 30 13% 68%;
+    --stone-light: 34 16% 85%;
+    --warm-white: 35 30% 91%;
+    --charcoal: 23 17% 9%;
+
+    --sidebar-background: 34 16% 90%;
+    --sidebar-foreground: 23 17% 9%;
+    --sidebar-primary: 35 52% 53%;
+    --sidebar-primary-foreground: 35 30% 91%;
+    --sidebar-accent: 34 16% 85%;
+    --sidebar-accent-foreground: 23 17% 9%;
+    --sidebar-border: 30 13% 80%;
+    --sidebar-ring: 35 52% 53%;
+  }
+
+  .dark {
+    /* Dark theme - Warm Black Background */
+    --background: 23 17% 9%;
+    --foreground: 35 30% 91%;
+    
+    --card: 23 18% 14%;
+    --card-foreground: 35 30% 91%;
+    
+    --popover: 23 17% 9%;
+    --popover-foreground: 35 30% 91%;
+    
+    --primary: 35 30% 91%;
+    --primary-foreground: 23 17% 9%;
+    
+    --secondary: 23 18% 14%;
+    --secondary-foreground: 35 30% 91%;
+    
+    --muted: 23 18% 16%;
+    --muted-foreground: 30 13% 78%;
+    
+    --accent: 35 52% 53%;
+    --accent-foreground: 35 30% 91%;
+    
+    --destructive: 0 62.8% 30.6%;
+    --destructive-foreground: 35 30% 91%;
+    
+    --border: 23 18% 18%;
+    --input: 23 18% 18%;
+    --ring: 35 52% 53%;
+    
+    --sidebar-background: 23 17% 9%;
+    --sidebar-foreground: 35 30% 91%;
+    --sidebar-primary: 35 52% 53%;
+    --sidebar-primary-foreground: 35 30% 91%;
+    --sidebar-accent: 23 18% 14%;
+    --sidebar-accent-foreground: 35 30% 91%;
+    --sidebar-border: 23 18% 18%;
+    --sidebar-ring: 35 52% 53%;
+  }
+}
+
+@layer base {
+  * {
+    @apply border-border;
+  }
+
+  /* ── Smooth scrolling (opt-out for reduced-motion) ─────────────── */
+  html {
+    scroll-behavior: smooth;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    text-rendering: optimizeLegibility;
+  }
+
+  body {
+    @apply bg-background text-foreground font-sans antialiased;
+    overflow-x: hidden;
+  }
+
+  h1, h2, h3, h4, h5, h6 {
+    @apply font-serif;
+  }
+
+  /* ── Image / video CLS prevention ──────────────────────────────── */
+  img, video {
+    max-width: 100%;
+    height: auto;
+    display: block;
+  }
+}
+
+/* ── Reduced motion — honour user OS preference ───────────────────── */
+@media (prefers-reduced-motion: reduce) {
+  html {
+    scroll-behavior: auto;
+  }
+  *, *::before, *::after {
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.01ms !important;
+    scroll-behavior: auto !important;
+  }
+}
+
+/* ── Lightweight page-fade animation ──────────────────────────────── */
+@keyframes pageFadeIn {
+  from { opacity: 0; }
+  to   { opacity: 1; }
+}
+.animate-page-fade {
+  animation: pageFadeIn 0.3s ease-out both;
+}
+
+@layer utilities {
+  .section-padding {
+    @apply px-4 sm:px-6 md:px-12 lg:px-24 py-14 sm:py-20 md:py-32;
+  }
+
+  .heading-xl {
+    @apply font-serif text-3xl sm:text-5xl md:text-7xl lg:text-8xl font-light tracking-tight leading-[0.9];
+  }
+
+  .heading-lg {
+    @apply font-serif text-2xl sm:text-4xl md:text-5xl lg:text-6xl font-light tracking-tight leading-[0.95];
+  }
+
+  .heading-md {
+    @apply font-serif text-xl sm:text-2xl md:text-3xl font-light tracking-tight;
+  }
+
+  .body-lg {
+    @apply font-sans text-base md:text-lg font-light leading-relaxed tracking-wide;
+  }
+
+  .body-sm {
+    @apply font-sans text-sm font-light tracking-widest uppercase;
+  }
+
+  .label-text {
+    @apply font-sans text-xs font-medium tracking-[0.2em] uppercase;
+  }
+}
+
+@layer components {
+  .architectural-line {
+    @apply w-16 h-px bg-accent;
+  }
+
+  .grid-overlay {
+    background-image: 
+      linear-gradient(to right, hsl(var(--border)) 1px, transparent 1px);
+    background-size: 25% 100%;
+  }
+
+  /* ── GPU-accelerated container for animated sections ─────────── */
+  .gpu-layer {
+    will-change: transform;
+    transform: translateZ(0);
+    backface-visibility: hidden;
+  }
+
+  /* ── Content containment for heavy sections ──────────────────── */
+  .contain-layout {
+    contain: layout style;
+  }
+
+  .contain-paint {
+    contain: layout paint style;
+  }
+}
+
+/* ── Premium Logo Loader Animation ──────────────────────────────── */
+@keyframes logo-loader-sequence {
+  0% { transform: scale(0.7, 1.3); opacity: 0; }
+  10% { transform: scale(0.6, 1.4); opacity: 1; } /* Anticipation - more compressed */
+  25% { transform: scale(1.25, 0.85); } /* Pop outward expansion */
+  35% { transform: scale(0.95, 1.05); } /* Elastic bounce */
+  45% { transform: scale(1.02, 0.98); opacity: 1; } /* Subtle settle */
+  55% { transform: scale(1, 1); opacity: 1; } /* Hold at normal size */
+  70% { transform: scale(0.9, 0.9); opacity: 1; } /* Pull-back anticipation before zoom */
+  100% { transform: scale(150, 150); opacity: 0; } /* Zoom massive into logo */
+}
+
+.animate-logo-sequence {
+  animation: logo-loader-sequence 2.4s cubic-bezier(0.4, 0, 0.2, 1) forwards;
+}
+
