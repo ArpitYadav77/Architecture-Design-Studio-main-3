@@ -614,7 +614,7 @@ export const allProjects: ProjectData[] = [
     category: "Education",
     location: "Sirsa, Haryana",
     year: "",
-    image: crsuHero,
+    image: cdl1,
     gallery: [cdl2, cdl3, cdl4, cdl5, cdl6, cdl7, cdl8, cdl9,cdl10,cdl11,cdl12,cdl13],
     tagline: "",
     description: "The campus of Chaudhary Devi Lal University in Sirsa, Haryana, is envisioned as a comprehensive academic precinct spread across an expansive site, designed to function as a self-sustaining institutional ecosystem.\n\nThe planning strategy establishes a well-defined spatial structure that integrates core academic facilities—including teaching departments, research centers, administrative blocks, and a central library—with residential and support infrastructure such as hostels, faculty housing, and recreational amenities.\n\nThe master plan emphasizes clarity in zoning and seamless circulation, ensuring efficient movement while fostering strong visual and physical connectivity across the campus. Landscaped greens, shaded pathways, and open gathering spaces are interwoven throughout, creating a balanced dialogue between built form and the natural environment.\n\nThrough a considered approach to scale, hierarchy, and open space design, the campus cultivates a dynamic and engaging environment that supports academic excellence, interdisciplinary interaction, and a vibrant campus life, reinforcing its role as a key educational hub in the region.",
