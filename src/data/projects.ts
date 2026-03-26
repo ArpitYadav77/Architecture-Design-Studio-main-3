@@ -356,6 +356,101 @@ import kurukshetraHero from "@/assets/kurukshetra_hero.png";
 import sunderlalHero from "@/assets/sunderlal_hero.jpg";
 import crsuHero from "@/assets/crsu_hero.png";
 
+// BSA Projects
+import crsuBsa1 from "@/assets/BSA/BSA/Chaudary Ranvir Singh University/1.jpeg";
+import crsuBsa2 from "@/assets/BSA/BSA/Chaudary Ranvir Singh University/2.jpeg";
+import crsuBsa3 from "@/assets/BSA/BSA/Chaudary Ranvir Singh University/3.jpeg";
+import crsuBsa4 from "@/assets/BSA/BSA/Chaudary Ranvir Singh University/4.jpeg";
+import crsuBsa5 from "@/assets/BSA/BSA/Chaudary Ranvir Singh University/5.jpeg";
+import crsuBsa6 from "@/assets/BSA/BSA/Chaudary Ranvir Singh University/6.jpeg";
+import crsuBsa7 from "@/assets/BSA/BSA/Chaudary Ranvir Singh University/7.jpeg";
+import crsuBsa8 from "@/assets/BSA/BSA/Chaudary Ranvir Singh University/8.jpeg";
+import crsuBsa9 from "@/assets/BSA/BSA/Chaudary Ranvir Singh University/9.jpeg";
+import crsuBsa10 from "@/assets/BSA/BSA/Chaudary Ranvir Singh University/10.jpeg";
+import crsuBsa11 from "@/assets/BSA/BSA/Chaudary Ranvir Singh University/11.jpeg";
+import crsuBsa12 from "@/assets/BSA/BSA/Chaudary Ranvir Singh University/12.jpeg";
+import crsuBsa13 from "@/assets/BSA/BSA/Chaudary Ranvir Singh University/13.jpeg";
+import crsuBsa14 from "@/assets/BSA/BSA/Chaudary Ranvir Singh University/14.jpeg";
+import crsuBsa15 from "@/assets/BSA/BSA/Chaudary Ranvir Singh University/15.jpeg";
+import crsuBsa16 from "@/assets/BSA/BSA/Chaudary Ranvir Singh University/16.jpeg";
+import crsuBsa17 from "@/assets/BSA/BSA/Chaudary Ranvir Singh University/17.jpeg";
+import crsuBsa18 from "@/assets/BSA/BSA/Chaudary Ranvir Singh University/18.jpeg";
+import crsuBsa19 from "@/assets/BSA/BSA/Chaudary Ranvir Singh University/19.jpeg";
+import crsuBsa20 from "@/assets/BSA/BSA/Chaudary Ranvir Singh University/20.jpeg";
+import crsuBsa21 from "@/assets/BSA/BSA/Chaudary Ranvir Singh University/21.jpeg";
+
+import bpsBsa1 from "@/assets/BSA/BSA/Bhagat Phool Singh/1.jpeg";
+import bpsBsa2 from "@/assets/BSA/BSA/Bhagat Phool Singh/2.jpeg";
+import bpsBsa3 from "@/assets/BSA/BSA/Bhagat Phool Singh/3.jpeg";
+import bpsBsa4 from "@/assets/BSA/BSA/Bhagat Phool Singh/4.jpeg";
+import bpsBsa5 from "@/assets/BSA/BSA/Bhagat Phool Singh/5.jpeg";
+import bpsBsa6 from "@/assets/BSA/BSA/Bhagat Phool Singh/6.jpeg";
+import bpsBsa7 from "@/assets/BSA/BSA/Bhagat Phool Singh/7.jpeg";
+import bpsBsa8 from "@/assets/BSA/BSA/Bhagat Phool Singh/8.jpeg";
+import bpsBsa9 from "@/assets/BSA/BSA/Bhagat Phool Singh/9.jpeg";
+import bpsBsa10 from "@/assets/BSA/BSA/Bhagat Phool Singh/10.jpeg";
+import bpsBsa11 from "@/assets/BSA/BSA/Bhagat Phool Singh/11.jpeg";
+import bpsBsa12 from "@/assets/BSA/BSA/Bhagat Phool Singh/12.jpeg";
+import bpsBsa13 from "@/assets/BSA/BSA/Bhagat Phool Singh/13.jpeg";
+import bpsBsa14 from "@/assets/BSA/BSA/Bhagat Phool Singh/14.jpeg";
+import bpsBsa15 from "@/assets/BSA/BSA/Bhagat Phool Singh/15.jpeg";
+import bpsBsa16 from "@/assets/BSA/BSA/Bhagat Phool Singh/16.jpeg";
+import bpsBsa17 from "@/assets/BSA/BSA/Bhagat Phool Singh/17.jpeg";
+import bpsBsa18 from "@/assets/BSA/BSA/Bhagat Phool Singh/18.jpeg";
+import bpsBsa19 from "@/assets/BSA/BSA/Bhagat Phool Singh/19.jpeg";
+
+import llruBsa1 from "@/assets/BSA/BSA/6. Lala Lajpat Rai University of veterinary and Animal Science, Hisar/1.jpeg";
+import llruBsa2 from "@/assets/BSA/BSA/6. Lala Lajpat Rai University of veterinary and Animal Science, Hisar/2.jpeg";
+import llruBsa3 from "@/assets/BSA/BSA/6. Lala Lajpat Rai University of veterinary and Animal Science, Hisar/3.jpeg";
+import llruBsa4 from "@/assets/BSA/BSA/6. Lala Lajpat Rai University of veterinary and Animal Science, Hisar/4.jpeg";
+import llruBsa5 from "@/assets/BSA/BSA/6. Lala Lajpat Rai University of veterinary and Animal Science, Hisar/5.jpeg";
+import llruBsa6 from "@/assets/BSA/BSA/6. Lala Lajpat Rai University of veterinary and Animal Science, Hisar/6.jpeg";
+import llruBsa7 from "@/assets/BSA/BSA/6. Lala Lajpat Rai University of veterinary and Animal Science, Hisar/7.jpeg";
+import llruBsa8 from "@/assets/BSA/BSA/6. Lala Lajpat Rai University of veterinary and Animal Science, Hisar/8.jpeg";
+import llruBsa9 from "@/assets/BSA/BSA/6. Lala Lajpat Rai University of veterinary and Animal Science, Hisar/9.jpeg";
+import llruBsa10 from "@/assets/BSA/BSA/6. Lala Lajpat Rai University of veterinary and Animal Science, Hisar/10.jpeg";
+import llruBsa11 from "@/assets/BSA/BSA/6. Lala Lajpat Rai University of veterinary and Animal Science, Hisar/11.jpeg";
+import llruBsa12 from "@/assets/BSA/BSA/6. Lala Lajpat Rai University of veterinary and Animal Science, Hisar/12.jpeg";
+import llruBsa13 from "@/assets/BSA/BSA/6. Lala Lajpat Rai University of veterinary and Animal Science, Hisar/13.jpeg";
+import llruBsa14 from "@/assets/BSA/BSA/6. Lala Lajpat Rai University of veterinary and Animal Science, Hisar/14.jpeg";
+import llruBsa15 from "@/assets/BSA/BSA/6. Lala Lajpat Rai University of veterinary and Animal Science, Hisar/15.jpeg";
+import llruBsa16 from "@/assets/BSA/BSA/6. Lala Lajpat Rai University of veterinary and Animal Science, Hisar/16.jpeg";
+
+import sunderlalBsa1 from "@/assets/BSA/BSA/5. Pt. Sunderlal Sharma (open) Uni/1.jpeg";
+
+// Competition Projects
+import sbiPatna1 from "@/assets/Competition/Competition/State Bank of India Leadership Development,Patna/1.jpeg";
+import sbiPatna2 from "@/assets/Competition/Competition/State Bank of India Leadership Development,Patna/2.jpeg";
+import sbiPatna3 from "@/assets/Competition/Competition/State Bank of India Leadership Development,Patna/3.jpeg";
+import sbiPatna4 from "@/assets/Competition/Competition/State Bank of India Leadership Development,Patna/4.jpeg";
+import sbiPatna5 from "@/assets/Competition/Competition/State Bank of India Leadership Development,Patna/5.jpeg";
+import sbiPatna6 from "@/assets/Competition/Competition/State Bank of India Leadership Development,Patna/6.jpeg";
+import sbiPatna7 from "@/assets/Competition/Competition/State Bank of India Leadership Development,Patna/7.jpeg";
+import sbiPatna8 from "@/assets/Competition/Competition/State Bank of India Leadership Development,Patna/8.jpeg";
+import sbiPatna9 from "@/assets/Competition/Competition/State Bank of India Leadership Development,Patna/9.jpeg";
+
+import sbiIndore1 from "@/assets/Competition/Competition/State Bank Foundation Institute Indore/1.jpeg";
+import sbiIndore2 from "@/assets/Competition/Competition/State Bank Foundation Institute Indore/2.jpeg";
+import sbiIndore3 from "@/assets/Competition/Competition/State Bank Foundation Institute Indore/3.jpeg";
+import sbiIndore4 from "@/assets/Competition/Competition/State Bank Foundation Institute Indore/4.jpeg";
+import sbiIndore5 from "@/assets/Competition/Competition/State Bank Foundation Institute Indore/5.jpeg";
+import sbiIndore6 from "@/assets/Competition/Competition/State Bank Foundation Institute Indore/6.jpeg";
+import sbiIndore7 from "@/assets/Competition/Competition/State Bank Foundation Institute Indore/7.jpeg";
+
+import bhutan1 from "@/assets/Competition/Competition/Royal Government of Bhutan Office Development/1.jpeg";
+import bhutan2 from "@/assets/Competition/Competition/Royal Government of Bhutan Office Development/2.jpeg";
+import bhutan3 from "@/assets/Competition/Competition/Royal Government of Bhutan Office Development/3.jpeg";
+import bhutan4 from "@/assets/Competition/Competition/Royal Government of Bhutan Office Development/4.jpeg";
+import bhutan5 from "@/assets/Competition/Competition/Royal Government of Bhutan Office Development/5.jpeg";
+import bhutan6 from "@/assets/Competition/Competition/Royal Government of Bhutan Office Development/6.jpeg";
+import bhutan7 from "@/assets/Competition/Competition/Royal Government of Bhutan Office Development/7.jpeg";
+
+import bhilai1 from "@/assets/Competition/Competition/Bhilai University/1.jpeg";
+import bhilai2 from "@/assets/Competition/Competition/Bhilai University/2.jpeg";
+import bhilai3 from "@/assets/Competition/Competition/Bhilai University/3.jpeg";
+import bhilai4 from "@/assets/Competition/Competition/Bhilai University/4.jpeg";
+import bhilai5 from "@/assets/Competition/Competition/Bhilai University/WhatsApp Image 2026-03-23 at 10.57.33 PM.jpeg";
+
 // Galaxy Township Sample Residences series (1–63)
 import gt1 from "@/assets/galaxy townshipseries number 1.png";
 import gt2 from "@/assets/galaxy townshipseries number 2.png";
@@ -498,8 +593,11 @@ export const allProjects: ProjectData[] = [
     category: "Education",
     location: "Jind, Haryana",
     year: "2017",
-    image: crsuHero,
-    gallery: [crsuHero, uniBuildingInt, uniBuilding, ranbirUni, ranbirUniInt, ranbirUniInt2, rs1, rs2, rs3],
+    image: crsuBsa1,
+    gallery: [
+      crsuBsa1, crsuBsa2, crsuBsa3, crsuBsa4, crsuBsa5, crsuBsa6, crsuBsa7, crsuBsa8, crsuBsa9, crsuBsa10,
+      crsuBsa11, crsuBsa12, crsuBsa13, crsuBsa14, crsuBsa15, crsuBsa16, crsuBsa17, crsuBsa18, crsuBsa19, crsuBsa20, crsuBsa21
+    ],
     tagline: "A faculty building shaped by clarity, light, and academic purpose.",
     description:
       "The master plan for Chaudhary Ranbir Singh University in Jind, Haryana, spans a 75-acre campus, conceived as an integrated academic and residential ecosystem. The spatial planning articulates a clear programmatic zoning, intuitively weaving together key institutional functions including teaching blocks, advanced laboratories, a central library, and an auditorium, alongside residential and recreational amenities such as the girls' hostel, guest house, sports complex, and an open-air theatre. Emphasizing functional efficiency and robust pedestrian connectivity, the architectural design fosters a vibrant institutional environment. Thoughtfully curated transitional spaces and landscaped areas harmonize the academic, residential, and recreational zones, cultivating a cohesive campus experience that supports collaborative learning, advanced research, and dynamic community interaction.",
@@ -526,8 +624,11 @@ export const allProjects: ProjectData[] = [
     category: "Education",
     location: "Hisar, Haryana",
     year: "2018",
-    image: lru3,
-    gallery: [universityCover, universityInt1, universityInt2, uniAdmin, uniLibrary, lru1, lru2, lru3],
+    image: llruBsa1,
+    gallery: [
+      llruBsa1, llruBsa2, llruBsa3, llruBsa4, llruBsa5, llruBsa6, llruBsa7, llruBsa8, llruBsa9, llruBsa10,
+      llruBsa11, llruBsa12, llruBsa13, llruBsa14, llruBsa15, llruBsa16
+    ],
     tagline: "A campus designed for knowledge, community, and institutional pride.",
     description:
       "Conceived within the vast 1,125-acre expanse of the Lala Lajpat Rai University of Veterinary & Animal Sciences in Hisar, Haryana, this master plan proposes a meticulously organized institutional environment tailored for advanced higher education and specialized research. The architectural strategy delineates a highly efficient spatial framework, systematically enhancing campus-wide connectivity while engaging in a calibrated dialogue between formal built environments and expansive natural landscapes. Anchored by rigorous functional planning and universal accessibility, the design deploys a cohesive architectural language that unifies the diverse programmatic elements. The resulting campus experience is one of profound institutional character, consciously engineered to foster academic excellence, facilitate cutting-edge research, and nurture a vibrant, interactive university community.",
@@ -544,8 +645,11 @@ export const allProjects: ProjectData[] = [
     category: "Education",
     location: "Sonepat, Haryana",
     year: "2016",
-    image: baghatCover,
-    gallery: [baghatInt1, baghatInt2, bpsmv1, bpsmv2, bpsmv3, bpsmv4, bpsmv5, bpsv],
+    image: bpsBsa1,
+    gallery: [
+      bpsBsa1, bpsBsa2, bpsBsa3, bpsBsa4, bpsBsa5, bpsBsa6, bpsBsa7, bpsBsa8, bpsBsa9, bpsBsa10,
+      bpsBsa11, bpsBsa12, bpsBsa13, bpsBsa14, bpsBsa15, bpsBsa16, bpsBsa17, bpsBsa18, bpsBsa19
+    ],
     tagline: "An educational campus designed to foster learning, community, and institutional pride.",
     description:
       "Situated within the expansive 500-acre master plan of Bhagat Phool Singh Mahila Vishwavidyalaya in Sonipat, Haryana, the architectural vision articulates a highly orchestrated campus framework designed to fortify the institution’s academic and residential ecosystem. The design approach is anchored in rigorous spatial organization and intuitive circulation networks, establishing a symbiotic relationship between the built environment and natural landscaped areas. By prioritizing pedestrian scale and cohesive architectural vocabulary across the university grounds, the master plan cultivates a harmonious and engaging campus experience. The thoughtful integration of academic, research, and informal social spaces nurtures a supportive environment that enhances everyday student life and fosters institutional identity.",
@@ -806,8 +910,8 @@ export const allProjects: ProjectData[] = [
     category: "Education",
     location: "Bilaspur, Chhattisgarh",
     year: "2016",
-    image: sunderlalHero,
-    gallery: [sunderlalHero, sunderlalImg1, sunderlalImg2, sunderlalImg3, sunderlalImg4],
+    image: sunderlalBsa1,
+    gallery: [sunderlalBsa1],
     tagline: "An open university campus designed for accessible higher education.",
     description:
       "Sited within the campus of Pt. Sundarlal Sharma (Open) University in Bilaspur, Chhattisgarh, the design intervention is conceptualized to deliver a highly structured institutional framework optimized for distance education, administrative efficiency, and rigorous academic pursuits. The architectural planning is driven by pragmatic spatial organization and highly legible circulation nodes, achieving a harmonious integration of formal structures and inviting public realms. By establishing a unified and accessible campus character, the design cultivates an environment that encourages intuitive interactions and supports the institution's progressive mandate for equitable learning, research innovation, and sustainable institutional growth.",
@@ -968,22 +1072,56 @@ export const allProjects: ProjectData[] = [
 
 
   {
-    slug: "sbfi",
-    title: "SBFI",
+    slug: "sbi-patna",
+    title: "State Bank of India Leadership Development, Patna",
     category: "Competition",
-    location: "India",
-    year: "2019",
-    image: sbfiImg,
-    gallery: [sbfi2Img],
+    location: "Patna, Bihar",
+    year: "2023",
+    image: sbiPatna1,
+    gallery: [sbiPatna1, sbiPatna2, sbiPatna3, sbiPatna4, sbiPatna5, sbiPatna6, sbiPatna7, sbiPatna8, sbiPatna9],
+    tagline: "A vision for institutional excellence and leadership training.",
+    description: "A competition entry for the State Bank of India Leadership Development center in Patna, designed to foster professional growth and organizational excellence through modern architectural forms.",
+    status: "Competition",
+  },
+  {
+    slug: "bhutan-office",
+    title: "Royal Government of Bhutan Office Development",
+    category: "Competition",
+    location: "Bhutan",
+    year: "2023",
+    image: bhutan1,
+    gallery: [bhutan1, bhutan2, bhutan3, bhutan4, bhutan5, bhutan6, bhutan7],
+    tagline: "Architectural dialogue with Bhutanese heritage and modern administration.",
+    description: "A competition proposal for a government office development in Bhutan, integrating traditional Bhutanese architectural motifs with contemporary office standards.",
+    status: "Competition",
+  },
+  {
+    slug: "bhilai-university",
+    title: "Bhilai University",
+    category: "Competition",
+    location: "Bhilai, Chhattisgarh",
+    year: "2023",
+    image: bhilai1,
+    gallery: [bhilai1, bhilai2, bhilai3, bhilai4, bhilai5],
+    tagline: "A master plan for future-ready academic infrastructure.",
+    description: "Competition entry for Bhilai University master plan, envisioning a campus that promotes interdisciplinary learning and sustainable growth.",
+    status: "Competition",
+  },
+  {
+    slug: "sbfi",
+    title: "State Bank Foundation Institute, Indore",
+    category: "Competition",
+    location: "Indore, Madhya Pradesh",
+    year: "2023",
+    image: sbiIndore1,
+    gallery: [sbiIndore1, sbiIndore2, sbiIndore3, sbiIndore4, sbiIndore5, sbiIndore6, sbiIndore7],
     order: 4,
-    tagline: "A corporate facility designed for functional efficiency and institutional presence.",
-    description:
-      "The SBFI project is a corporate facility designed to house administrative and operational functions within a building that projects institutional confidence and delivers efficient, flexible floor plates.\n\nThe facade is a composed grid of glass and solid panels that modulates light and scale. At street level, a generous lobby with quality finishes establishes the building's identity from the moment of arrival. Internal planning prioritises natural light, clear circulation, and adaptable working environments.",
+    tagline: "Bridging tradition and modernity in institutional design.",
+    description: "Proposed design for the State Bank Foundation Institute in Indore, focusing on creating a collaborative and inspiring environment for financial education and research.",
     area: "8,000 sq m",
     client: "SBFI",
-    status: "Built",
+    status: "Competition",
   },
-
   {
     slug: "wentworth",
     title: "Wentworth",
@@ -1108,7 +1246,6 @@ const _cmsProjects: ProjectData[] = Object.entries(_cmsModules)
     const db = b._cmsDate ? new Date(b._cmsDate).getTime() : 0;
     return db - da;
   })
-  // eslint-disable-next-line @typescript-eslint/no-unused-vars
   .map(({ _cmsDate, ...rest }) => rest as ProjectData);
 
 // ── combined dataset: CMS projects (latest first) + hardcoded projects ──────
