@@ -569,17 +569,17 @@ import rkm8 from "@/assets/RAJ KALA MANDIR series number 8.png";
 // Chaudhary Devi Lal University
 import cdl1 from "@/assets/Chaudhary-Devi-Lal-University Hero.jpg"
 import cdl2 from "@/assets/Cdl2.jpeg"
-import cdl3 from "@/assets/Cdl3.jpeg"
-import cdl4 from "@/assets/Cdl4.jpeg"
-import cdl5 from "@/assets/Cdl5.jpeg"
-import cdl6 from "@/assets/Cdl6.jpeg"
-import cdl7 from "@/assets/Cdl7.jpeg"
-import cdl8 from "@/assets/Cdl8.jpeg"
-import cdl9 from "@/assets/Cdl9.jpeg"
-import cdl10 from "@/assets/Cdl10.jpeg"
-import cdl11 from "@/assets/Cdl11.jpeg";
-import cdl12 from "@/assets/Cdl12.jpeg";
-import cdl13 from "@/assets/Cdl13.jpeg";
+import cdl3 from "@/assets/cdl3.jpeg"
+import cdl4 from "@/assets/cdl4.jpeg"
+import cdl5 from "@/assets/cdl5.jpeg"
+import cdl6 from "@/assets/cdl6.jpeg"
+import cdl7 from "@/assets/cdl7.jpeg"
+import cdl8 from "@/assets/cdl8.jpeg"
+import cdl9 from "@/assets/cdl9.jpeg"
+import cdl10 from "@/assets/cdl10.jpeg"
+import cdl11 from "@/assets/cdl11.jpeg";
+import cdl12 from "@/assets/cdl12.jpeg";
+import cdl13 from "@/assets/cdl13.jpeg";
 
 // ── project catalogue ────────────────────────────────────────────────────────
 export const allProjects: ProjectData[] = [
