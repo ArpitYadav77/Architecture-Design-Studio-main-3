@@ -8,7 +8,7 @@ import { portfolioProjects, landmarkProjects, allProjectsSorted } from "@/data/p
 
 // Competition always last
 const categories = [
-  "Education",
+  "Institutional",
   "Commercial",
   "Corporate",
   "Hospitality",

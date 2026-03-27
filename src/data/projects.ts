@@ -592,7 +592,7 @@ export const allProjects: ProjectData[] = [
 {
     slug: "crsu-jind",
     title: "Chaudhary Ranbir Singh University",
-    category: "Education",
+    category: "Institutional",
     location: "Jind, Haryana",
     year: "2017",
     image: crsuHero,
@@ -611,7 +611,7 @@ export const allProjects: ProjectData[] = [
   {
     slug: "cdlu-devi-lal-sirsa",
     title: "Chaudhary Devi Lal University",
-    category: "Education",
+    category: "Institutional",
     location: "Sirsa, Haryana",
     year: "",
     image: cdl1,
@@ -623,7 +623,7 @@ export const allProjects: ProjectData[] = [
   {
     slug: "luvas-hisar",
     title: "Lala Lajpat Rai University of Veterinary & Animal Sciences",
-    category: "Education",
+    category: "Institutional",
     location: "Hisar, Haryana",
     year: "2018",
     image: llrpHero,
@@ -644,7 +644,7 @@ export const allProjects: ProjectData[] = [
   {
     slug: "baghat-university",
     title: "Bhagat Phool Singh Mahila VishWavidyalaya",
-    category: "Education",
+    category: "Institutional",
     location: "Sonepat, Haryana",
     year: "2016",
     image: bpsHero,
@@ -892,11 +892,11 @@ export const allProjects: ProjectData[] = [
   {
     slug: "kurukshetra-university",
     title: "KURUKSHETRA UNIVERSITY, KURUKSHETRA",
-    category: "Education",
+    category: "Institutional",
     location: "Kurukshetra, Haryana",
     year: "2023",
     image: kuHero,
-    gallery: [ku1,ku2,ku3,ku4,ku5,ku6,ku7,ku8,ku9,ku10],
+    gallery: [ku1,ku6,ku5],
     tagline: "A university campus rooted in academic tradition and contemporary design.",
     description:
       "The proposed intervention for Kurukshetra University, set within an expansive 473-acre campus in Haryana, presents a master-planned institutional environment engineered to catalyze academic growth, rigorous research, and a dynamic campus life. The spatial strategy delineates a structured framework that seamlessly integrates academic, residential, and recreational precincts, interwoven with highly efficient circulation arteries and robust pedestrian networks. A hallmark of the development is the inclusion of an Olympic-level swimming pool, significantly elevating the university’s sports infrastructure to support high-performance training and student wellness. Grounded in functional planning and an equitable balance of built mass and open spaces, the design projects a unified architectural character that encourages synergistic collaboration and vibrant community engagement.",
@@ -909,7 +909,7 @@ export const allProjects: ProjectData[] = [
   {
     slug: "pt-sundarlal-sharma-university",
     title: "PT. SUNDARLAL SHARMA (OPEN) UNIVERSITY, CHHATTISGARH",
-    category: "Education",
+    category: "Institutional",
     location: "Bilaspur, Chhattisgarh",
     year: "2016",
     image: sunderlalHero,
@@ -1058,7 +1058,7 @@ export const allProjects: ProjectData[] = [
   {
     slug: "doon",
     title: "DOON VALLEY PUBLIC SCHOOL",
-    category: "Education",
+    category: "Institutional",
     location: "Solan, Himachal Pradesh",
     year: "2023",
     image: doonHero,
