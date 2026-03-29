@@ -37,62 +37,70 @@ import baghatInt2 from "@/assets/bhagat_exterior.png";
 import punjabHCImg from "@/assets/Punjab_Haryana_HC.webp";
 
 // Chandigarh square cover (was .webp, only .png exists)
-import chandigarhSqCover from "@/assets/chandigarh_square.png";
+import chandigarhSqCover from "@/assets/chandigarh_square/chandigarh_square.png";
 
 // Amritsar Residence
-import amritsarCover from "@/assets/Amritsar.webp";
-import amritsarInt1 from "@/assets/Amritsar_cover_Interior.webp";
-import amritsarInt2 from "@/assets/Amritsar_Interior.webp";
-import amritsarInt3 from "@/assets/Amritsar_Interior2.webp";
-import amritsarInt4 from "@/assets/Amritsar_cover2_interior.webp";
+import amritsarCover from "@/assets/Amritsar/Amritsar.webp";
+import amritsarInt1 from "@/assets/Amritsar/Amritsar_cover_Interior.webp";
+import amritsarInt2 from "@/assets/Amritsar/Amritsar_Interior.webp";
+import amritsarInt3 from "@/assets/Amritsar/Amritsar_Interior2.webp";
+import amritsarInt4 from "@/assets/Amritsar/Amritsar_cover2_interior.webp";
 
 // Chandigarh Golf Club
 import golfCover from "@/assets/chandigarh_golf_cover.webp";
 import golfTopview from "@/assets/Chandigarh_Golf_Club_topview.webp";
 
 // Paras Downtown Mall, Zirakpur
-import chandigarhSq2 from "@/assets/chandigarh_square2.webp";
+import chandigarhSq2 from "@/assets/chandigarh_square/chandigarh_square2.webp";
 
 // Kasauli Retreat
-import kasauliCover from "@/assets/Kasuli_cover.webp";
-import kasauliInterior from "@/assets/Kasauli_Interior.webp";
-import kasauliSideview from "@/assets/sideview_Kasuli.webp";
-import kasauliInt2 from "@/assets/Kasuli_interior2.webp";
-import kasauliInt3 from "@/assets/kasuli_interior3.webp";
+import kasauliCover from "@/assets/Kasauli/Kasuli_cover.webp";
+import kasauliInterior from "@/assets/Kasauli/Kasauli_Interior.webp";
+import kasauliSideview from "@/assets/Kasauli/sideview_Kasuli.webp";
+import kasauliInt2 from "@/assets/Kasauli/Kasuli_interior2.webp";
+import kasauliInt3 from "@/assets/Kasauli/kasuli_interior3.webp";
 
 // University Campus (webp files missing — using closest available png fallbacks)
-import universityCover from "@/assets/Lajpat_Rai_uni1.png";
-import universityInt1 from "@/assets/Lajpat_Rai_uni2.png";
-import universityInt2 from "@/assets/Lajpat_Rai_uni3.png";
-import uniAdmin from "@/assets/ranbir_uni.png";
-import uniBuilding from "@/assets/ranbir_singh1.png";
-import uniBuildingInt from "@/assets/ranbir_uni_interior.png";
-import uniLibrary from "@/assets/ranbir_university_interior.png";
+import universityCover from "@/assets/Lajpat_Rai_University/Lajpat_Rai_uni1.png";
+import universityInt1 from "@/assets/Lajpat_Rai_University/Lajpat_Rai_uni2.png";
+import universityInt2 from "@/assets/Lajpat_Rai_University/Lajpat_Rai_uni3.png";
+import uniAdmin from "@/assets/Ranbir_University/ranbir_uni.png";
+import uniBuilding from "@/assets/Ranbir_University/ranbir_singh1.png";
+import uniBuildingInt from "@/assets/Ranbir_University/ranbir_uni_interior.png";
+import uniLibrary from "@/assets/Ranbir_University/ranbir_university_interior.png";
 
 // Vidhan Sabha extra (webp missing — reusing HC image)
 import vidhanSabha2 from "@/assets/Punjab_Haryana_HC.webp";
 
 // Amritsar exterior
-import amritsarExterior from "@/assets/Amrtisar_exterior.webp";
+import amritsarExterior from "@/assets/Amritsar/Amrtisar_exterior.webp";
 
 // Galaxy Mall
-import ambalaMallCover from "@/assets/Ambala_Mall.webp";
-import ambalaInt1 from "@/assets/Ambala_interior.webp";
-import ambalaInt2 from "@/assets/Ambala_interior2.webp";
-import ambalaInt3 from "@/assets/Ambala_interior3.webp";
+import ambalaHero from "@/assets/Ambala_Mall/Ambala_Mall_Hero.png";
+import ambalaG1 from "@/assets/Ambala_Mall/Galaxy_world_Mall1.png";
+import ambalaG2 from "@/assets/Ambala_Mall/Galaxy_world_Mall2.png";
+import ambalaInt1 from "@/assets/Ambala_Mall/image.png";
+import ambalaInt2 from "@/assets/Ambala_Mall/image copy.png";
+import ambalaInt3 from "@/assets/Ambala_Mall/image copy 2.png";
+import ambalaInt4 from "@/assets/Ambala_Mall/image copy 3.png";
+import ambalaInt5 from "@/assets/Ambala_Mall/image copy 4.png";
+import ambalaInt6 from "@/assets/Ambala_Mall/image copy 5.png";
+import ambalaInt7 from "@/assets/Ambala_Mall/image copy 6.png";
+import ambalaInt8 from "@/assets/Ambala_Mall/image copy 7.png";
+import galaxyMallPng from "@/assets/Ambala_Mall/galaxy_mall.png";
 
 // Clinic (webp files missing — using numbered png fallbacks)
-import clinicCover from "@/assets/clinic1.png";
-import clinicInt1 from "@/assets/clinic2.png";
-import clinicPassage from "@/assets/clinic3.png";
+import clinicCover from "@/assets/clinic/clinic1.png";
+import clinicInt1 from "@/assets/clinic/clinic2.png";
+import clinicPassage from "@/assets/clinic/clinic3.png";
 
 // Farmhouse
-import farmhouseCover from "@/assets/farmhouse.webp";
-import farmhouseExt1 from "@/assets/farmhouse_exterior.webp";
-import farmhouseExt2 from "@/assets/farmhouse_exterior2.webp";
-import farmhouseInt1 from "@/assets/farmhouse_interior.webp";
-import farmhouseInt2 from "@/assets/farmhouse_interior2.webp";
-import farmhouseInt3 from "@/assets/farmhouse_interior3.webp";
+import farmhouseCover from "@/assets/farmhouse/farmhouse.webp";
+import farmhouseExt1 from "@/assets/farmhouse/farmhouse_exterior.webp";
+import farmhouseExt2 from "@/assets/farmhouse/farmhouse_exterior2.webp";
+import farmhouseInt1 from "@/assets/farmhouse/farmhouse_interior.webp";
+import farmhouseInt2 from "@/assets/farmhouse/farmhouse_interior2.webp";
+import farmhouseInt3 from "@/assets/farmhouse/farmhouse_interior3.webp";
 
 // Haryana CM Residence
 import haryanaCMInterior from "@/assets/haryana_CM_interior.webp";
@@ -103,10 +111,10 @@ import hpTower2 from "@/assets/HP_interior.webp";
 import hpInterior from "@/assets/HP_interior.webp";
 
 // LandMark Wave (all webp files missing — using Wave_state png as placeholders)
-import landmarkWaveCover from "@/assets/Wave_state1.png";
-import landmarkWaveExt from "@/assets/Wave_state2.png";
-import landmarkWaveInt1 from "@/assets/Wave_state3.png";
-import landmarkWaveInt2 from "@/assets/Wave_state4.png";
+import landmarkWaveCover from "@/assets/Wave_Estate/Wave_state1.png";
+import landmarkWaveExt from "@/assets/Wave_Estate/Wave_state2.png";
+import landmarkWaveInt1 from "@/assets/Wave_Estate/Wave_state3.png";
+import landmarkWaveInt2 from "@/assets/Wave_Estate/Wave_state4.png";
 
 // Mohali Club (webp files missing for cover & interior — using png fallbacks)
 import mohaliClubCover from "@/assets/Mohali_club.png";
@@ -114,18 +122,18 @@ import mohaliClubInt1 from "@/assets/mohali_club2.png";
 import mohaliInt2 from "@/assets/mohali_interior2.webp";
 
 // Reception
-import receptionCover from "@/assets/Reception_cover.webp";
-import receptionInt1 from "@/assets/reception_interior.webp";
-import receptionInt2 from "@/assets/reception_interior2.webp";
-import receptionInt3 from "@/assets/reception_interior3.webp";
+import receptionCover from "@/assets/Reception_Interior/Reception_cover.webp";
+import receptionInt1 from "@/assets/Reception_Interior/reception_interior.webp";
+import receptionInt2 from "@/assets/Reception_Interior/reception_interior2.webp";
+import receptionInt3 from "@/assets/Reception_Interior/reception_interior3.webp";
 
 // NV Distilleries
-import nvCover from "@/assets/NV_cover.png";
-import nvExterior from "@/assets/NV_exterior.png";
-import nvExterior2 from "@/assets/NV_exterior2.png";
-import nvExterior3 from "@/assets/NV_exterior3.png";
-import nvInterior from "@/assets/NV_interior.png";
-import nvInterior2 from "@/assets/NV_interior2.png";
+import nvCover from "@/assets/NV_Distilleries/NV_cover.png";
+import nvExterior from "@/assets/NV_Distilleries/NV_exterior.png";
+import nvExterior2 from "@/assets/NV_Distilleries/NV_exterior2.png";
+import nvExterior3 from "@/assets/NV_Distilleries/NV_exterior3.png";
+import nvInterior from "@/assets/NV_Distilleries/NV_interior.png";
+import nvInterior2 from "@/assets/NV_Distilleries/NV_interior2.png";
 
 // TRIAM Tower
 import triamCover from "@/assets/triam_cover.png";
@@ -140,17 +148,17 @@ import triamExterior2 from "@/assets/triam_exterior2.png";
 // import kurkushetraInterior1 from "@/assets/kurkushetra_interior1.png";
 // import kurkushetraInterior2 from "@/assets/kurkushetra_interior2.png";
 // import kurshetraExte from "@/assets/kurshetra_exte.png";
-import ku1 from "@/assets/ku1.jpeg"
-import ku2 from "@/assets/ku2.jpeg"
-import ku3 from "@/assets/ku3.jpeg"
-import ku4 from "@/assets/ku4.jpeg"
-import ku5 from "@/assets/ku5.jpeg"
-import ku6 from "@/assets/ku6.jpeg"
-import ku7 from "@/assets/ku7.jpeg"
-import ku8 from "@/assets/ku8.jpeg"
-import ku9 from "@/assets/ku9.jpeg"
-import ku10 from "@/assets/ku10.jpeg"
-import kuHero from "@/assets/kuHero.jpg"
+import ku1 from "@/assets/Kurushetra_University/ku1.jpeg"
+import ku2 from "@/assets/Kurushetra_University/ku2.jpeg"
+import ku3 from "@/assets/Kurushetra_University/ku3.jpeg"
+import ku4 from "@/assets/Kurushetra_University/ku4.jpeg"
+import ku5 from "@/assets/Kurushetra_University/ku5.jpeg"
+import ku6 from "@/assets/Kurushetra_University/ku6.jpeg"
+import ku7 from "@/assets/Kurushetra_University/ku7.jpeg"
+import ku8 from "@/assets/Kurushetra_University/ku8.jpeg"
+import ku9 from "@/assets/Kurushetra_University/ku9.jpeg"
+import ku10 from "@/assets/Kurushetra_University/ku10.jpeg"
+import kuHero from "@/assets/Kurushetra_University/kuHero.jpg"
 
 // RGTPP Residential Township
 import rgtppTower from "@/assets/residence_tower.png";
@@ -158,100 +166,98 @@ import rgtppTower from "@/assets/residence_tower.png";
 // ── New image imports (added for new assets) ─────────────────────────────────
 
 // Chandigarh Square series (1–25)
-import csCoverPng from "@/assets/chandigarh_square.png";
-import csMap from "@/assets/chandigarh_square_map.png";
-import cs1 from "@/assets/chandigarh_square1.png";
-import cs2 from "@/assets/chandigarh_square2.png";
-import cs3 from "@/assets/chandigarh_square3.png";
-import cs4 from "@/assets/chandigarh_square4.png";
-import cs5 from "@/assets/chandigarh_square5.png";
-import cs6 from "@/assets/chandigarh_square6.png";
-import cs7 from "@/assets/chandigarh_square7.png";
-import cs8 from "@/assets/chandigarh_square8.png";
-import cs9 from "@/assets/chandigarh_square9.png";
-import cs10 from "@/assets/chandigarh_square10.png";
-import cs11 from "@/assets/chandigarh_square11.png";
-import cs12 from "@/assets/chandigarh_square12.png";
-import cs13 from "@/assets/chandigarh_square13.png";
-import cs14 from "@/assets/chandigarh_square14.png";
-import cs15 from "@/assets/chandigarh_square15.png";
-import cs16 from "@/assets/chandigarh_square16.png";
-import cs17 from "@/assets/chandigarh_square17.png";
-import cs18 from "@/assets/chandigarh_square18.png";
-import cs19 from "@/assets/chandigarh_square19.png";
-import cs20 from "@/assets/chandigarh_square20.png";
-import cs21 from "@/assets/chandigarh_square21.png";
-import cs22 from "@/assets/chandigarh_square22.png";
-import cs23 from "@/assets/chandigarh_square23.png";
-import cs24 from "@/assets/chandigarh_square24.png";
-import cs25 from "@/assets/chandigarh_square25.png";
+import csCoverPng from "@/assets/chandigarh_square/chandigarh_square.png";
+import cs1 from "@/assets/chandigarh_square/chandigarh_square1.png";
+import cs2 from "@/assets/chandigarh_square/chandigarh_square2.png";
+import cs3 from "@/assets/chandigarh_square/chandigarh_square3.png";
+import cs4 from "@/assets/chandigarh_square/chandigarh_square4.png";
+import cs5 from "@/assets/chandigarh_square/chandigarh_square5.png";
+import cs6 from "@/assets/chandigarh_square/chandigarh_square6.png";
+import cs7 from "@/assets/chandigarh_square/chandigarh_square7.png";
+import cs9 from "@/assets/chandigarh_square/chandigarh_square9.png";
+import cs10 from "@/assets/chandigarh_square/chandigarh_square10.png";
+import cs11 from "@/assets/chandigarh_square/chandigarh_square11.png";
+import cs12 from "@/assets/chandigarh_square/chandigarh_square12.png";
+import cs13 from "@/assets/chandigarh_square/chandigarh_square13.png";
+import cs14 from "@/assets/chandigarh_square/chandigarh_square14.png";
+import cs15 from "@/assets/chandigarh_square/chandigarh_square15.png";
+import cs16 from "@/assets/chandigarh_square/chandigarh_square16.png";
+import cs17 from "@/assets/chandigarh_square/chandigarh_square17.png";
+import cs18 from "@/assets/chandigarh_square/chandigarh_square18.png";
+import cs19 from "@/assets/chandigarh_square/chandigarh_square19.png";
+import cs20 from "@/assets/chandigarh_square/chandigarh_square20.png";
+import cs21 from "@/assets/chandigarh_square/chandigarh_square21.png";
+import cs22 from "@/assets/chandigarh_square/chandigarh_square22.png";
+import cs23 from "@/assets/chandigarh_square/chandigarh_square23.png";
+import cs24 from "@/assets/chandigarh_square/chandigarh_square24.png";
+import cs25 from "@/assets/chandigarh_square/chandigarh_square25.png";
 
 // Amritsar series (1–8)
-import am1 from "@/assets/Amritsar1.png";
-import am2 from "@/assets/Amritsar2.png";
-import am3 from "@/assets/Amritsar3.png";
-import am4 from "@/assets/Amritsar4.png";
-import am5 from "@/assets/Amritsar5.png";
-import am6 from "@/assets/Amritsar6.png";
-import am7 from "@/assets/Amritsar7.png";
-import am8 from "@/assets/Amritsar8.png";
-import amInt1Png from "@/assets/Amritsar_interior1.png";
+import am1 from "@/assets/Amritsar/Amritsar1.png";
+import am2 from "@/assets/Amritsar/Amritsar2.png";
+import am3 from "@/assets/Amritsar/Amritsar3.png";
+import am4 from "@/assets/Amritsar/Amritsar4.png";
+import am5 from "@/assets/Amritsar/Amritsar5.png";
+import am6 from "@/assets/Amritsar/Amritsar6.png";
+import am7 from "@/assets/Amritsar/Amritsar7.png";
+import am8 from "@/assets/Amritsar/Amritsar8.png";
+import amInt1Png from "@/assets/Amritsar/Amritsar_interior1.png";
 
 // Clinic series (1–9)
-import cl1 from "@/assets/clinic1.png";
-import cl2 from "@/assets/clinic2.png";
-import cl3 from "@/assets/clinic3.png";
-import cl4 from "@/assets/clinic4.png";
-import cl5 from "@/assets/clinic5.png";
-import cl6 from "@/assets/clinic6.png";
-import cl7 from "@/assets/clinic7.png";
-import cl8 from "@/assets/clinic8.png";
-import cl9 from "@/assets/clinic9.png";
+import cl1 from "@/assets/clinic/clinic1.png";
+import cl2 from "@/assets/clinic/clinic2.png";
+import cl3 from "@/assets/clinic/clinic3.png";
+import cl4 from "@/assets/clinic/clinic4.png";
+import cl5 from "@/assets/clinic/clinic5.png";
+import cl6 from "@/assets/clinic/clinic6.png";
+import cl7 from "@/assets/clinic/clinic7.png";
+import cl8 from "@/assets/clinic/clinic8.png";
+import cl9 from "@/assets/clinic/clinic9.png";
 
 // Farmhouse series (1–8)
-import fh3 from "@/assets/farmhouse3.png";
-import fh4 from "@/assets/farmhouse4.png";
-import fh5 from "@/assets/farmhouse5.png";
-import fh6 from "@/assets/farmhouse6.png";
-import fh7 from "@/assets/farmhouse7.png";
-import fh8 from "@/assets/farmhouse8.png";
+import fh3 from "@/assets/farmhouse/farmhouse3.png";
+import fh4 from "@/assets/farmhouse/farmhouse4.png";
+import fh5 from "@/assets/farmhouse/farmhouse5.png";
+import fh6 from "@/assets/farmhouse/farmhouse6.png";
+import fh7 from "@/assets/farmhouse/farmhouse7.png";
+import fh8 from "@/assets/farmhouse/farmhouse8.png";
 
 // BPSMV (Bhagat Phool Singh Mahila Vishwavidyalaya)
-import bpsmv1 from "@/assets/BPSMV1.png";
-import bpsmv2 from "@/assets/BPSMV2.png";
-import bpsmv3 from "@/assets/BPSMV3.png";
-import bpsmv4 from "@/assets/BPSMV4.png";
-import bpsmv5 from "@/assets/BPSMV5.png";
-import bpsv from "@/assets/BPSV.png";
+import bpsmv1 from "@/assets/BPSMV/BPSMV1.png";
+import bpsmv2 from "@/assets/BPSMV/BPSMV2.png";
+import bpsmv3 from "@/assets/BPSMV/BPSMV3.png";
+import bpsmv4 from "@/assets/BPSMV/BPSMV4.png";
+import bpsmv5 from "@/assets/BPSMV/BPSMV5.png";
+import bpsv from "@/assets/BPSMV/BPSV.png";
 
 // Mohali Club (additional)
 import mohaliClubPng from "@/assets/Mohali_club.png";
 import mohaliClub2 from "@/assets/mohali_club2.png";
 
 // NV Distilleries (additional)
-import nvExterior4 from "@/assets/NV_exterior4.png";
+import nvExterior4 from "@/assets/NV_Distilleries/NV_exterior4.png";
 
 // Kasauli (additional)
-import kasuliCollage from "@/assets/kasuli_collage.png";
-import kasuliExteriorPng from "@/assets/kasuli_exterior.png";
-import kasuliExterior3 from "@/assets/kasuli_exterior3.png";
-import kasuliExterior4 from "@/assets/kasuli_exterior4.png";
-import kasuliFloor from "@/assets/kasuli_floor.png";
-import kasuliInteriorPng from "@/assets/kasuli_interior.png";
+import kasuliCollage from "@/assets/Kasauli/kasuli_collage.png";
+import kasuliExteriorPng from "@/assets/Kasauli/kasuli_exterior.png";
+import kasuliExterior3 from "@/assets/Kasauli/kasuli_exterior3.png";
+import kasuliExterior4 from "@/assets/Kasauli/kasuli_exterior4.png";
+import kasuliFloor from "@/assets/Kasauli/kasuli_floor.png";
+import kasuliInteriorPng from "@/assets/Kasauli/kasuli_interior.png";
 
 // Ranbir Singh / CRSU
-import rs1 from "@/assets/ranbir_singh1.png";
-import rs2 from "@/assets/ranbir_singh2.png";
-import rs3 from "@/assets/ranbir_singh3.png";
-import rs4 from "@/assets/ranbir_singh4.png";
-import ranbirUni from "@/assets/ranbir_uni.png";
-import ranbirUniInt from "@/assets/ranbir_uni_interior.png";
-import ranbirUniInt2 from "@/assets/ranbir_university_interior.png";
+import rs1 from "@/assets/Ranbir_University/ranbir_singh1.png";
+import rs2 from "@/assets/Ranbir_University/ranbir_singh2.png";
+import rs3 from "@/assets/Ranbir_University/ranbir_singh3.png";
+import rs4 from "@/assets/Ranbir_University/ranbir_singh4.png";
+import ranbirUni from "@/assets/Ranbir_University/ranbir_uni.png";
+import ranbirUniInt from "@/assets/Ranbir_University/ranbir_uni_interior.png";
+import ranbirUniInt2 from "@/assets/Ranbir_University/ranbir_university_interior.png";
 
 // Lajpat Rai University
-import lru1 from "@/assets/Lajpat_Rai_uni1.png";
-import lru2 from "@/assets/Lajpat_Rai_uni2.png";
-import lru3 from "@/assets/Lajpat_Rai_uni3.png";
+import lru1 from "@/assets/Lajpat_Rai_University/Lajpat_Rai_uni1.png";
+import lru2 from "@/assets/Lajpat_Rai_University/Lajpat_Rai_uni2.png";
+import lru3 from "@/assets/Lajpat_Rai_University/Lajpat_Rai_uni3.png";
 
 // Haryana CM (additional)
 import haryanaCmPng from "@/assets/haryana_cm.png";
@@ -259,80 +265,74 @@ import haryanaCmPng from "@/assets/haryana_cm.png";
 // Mahila Bhawan
 import mahilaBhawanImg from "@/assets/Mahila_Bhawan.png";
 
-// Galaxy World Mall
-import gwm1 from "@/assets/Galaxy_world_Mall1.png";
-import gwm2 from "@/assets/Galaxy_world_Mall2.png";
-import gwm3 from "@/assets/Galaxy_world_Mall3.png";
-import gwm4 from "@/assets/Galaxy_world_Mall4.png";
-import gwm5 from "@/assets/Galaxy_world_Mall5.png";
-import galaxyMallPng from "@/assets/galaxy_mall.png";
+// Galaxy World Mall - assets now migrated to Ambala_Mall folder
 
 // Hotel Barog Valley
-import hbv1 from "@/assets/Hotel_Barog_Valley1.png";
-import hbv2 from "@/assets/Hotel_Barog_Valley2.png";
-import hbv3 from "@/assets/Hotel_Barog_Valley3.png";
-import hbv4 from "@/assets/Hotel_Barog_Valley4.png";
+import hbv1 from "@/assets/Hotel_Barog_Valley/Hotel_Barog_Valley1.png";
+import hbv2 from "@/assets/Hotel_Barog_Valley/Hotel_Barog_Valley2.png";
+import hbv3 from "@/assets/Hotel_Barog_Valley/Hotel_Barog_Valley3.png";
+import hbv4 from "@/assets/Hotel_Barog_Valley/Hotel_Barog_Valley4.png";
 
 // Devi Lal University
-import dlu1 from "@/assets/Devi_Lal_uni1.png";
-import dlu2 from "@/assets/Devi_Lal_uni2.png";
-import dlu3 from "@/assets/Devi_Lal_uni3.png";
+import dlu1 from "@/assets/Devi_Lal_university/Devi_Lal_uni1.png";
+import dlu2 from "@/assets/Devi_Lal_university/Devi_Lal_uni2.png";
+import dlu3 from "@/assets/Devi_Lal_university/Devi_Lal_uni3.png";
 
 // Farmville
-import fv1 from "@/assets/Farmville6.png";
-import fv4 from "@/assets/Farmville4.png";
-import fv5 from "@/assets/Farmville5.png";
-import fv6 from "@/assets/Farmville1.png";
+import fv1 from "@/assets/Farmville/Farmville6.png";
+import fv4 from "@/assets/Farmville/Farmville4.png";
+import fv5 from "@/assets/Farmville/Farmville5.png";
+import fv6 from "@/assets/Farmville/Farmville1.png";
 
 // Wave State
-import ws1 from "@/assets/Wave_state1.png";
-import ws2 from "@/assets/Wave_state2.png";
-import ws5 from "@/assets/Wave_state5.png";
-import ws6 from "@/assets/Wave_state6.png";
-import ws7 from "@/assets/Wave_state7.png";
-import ws8 from "@/assets/Wave_state8.png";
-import ws9 from "@/assets/Wave_state9.png";
-import ws11 from "@/assets/Wave_state11.png";
-import ws12 from "@/assets/Wave_state12.png";
+import ws1 from "@/assets/Wave_Estate/Wave_state1.png";
+import ws2 from "@/assets/Wave_Estate/Wave_state2.png";
+import ws5 from "@/assets/Wave_Estate/Wave_state5.png";
+import ws6 from "@/assets/Wave_Estate/Wave_state6.png";
+import ws7 from "@/assets/Wave_Estate/Wave_state7.png";
+import ws8 from "@/assets/Wave_Estate/Wave_state8.png";
+import ws9 from "@/assets/Wave_Estate/Wave_state9.png";
+import ws11 from "@/assets/Wave_Estate/Wave_state11.png";
+import ws12 from "@/assets/Wave_Estate/Wave_state12.png";
 
 // Dr. Attri Residence
 
-import dar3 from "@/assets/Dr_Attri_Residence1.png";
-import dar4 from "@/assets/Dr_Attri_Residence4.png";
-import dar5 from "@/assets/Dr_Attri_Residence5.png";
-import dar6 from "@/assets/Dr_Attri_Residence6.png";
-import dar7 from "@/assets/Dr_Attri_Residence7.png";
-import dar8 from "@/assets/Dr_Attri_Residence8.png";
-import dar9 from "@/assets/Dr_Attri_Residence9.png";
-import dar10 from "@/assets/Dr_Attri_Residence10.png";
-import dar11 from "@/assets/Dr_Attri_Residence11.png";
+import dar3 from "@/assets/Dr.Attri/Dr_Attri_Residence1.png";
+import dar4 from "@/assets/Dr.Attri/Dr_Attri_Residence4.png";
+import dar5 from "@/assets/Dr.Attri/Dr_Attri_Residence5.png";
+import dar6 from "@/assets/Dr.Attri/Dr_Attri_Residence6.png";
+import dar7 from "@/assets/Dr.Attri/Dr_Attri_Residence7.png";
+import dar8 from "@/assets/Dr.Attri/Dr_Attri_Residence8.png";
+import dar9 from "@/assets/Dr.Attri/Dr_Attri_Residence9.png";
+import dar10 from "@/assets/Dr.Attri/Dr_Attri_Residence10.png";
+import dar11 from "@/assets/Dr.Attri/Dr_Attri_Residence11.png";
 
 // Dr. Harkant Residence
-import dhr2 from "@/assets/Dr_Harkant_residence2.png";
-import dhr3 from "@/assets/Dr_Harkant_residence3.png";
-import dhr4 from "@/assets/Dr_Harkant_residence4.png";
-import dhr5 from "@/assets/Dr_Harkant_residence5.png";
-import dhr7 from "@/assets/Dr_Harkant_residence7.png";
-import dhr8 from "@/assets/Dr_Harkant_residence8.png";
-import dhr10 from "@/assets/Dr_Harkant_residence10.png";
+import dhr2 from "@/assets/Dr.Harkant/Dr_Harkant_residence2.png";
+import dhr3 from "@/assets/Dr.Harkant/Dr_Harkant_residence3.png";
+import dhr4 from "@/assets/Dr.Harkant/Dr_Harkant_residence4.png";
+import dhr5 from "@/assets/Dr.Harkant/Dr_Harkant_residence5.png";
+import dhr7 from "@/assets/Dr.Harkant/Dr_Harkant_residence7.png";
+import dhr8 from "@/assets/Dr.Harkant/Dr_Harkant_residence8.png";
+import dhr10 from "@/assets/Dr.Harkant/Dr_Harkant_residence10.png";
 
 // Ecocity
-import eco1 from "@/assets/Ecocity3.png";
-import eco3 from "@/assets/Ecocity1.png";
-import eco4 from "@/assets/Ecocity4.png";
+import eco1 from "@/assets/Ecocity/Ecocity3.png";
+import eco3 from "@/assets/Ecocity/Ecocity1.png";
+import eco4 from "@/assets/Ecocity/Ecocity4.png";
 
 // Doon
 import doonHero from "@/assets/dvsHero.jpg"
-import doonImg from "@/assets/Doon.png";
-import doon1 from "@/assets/Doon Valley School series number 1.png";
-import doon2 from "@/assets/Doon Valley School series number 2.png";
-import doon3 from "@/assets/Doon Valley School series number 3.png";
-import doon4 from "@/assets/Doon Valley School series number 4.png";
-import doon5 from "@/assets/Doon Valley School series number 5.png";
-import doon6 from "@/assets/Doon Valley School series number 6.png";
-import doon7 from "@/assets/Doon Valley School series number 7.png";
-import doon8 from "@/assets/Doon Valley School series number 8.png";
-import doon9 from "@/assets/Doon Valley School series number 9.png";
+import doonImg from "@/assets/Doon/Doon.png";
+import doon1 from "@/assets/Doon/Doon Valley School series number 1.png";
+import doon2 from "@/assets/Doon/Doon Valley School series number 2.png";
+import doon3 from "@/assets/Doon/Doon Valley School series number 3.png";
+import doon4 from "@/assets/Doon/Doon Valley School series number 4.png";
+import doon5 from "@/assets/Doon/Doon Valley School series number 5.png";
+import doon6 from "@/assets/Doon/Doon Valley School series number 6.png";
+import doon7 from "@/assets/Doon/Doon Valley School series number 7.png";
+import doon8 from "@/assets/Doon/Doon Valley School series number 8.png";
+import doon9 from "@/assets/Doon/Doon Valley School series number 9.png";
 
 // Mandir
 import mandirImg from "@/assets/Mandir.png";
@@ -343,20 +343,19 @@ import sbfiImg from "@/assets/SBFI.png";
 import sbfi2Img from "@/assets/SBFI2.png";
 
 // Pt. Sundarlal Sharma Open University
-import sunderlalImg1 from "@/assets/SUNDERLAL_UNIVERSITY_1.png";
-import sunderlalImg2 from "@/assets/SUNDERLAL_UNIVERSITY_2.png";
-import sunderlalImg3 from "@/assets/SUNDERLAL_UNIVERSITY_3.png";
-import sunderlalImg4 from "@/assets/SUNDERLAL_UNIVERSITY_4.png";
+import sunderlalImg1 from "@/assets/Sunderlal_University/SUNDERLAL_UNIVERSITY_1.png";
+import sunderlalImg2 from "@/assets/Sunderlal_University/SUNDERLAL_UNIVERSITY_2.png";
+import sunderlalImg3 from "@/assets/Sunderlal_University/SUNDERLAL_UNIVERSITY_3.png";
+import sunderlalImg4 from "@/assets/Sunderlal_University/SUNDERLAL_UNIVERSITY_4.png";
 
 // Wentworth
 import wentworthImg from "@/assets/wentWorth.png";
 import wentworth2Img from "@/assets/wentworth2.png";
 
-import kurukshetraHero from "@/assets/kurukshetra_hero.png";
-import sunderlalHero from "@/assets/sunderlal_hero.jpg";
+import sunderlalHero from "@/assets/Sunderlal_University/sunderlal_hero.jpg";
 import crsuHero from "@/assets/crsu_hero.png";
-import llrpHero from "@/assets/llrp17.jpeg";
-import bpsHero from "@/assets/bpshero.jpg";
+import llrpHero from "@/assets/Lajpat_Rai_University/llrp17.jpeg";
+import bpsHero from "@/assets/BPSMV/bpshero.jpg";
 
 // BSA Projects
 import crsuBsa1 from "@/assets/BSA/BSA/Chaudary Ranvir Singh University/1.jpeg";
@@ -449,114 +448,115 @@ import bhutan7 from "@/assets/Competition/Competition/Royal Government of Bhutan
 
 import bhilai1 from "@/assets/Competition/Competition/Bhilai University/1.jpeg";
 import bhilai2 from "@/assets/Competition/Competition/Bhilai University/2.jpeg";
-import bhilai3 from "@/assets/Competition/Competition/Bhilai University/3.jpeg";
+import bhilaiHero from "@/assets/Competition/Competition/Bhilai University/hero.png";
+import bhilai3 from "@/assets/Competition/Competition/Bhilai University/hero.png";
 import bhilai4 from "@/assets/Competition/Competition/Bhilai University/4.jpeg";
 import bhilai5 from "@/assets/Competition/Competition/Bhilai University/WhatsApp Image 2026-03-23 at 10.57.33 PM.jpeg";
 
 // Galaxy Township Sample Residences series (1–63)
-import gt1 from "@/assets/galaxy townshipseries number 1.png";
-import gt2 from "@/assets/galaxy townshipseries number 2.png";
-import gt3 from "@/assets/galaxy townshipseries number 3.png";
-import gt4 from "@/assets/galaxy townshipseries number 4.png";
-import gt5 from "@/assets/galaxy townshipseries number 5.png";
-import gt6 from "@/assets/galaxy townshipseries number 6.png";
-import gt7 from "@/assets/galaxy townshipseries number 7.png";
-import gt8 from "@/assets/galaxy townshipseries number 8.png";
-import gt9 from "@/assets/galaxy townshipseries number 9.png";
-import gt10 from "@/assets/galaxy townshipseries number 10.png";
-import gt11 from "@/assets/galaxy townshipseries number 11.png";
-import gt12 from "@/assets/galaxy townshipseries number 12.png";
-import gt13 from "@/assets/galaxy townshipseries number 13.png";
-import gt14 from "@/assets/galaxy townshipseries number 14.png";
-import gt15 from "@/assets/galaxy townshipseries number 15.png";
-import gt16 from "@/assets/galaxy townshipseries number 16.png";
-import gt17 from "@/assets/galaxy townshipseries number 17.png";
-import gt18 from "@/assets/galaxy townshipseries number 18.png";
-import gt19 from "@/assets/galaxy townshipseries number 19.png";
-import gt20 from "@/assets/galaxy townshipseries number 20.png";
-import gt21 from "@/assets/galaxy townshipseries number 21.png";
-import gt22 from "@/assets/galaxy townshipseries number 22.png";
-import gt23 from "@/assets/galaxy townshipseries number 23.png";
-import gt24 from "@/assets/galaxy townshipseries number 24.png";
-import gt25 from "@/assets/galaxy townshipseries number 25.png";
-import gt26 from "@/assets/galaxy townshipseries number 26.png";
-import gt27 from "@/assets/galaxy townshipseries number 27.png";
-import gt28 from "@/assets/galaxy townshipseries number 28.png";
-import gt29 from "@/assets/galaxy townshipseries number 29.png";
-import gt30 from "@/assets/galaxy townshipseries number 30.png";
-import gt31 from "@/assets/galaxy townshipseries number 31.png";
-import gt32 from "@/assets/galaxy townshipseries number 32.png";
-import gt33 from "@/assets/galaxy townshipseries number 33.png";
-import gt34 from "@/assets/galaxy townshipseries number 34.png";
-import gt35 from "@/assets/galaxy townshipseries number 35.png";
-import gt36 from "@/assets/galaxy townshipseries number 36.png";
-import gt37 from "@/assets/galaxy townshipseries number 37.png";
-import gt38 from "@/assets/galaxy townshipseries number 38.png";
-import gt39 from "@/assets/galaxy townshipseries number 39.png";
-import gt40 from "@/assets/galaxy townshipseries number 40.png";
-import gt41 from "@/assets/galaxy townshipseries number 41.png";
-import gt42 from "@/assets/galaxy townshipseries number 42.png";
-import gt43 from "@/assets/galaxy townshipseries number 43.png";
-import gt44 from "@/assets/galaxy townshipseries number 44.png";
-import gt45 from "@/assets/galaxy townshipseries number 45.png";
-import gt46 from "@/assets/galaxy townshipseries number 46.png";
-import gt47 from "@/assets/galaxy townshipseries number 47.png";
-import gt48 from "@/assets/galaxy townshipseries number 48.png";
-import gt49 from "@/assets/galaxy townshipseries number 49.png";
-import gt50 from "@/assets/galaxy townshipseries number 50.png";
-import gt51 from "@/assets/galaxy townshipseries number 51.png";
-import gt52 from "@/assets/galaxy townshipseries number 52.png";
-import gt53 from "@/assets/galaxy townshipseries number 53.png";
-import gt54 from "@/assets/galaxy townshipseries number 54.png";
-import gt55 from "@/assets/galaxy townshipseries number 55.png";
-import gt56 from "@/assets/galaxy townshipseries number 56.png";
-import gt57 from "@/assets/galaxy townshipseries number 57.png";
-import gt58 from "@/assets/galaxy townshipseries number 58.png";
-import gt59 from "@/assets/galaxy townshipseries number 59.png";
-import gt60 from "@/assets/galaxy townshipseries number 60.png";
-import gt61 from "@/assets/galaxy townshipseries number 61.png";
-import gt62 from "@/assets/galaxy townshipseries number 62.png";
-import gt63 from "@/assets/galaxy townshipseries number 63.png";
+import gt1 from "@/assets/Galaxy_towership/galaxy townshipseries number 1.png";
+import gt2 from "@/assets/Galaxy_towership/galaxy townshipseries number 2.png";
+import gt3 from "@/assets/Galaxy_towership/galaxy townshipseries number 3.png";
+import gt4 from "@/assets/Galaxy_towership/galaxy townshipseries number 4.png";
+import gt5 from "@/assets/Galaxy_towership/galaxy townshipseries number 5.png";
+import gt6 from "@/assets/Galaxy_towership/galaxy townshipseries number 6.png";
+import gt7 from "@/assets/Galaxy_towership/galaxy townshipseries number 7.png";
+import gt8 from "@/assets/Galaxy_towership/galaxy townshipseries number 8.png";
+import gt9 from "@/assets/Galaxy_towership/galaxy townshipseries number 9.png";
+import gt10 from "@/assets/Galaxy_towership/galaxy townshipseries number 10.png";
+import gt11 from "@/assets/Galaxy_towership/galaxy townshipseries number 11.png";
+import gt12 from "@/assets/Galaxy_towership/galaxy townshipseries number 12.png";
+import gt13 from "@/assets/Galaxy_towership/galaxy townshipseries number 13.png";
+import gt14 from "@/assets/Galaxy_towership/galaxy townshipseries number 14.png";
+import gt15 from "@/assets/Galaxy_towership/galaxy townshipseries number 15.png";
+import gt16 from "@/assets/Galaxy_towership/galaxy townshipseries number 16.png";
+import gt17 from "@/assets/Galaxy_towership/galaxy townshipseries number 17.png";
+import gt18 from "@/assets/Galaxy_towership/galaxy townshipseries number 18.png";
+import gt19 from "@/assets/Galaxy_towership/galaxy townshipseries number 19.png";
+import gt20 from "@/assets/Galaxy_towership/galaxy townshipseries number 20.png";
+import gt21 from "@/assets/Galaxy_towership/galaxy townshipseries number 21.png";
+import gt22 from "@/assets/Galaxy_towership/galaxy townshipseries number 22.png";
+import gt23 from "@/assets/Galaxy_towership/galaxy townshipseries number 23.png";
+import gt24 from "@/assets/Galaxy_towership/galaxy townshipseries number 24.png";
+import gt25 from "@/assets/Galaxy_towership/galaxy townshipseries number 25.png";
+import gt26 from "@/assets/Galaxy_towership/galaxy townshipseries number 26.png";
+import gt27 from "@/assets/Galaxy_towership/galaxy townshipseries number 27.png";
+import gt28 from "@/assets/Galaxy_towership/galaxy townshipseries number 28.png";
+import gt29 from "@/assets/Galaxy_towership/galaxy townshipseries number 29.png";
+import gt30 from "@/assets/Galaxy_towership/galaxy townshipseries number 30.png";
+import gt31 from "@/assets/Galaxy_towership/galaxy townshipseries number 31.png";
+import gt32 from "@/assets/Galaxy_towership/galaxy townshipseries number 32.png";
+import gt33 from "@/assets/Galaxy_towership/galaxy townshipseries number 33.png";
+import gt34 from "@/assets/Galaxy_towership/galaxy townshipseries number 34.png";
+import gt35 from "@/assets/Galaxy_towership/galaxy townshipseries number 35.png";
+import gt36 from "@/assets/Galaxy_towership/galaxy townshipseries number 36.png";
+import gt37 from "@/assets/Galaxy_towership/galaxy townshipseries number 37.png";
+import gt38 from "@/assets/Galaxy_towership/galaxy townshipseries number 38.png";
+import gt39 from "@/assets/Galaxy_towership/galaxy townshipseries number 39.png";
+import gt40 from "@/assets/Galaxy_towership/galaxy townshipseries number 40.png";
+import gt41 from "@/assets/Galaxy_towership/galaxy townshipseries number 41.png";
+import gt42 from "@/assets/Galaxy_towership/galaxy townshipseries number 42.png";
+import gt43 from "@/assets/Galaxy_towership/galaxy townshipseries number 43.png";
+import gt44 from "@/assets/Galaxy_towership/galaxy townshipseries number 44.png";
+import gt45 from "@/assets/Galaxy_towership/galaxy townshipseries number 45.png";
+import gt46 from "@/assets/Galaxy_towership/galaxy townshipseries number 46.png";
+import gt47 from "@/assets/Galaxy_towership/galaxy townshipseries number 47.png";
+import gt48 from "@/assets/Galaxy_towership/galaxy townshipseries number 48.png";
+import gt49 from "@/assets/Galaxy_towership/galaxy townshipseries number 49.png";
+import gt50 from "@/assets/Galaxy_towership/galaxy townshipseries number 50.png";
+import gt51 from "@/assets/Galaxy_towership/galaxy townshipseries number 51.png";
+import gt52 from "@/assets/Galaxy_towership/galaxy townshipseries number 52.png";
+import gt53 from "@/assets/Galaxy_towership/galaxy townshipseries number 53.png";
+import gt54 from "@/assets/Galaxy_towership/galaxy townshipseries number 54.png";
+import gt55 from "@/assets/Galaxy_towership/galaxy townshipseries number 55.png";
+import gt56 from "@/assets/Galaxy_towership/galaxy townshipseries number 56.png";
+import gt57 from "@/assets/Galaxy_towership/galaxy townshipseries number 57.png";
+import gt58 from "@/assets/Galaxy_towership/galaxy townshipseries number 58.png";
+import gt59 from "@/assets/Galaxy_towership/galaxy townshipseries number 59.png";
+import gt60 from "@/assets/Galaxy_towership/galaxy townshipseries number 60.png";
+import gt61 from "@/assets/Galaxy_towership/galaxy townshipseries number 61.png";
+import gt62 from "@/assets/Galaxy_towership/galaxy townshipseries number 62.png";
+import gt63 from "@/assets/Galaxy_towership/galaxy townshipseries number 63.png";
 
 // Bansal Mixed Land Use series (1–20)
-import bmu1 from "@/assets/bansal mixed series number 1.png";
-import bmu2 from "@/assets/bansal mixed series number 2.png";
-import bmu3 from "@/assets/bansal mixed series number 3.png";
-import bmu4 from "@/assets/bansal mixed series number 4.png";
-import bmu5 from "@/assets/bansal mixed series number 5.png";
-import bmu6 from "@/assets/bansal mixed series number 6.png";
-import bmu7 from "@/assets/bansal mixed series number 7.png";
-import bmu8 from "@/assets/bansal mixed series number 8.png";
-import bmu9 from "@/assets/bansal mixed series number 9.png";
-import bmu10 from "@/assets/bansal mixed series number 10.png";
-import bmu11 from "@/assets/bansal mixed series number 11.png";
-import bmu12 from "@/assets/bansal mixed series number 12.png";
-import bmu13 from "@/assets/bansal mixed series number 13.png";
-import bmu14 from "@/assets/bansal mixed series number 14.png";
-import bmu15 from "@/assets/bansal mixed series number 15.png";
-import bmu16 from "@/assets/bansal mixed series number 16.png";
-import bmu17 from "@/assets/bansal mixed series number 17.png";
-import bmu18 from "@/assets/bansal mixed series number 18.png";
-import bmu19 from "@/assets/bansal mixed series number 19.png";
-import bmu20 from "@/assets/bansal mixed series number 20.png";
+import bmu1 from "@/assets/bansal_mixed/bansal mixed series number 1.png";
+import bmu2 from "@/assets/bansal_mixed/bansal mixed series number 2.png";
+import bmu3 from "@/assets/bansal_mixed/bansal mixed series number 3.png";
+import bmu4 from "@/assets/bansal_mixed/bansal mixed series number 4.png";
+import bmu5 from "@/assets/bansal_mixed/bansal mixed series number 5.png";
+import bmu6 from "@/assets/bansal_mixed/bansal mixed series number 6.png";
+import bmu7 from "@/assets/bansal_mixed/bansal mixed series number 7.png";
+import bmu8 from "@/assets/bansal_mixed/bansal mixed series number 8.png";
+import bmu9 from "@/assets/bansal_mixed/bansal mixed series number 9.png";
+import bmu10 from "@/assets/bansal_mixed/bansal mixed series number 10.png";
+import bmu11 from "@/assets/bansal_mixed/bansal mixed series number 11.png";
+import bmu12 from "@/assets/bansal_mixed/bansal mixed series number 12.png";
+import bmu13 from "@/assets/bansal_mixed/bansal mixed series number 13.png";
+import bmu14 from "@/assets/bansal_mixed/bansal mixed series number 14.png";
+import bmu15 from "@/assets/bansal_mixed/bansal mixed series number 15.png";
+import bmu16 from "@/assets/bansal_mixed/bansal mixed series number 16.png";
+import bmu17 from "@/assets/bansal_mixed/bansal mixed series number 17.png";
+import bmu18 from "@/assets/bansal_mixed/bansal mixed series number 18.png";
+import bmu19 from "@/assets/bansal_mixed/bansal mixed series number 19.png";
+import bmu20 from "@/assets/bansal_mixed/bansal mixed series number 20.png";
 
 // Mr. Gupta Room series (1–16)
-import dg1 from "@/assets/Dr. Gupta series number 1.png";
-import dg2 from "@/assets/Dr. Gupta series number 2.png";
-import dg3 from "@/assets/Dr. Gupta series number 3.png";
-import dg4 from "@/assets/Dr. Gupta series number 4.png";
-import dg5 from "@/assets/Dr. Gupta series number 5.png";
-import dg6 from "@/assets/Dr. Gupta series number 6.png";
-import dg7 from "@/assets/Dr. Gupta series number 7.png";
-import dg8 from "@/assets/Dr. Gupta series number 8.png";
-import dg9 from "@/assets/Dr. Gupta series number 9.png";
-import dg10 from "@/assets/Dr. Gupta series number 10.png";
-import dg11 from "@/assets/Dr. Gupta series number 11.png";
-import dg12 from "@/assets/Dr. Gupta series number 12.png";
-import dg13 from "@/assets/Dr. Gupta series number 13.png";
-import dg14 from "@/assets/Dr. Gupta series number 14.png";
-import dg15 from "@/assets/Dr. Gupta series number 15.png";
-import dg16 from "@/assets/Dr. Gupta series number 16.png";
+import dg1 from "@/assets/Dr.Gupta/Dr. Gupta series number 1.png";
+import dg2 from "@/assets/Dr.Gupta/Dr. Gupta series number 2.png";
+import dg3 from "@/assets/Dr.Gupta/Dr. Gupta series number 3.png";
+import dg4 from "@/assets/Dr.Gupta/Dr. Gupta series number 4.png";
+import dg5 from "@/assets/Dr.Gupta/Dr. Gupta series number 5.png";
+import dg6 from "@/assets/Dr.Gupta/Dr. Gupta series number 6.png";
+import dg7 from "@/assets/Dr.Gupta/Dr. Gupta series number 7.png";
+import dg8 from "@/assets/Dr.Gupta/Dr. Gupta series number 8.png";
+import dg9 from "@/assets/Dr.Gupta/Dr. Gupta series number 9.png";
+import dg10 from "@/assets/Dr.Gupta/Dr. Gupta series number 10.png";
+import dg11 from "@/assets/Dr.Gupta/Dr. Gupta series number 11.png";
+import dg12 from "@/assets/Dr.Gupta/Dr. Gupta series number 12.png";
+import dg13 from "@/assets/Dr.Gupta/Dr. Gupta series number 13.png";
+import dg14 from "@/assets/Dr.Gupta/Dr. Gupta series number 14.png";
+import dg15 from "@/assets/Dr.Gupta/Dr. Gupta series number 15.png";
+import dg16 from "@/assets/Dr.Gupta/Dr. Gupta series number 16.png";
 
 // RAJ KALA MANDIR series (1–8)
 import rkm1 from "@/assets/RAJ KALA MANDIR series number 1.png";
@@ -569,19 +569,19 @@ import rkm7 from "@/assets/RAJ KALA MANDIR series number 7.png";
 import rkm8 from "@/assets/RAJ KALA MANDIR series number 8.png";
 
 // Chaudhary Devi Lal University
-import cdl1 from "@/assets/Chaudhary-Devi-Lal-University Hero.jpg"
-import cdl2 from "@/assets/Cdl2.jpeg"
-import cdl3 from "@/assets/cdl3.jpeg"
-import cdl4 from "@/assets/cdl4.jpeg"
-import cdl5 from "@/assets/cdl5.jpeg"
-import cdl6 from "@/assets/cdl6.jpeg"
-import cdl7 from "@/assets/cdl7.jpeg"
-import cdl8 from "@/assets/cdl8.jpeg"
-import cdl9 from "@/assets/cdl9.jpeg"
-import cdl10 from "@/assets/cdl10.jpeg"
-import cdl11 from "@/assets/cdl11.jpeg";
-import cdl12 from "@/assets/cdl12.jpeg";
-import cdl13 from "@/assets/cdl13.jpeg";
+import cdl1 from "@/assets/Devi_Lal_university/Chaudhary-Devi-Lal-University Hero.jpg"
+import cdl2 from "@/assets/Devi_Lal_university/Cdl2.jpeg"
+import cdl3 from "@/assets/Devi_Lal_university/cdl3.jpeg"
+import cdl4 from "@/assets/Devi_Lal_university/cdl4.jpeg"
+import cdl5 from "@/assets/Devi_Lal_university/cdl5.jpeg"
+import cdl6 from "@/assets/Devi_Lal_university/cdl6.jpeg"
+import cdl7 from "@/assets/Devi_Lal_university/cdl7.jpeg"
+import cdl8 from "@/assets/Devi_Lal_university/cdl8.jpeg"
+import cdl9 from "@/assets/Devi_Lal_university/cdl9.jpeg"
+import cdl10 from "@/assets/Devi_Lal_university/cdl10.jpeg"
+import cdl11 from "@/assets/Devi_Lal_university/cdl11.jpeg";
+import cdl12 from "@/assets/Devi_Lal_university/cdl12.jpeg";
+import cdl13 from "@/assets/Devi_Lal_university/cdl13.jpeg";
 
 // ── project catalogue ────────────────────────────────────────────────────────
 export const allProjects: ProjectData[] = [
@@ -589,7 +589,7 @@ export const allProjects: ProjectData[] = [
   // ════════════════════════════════════════════════════════════════════════════
   // LANDMARK PROJECTS  (isLandmark: true → appear in the Prestige band)
   // ════════════════════════════════════════════════════════════════════════════
-{
+  {
     slug: "crsu-jind",
     title: "Chaudhary Ranbir Singh University",
     category: "Institutional",
@@ -615,7 +615,7 @@ export const allProjects: ProjectData[] = [
     location: "Sirsa, Haryana",
     year: "",
     image: cdl1,
-    gallery: [cdl2, cdl3, cdl4, cdl5, cdl6, cdl7, cdl8, cdl9,cdl10,cdl11,cdl12,cdl13],
+    gallery: [cdl2, cdl3, cdl4, cdl5, cdl6, cdl7, cdl8, cdl9, cdl10, cdl11, cdl12, cdl13],
     tagline: "",
     description: "The campus of Chaudhary Devi Lal University in Sirsa, Haryana, is envisioned as a comprehensive academic precinct spread across an expansive site, designed to function as a self-sustaining institutional ecosystem.\n\nThe planning strategy establishes a well-defined spatial structure that integrates core academic facilities—including teaching departments, research centers, administrative blocks, and a central library—with residential and support infrastructure such as hostels, faculty housing, and recreational amenities.\n\nThe master plan emphasizes clarity in zoning and seamless circulation, ensuring efficient movement while fostering strong visual and physical connectivity across the campus. Landscaped greens, shaded pathways, and open gathering spaces are interwoven throughout, creating a balanced dialogue between built form and the natural environment.\n\nThrough a considered approach to scale, hierarchy, and open space design, the campus cultivates a dynamic and engaging environment that supports academic excellence, interdisciplinary interaction, and a vibrant campus life, reinforcing its role as a key educational hub in the region.",
     priority: 3,
@@ -706,8 +706,8 @@ export const allProjects: ProjectData[] = [
     year: "2020",
     image: chandigarhSqCover,
     gallery: [
-      chandigarhSq2, csCoverPng, csMap,
-      cs1, cs2, cs3, cs4, cs5, cs6, cs7, cs8, cs9, cs10,
+      chandigarhSq2, csCoverPng,
+      cs1, cs2, cs3, cs4, cs5, cs6, cs7, cs9, cs10,
       cs11, cs12, cs13, cs14, cs15, cs16, cs17, cs18, cs19, cs20,
       cs21, cs22, cs23, cs24, cs25,
     ],
@@ -715,7 +715,22 @@ export const allProjects: ProjectData[] = [
     tagline: "A striking modern landmark designed as a premier commercial and lifestyle destination.",
     description: "Chandigarh Square is a striking modern landmark designed as a premier commercial and lifestyle destination. The project features a sleek, multi-story glass facade accented by intricate white geometric overlays and contemporary curved balconies, creating a high-end visual identity.\n\nThe architectural experience is anchored by an expansive, designer plaza that prioritizes pedestrian comfort and aesthetic appeal. Featuring a sophisticated layout of linear stone paving, symmetrical water fountains, and integrated brick-cladded planters with lush greenery, the courtyard serves as a vibrant social hub.",
     area: "9,840 sq m",
-    client: "Chandigarh Square",
+    status: "Built",
+  },
+
+  {
+    slug: "mohali-club",
+    title: "CLUBHOUSE TDI MOHALI",
+    category: "Commercial",
+    location: "Mohali, Punjab",
+    year: "2017",
+    image: mohaliClubCover,
+    gallery: [mohaliClubInt1, mohaliInt2, mohaliClubPng, mohaliClub2],
+    tagline: "A members' club conceived for leisure, community, and refined living.",
+    description:
+      "The Mohali Club is a private members' facility serving one of Punjab's fastest-growing residential and commercial precincts. The brief called for a clubhouse that would feel genuinely exclusive without being unwelcoming — a place where members could entertain guests, conduct informal business, or simply relax in surroundings of understated quality.\n\nThe building is organised around a landscaped internal courtyard that acts as a cooling device, a visual amenity, and a spatial anchor. Dining, bar, and lounge spaces wrap this courtyard on three sides, each zone with a distinct character but unified by a consistent material language of terracotta tile, teak joinery, and painted plaster.\n\nA sports wing to the rear houses a gymnasium, squash courts, and a 25-metre pool. The connection between social and sports wings was designed as a sheltered walkway lined with planting — a transition that reinforces the sense of moving through different parts of a composed estate rather than a single building.",
+    area: "6,800 sq m",
+    client: "Mohali Club Society",
     status: "Built",
   },
 
@@ -758,8 +773,8 @@ export const allProjects: ProjectData[] = [
 
 
   {
-    slug: "hp-tower",
-    title: "Hewlett-Packard Tower, HP Town",
+    slug: "d-141-hh-technologies",
+    title: "D141 H&H technologies",
     category: "Corporate",
     location: "Chandigarh, India",
     year: "2014",
@@ -805,22 +820,6 @@ export const allProjects: ProjectData[] = [
       "The NV Distilleries & Breweries corporate facility was designed to house the administrative headquarters and visitor experience centre of one of India's prominent beverage manufacturers.\n\nThe building's plan separates operational and representational functions across two distinct wings connected by a central reception atrium that serves as the building's social and circulatory heart. The facade employs a restrained palette of stone cladding and tinted glazing, projecting corporate sobriety while admitting generous natural light to the office floors.\n\nLandscaping plays an integral role — approach drives, forecourts, and perimeter planting were designed as part of the architectural composition rather than as afterthoughts, ensuring the building reads as a coherent campus from every approach.",
     area: "10,000 sq m",
     client: "NV Distilleries & Breweries Pvt. Ltd",
-    status: "Built",
-  },
-
-  {
-    slug: "mohali-club",
-    title: "CLUBHOUSE TDI MOHALI",
-    category: "Hospitality",
-    location: "Mohali, Punjab",
-    year: "2017",
-    image: mohaliClubCover,
-    gallery: [mohaliClubInt1, mohaliInt2, mohaliClubPng, mohaliClub2],
-    tagline: "A members' club conceived for leisure, community, and refined living.",
-    description:
-      "The Mohali Club is a private members' facility serving one of Punjab's fastest-growing residential and commercial precincts. The brief called for a clubhouse that would feel genuinely exclusive without being unwelcoming — a place where members could entertain guests, conduct informal business, or simply relax in surroundings of understated quality.\n\nThe building is organised around a landscaped internal courtyard that acts as a cooling device, a visual amenity, and a spatial anchor. Dining, bar, and lounge spaces wrap this courtyard on three sides, each zone with a distinct character but unified by a consistent material language of terracotta tile, teak joinery, and painted plaster.\n\nA sports wing to the rear houses a gymnasium, squash courts, and a 25-metre pool. The connection between social and sports wings was designed as a sheltered walkway lined with planting — a transition that reinforces the sense of moving through different parts of a composed estate rather than a single building.",
-    area: "6,800 sq m",
-    client: "Mohali Club Society",
     status: "Built",
   },
 
@@ -896,14 +895,14 @@ export const allProjects: ProjectData[] = [
     location: "Kurukshetra, Haryana",
     year: "2023",
     image: kuHero,
-    gallery: [ku1,ku6,ku5],
+    gallery: [ku1, ku2, ku3, ku4, ku5, ku6, ku7, ku8, ku9, ku10],
     tagline: "A university campus rooted in academic tradition and contemporary design.",
     description:
       "The proposed intervention for Kurukshetra University, set within an expansive 473-acre campus in Haryana, presents a master-planned institutional environment engineered to catalyze academic growth, rigorous research, and a dynamic campus life. The spatial strategy delineates a structured framework that seamlessly integrates academic, residential, and recreational precincts, interwoven with highly efficient circulation arteries and robust pedestrian networks. A hallmark of the development is the inclusion of an Olympic-level swimming pool, significantly elevating the university’s sports infrastructure to support high-performance training and student wellness. Grounded in functional planning and an equitable balance of built mass and open spaces, the design projects a unified architectural character that encourages synergistic collaboration and vibrant community engagement.",
     area: "473 acres",
     client: "Kurukshetra Uni",
     status: "Ongoing",
-    priority:2,
+    priority: 2,
   },
 
   {
@@ -913,7 +912,7 @@ export const allProjects: ProjectData[] = [
     location: "Bilaspur, Chhattisgarh",
     year: "2016",
     image: sunderlalHero,
-    gallery: [sunderlalBsa1],
+    gallery: [sunderlalBsa1, sunderlalImg1, sunderlalImg2, sunderlalImg3, sunderlalImg4],
     tagline: "An open university campus designed for accessible higher education.",
     description:
       "Sited within the campus of Pt. Sundarlal Sharma (Open) University in Bilaspur, Chhattisgarh, the design intervention is conceptualized to deliver a highly structured institutional framework optimized for distance education, administrative efficiency, and rigorous academic pursuits. The architectural planning is driven by pragmatic spatial organization and highly legible circulation nodes, achieving a harmonious integration of formal structures and inviting public realms. By establishing a unified and accessible campus character, the design cultivates an environment that encourages intuitive interactions and supports the institution's progressive mandate for equitable learning, research innovation, and sustainable institutional growth.",
@@ -966,13 +965,19 @@ export const allProjects: ProjectData[] = [
     category: "Commercial",
     location: "Ambala, Haryana",
     year: "2024",
-    image: ambalaMallCover,
-    gallery: [ambalaMallCover, ambalaInt1, ambalaInt2, ambalaInt3, gwm1, gwm2, gwm3, gwm4, gwm5],
+    image: ambalaHero,
+    gallery: [
+      ambalaHero, ambalaG1, ambalaG2,
+      ambalaInt1, ambalaInt2, ambalaInt3, ambalaInt4,
+      ambalaInt5, ambalaInt6, ambalaInt7, ambalaInt8,
+      galaxyMallPng
+    ],
     order: 1,
+    priority: 1,
     tagline: "A contemporary commercial destination featuring iconic architecture and global brands.",
     description: "The project envisions a contemporary commercial destination defined by a bold, sculptural architectural language that integrates retail, dining, and entertainment. The facade is organized around a strong central identity element—a distinctive, curved glass volume featuring a hexagonal crystalline overlay that acts as a focal landmark. Retail storefronts for global brands like Adidas, Gucci, and Nike are strategically arranged at the street level to create an active pedestrian interface, while upper levels accommodate high-profile dining and cinema components.",
     area: "4,696.8 sq m",
-    client: "Galaxy World Wall",
+    client: "Galaxy World Mall",
     status: "Built",
   },
 
@@ -1103,8 +1108,8 @@ export const allProjects: ProjectData[] = [
     category: "Competition",
     location: "Bhilai, Chhattisgarh",
     year: "2023",
-    image: bhilai1,
-    gallery: [bhilai1, bhilai2, bhilai3, bhilai4, bhilai5],
+    image: bhilai3,
+    gallery: [bhilai3, bhilai1, bhilai2, bhilai4, bhilai5],
     tagline: "A master plan for future-ready academic infrastructure.",
     description: "Competition entry for Bhilai University master plan, envisioning a campus that promotes interdisciplinary learning and sustainable growth.",
     status: "Competition",
@@ -1265,7 +1270,12 @@ export const landmarkProjects = _allCombined
 // ── portfolio subset (non-landmark — includes all CMS projects) ─────────────
 export const portfolioProjects = _allCombined
   .filter((p) => !p.isLandmark)
-  .sort((a, b) => a.title.localeCompare(b.title));
+  .sort((a, b) => {
+    const ap = a.priority ?? a.order ?? Infinity;
+    const bp = b.priority ?? b.order ?? Infinity;
+    if (ap !== bp) return ap - bp;
+    return a.title.localeCompare(b.title);
+  });
 
 // ── allProjects sorted alphabetically (category pages re-sort by order) ──────
 export const allProjectsSorted = _allCombined
