@@ -297,15 +297,38 @@ import ws12 from "@/assets/Wave_Estate/Wave_state12.png";
 
 // Dr. Attri Residence
 
-import dar3 from "@/assets/Dr.Attri/Dr_Attri_Residence1.png";
-import dar4 from "@/assets/Dr.Attri/Dr_Attri_Residence4.png";
-import dar5 from "@/assets/Dr.Attri/Dr_Attri_Residence5.png";
-import dar6 from "@/assets/Dr.Attri/Dr_Attri_Residence6.png";
-import dar7 from "@/assets/Dr.Attri/Dr_Attri_Residence7.png";
-import dar8 from "@/assets/Dr.Attri/Dr_Attri_Residence8.png";
-import dar9 from "@/assets/Dr.Attri/Dr_Attri_Residence9.png";
-import dar10 from "@/assets/Dr.Attri/Dr_Attri_Residence10.png";
-import dar11 from "@/assets/Dr.Attri/Dr_Attri_Residence11.png";
+// Dr. Attri Residence (updated series 1–30)
+import da1 from "@/assets/Dr.Attri/image.png";
+import da2 from "@/assets/Dr.Attri/image copy.png";
+import da3 from "@/assets/Dr.Attri/image copy 2.png";
+import da4 from "@/assets/Dr.Attri/image copy 3.png";
+import da5 from "@/assets/Dr.Attri/image copy 4.png";
+import da6 from "@/assets/Dr.Attri/image copy 5.png";
+import da7 from "@/assets/Dr.Attri/image copy 6.png";
+import da8 from "@/assets/Dr.Attri/image copy 7.png";
+import da9 from "@/assets/Dr.Attri/image copy 8.png";
+import da10 from "@/assets/Dr.Attri/image copy 9.png";
+import da11 from "@/assets/Dr.Attri/image copy 10.png";
+import da12 from "@/assets/Dr.Attri/image copy 11.png";
+import da13 from "@/assets/Dr.Attri/image copy 12.png";
+import da14 from "@/assets/Dr.Attri/image copy 13.png";
+import da15 from "@/assets/Dr.Attri/image copy 14.png";
+import da16 from "@/assets/Dr.Attri/image copy 15.png";
+import da17 from "@/assets/Dr.Attri/image copy 16.png";
+import da18 from "@/assets/Dr.Attri/image copy 17.png";
+import da19 from "@/assets/Dr.Attri/image copy 18.png";
+import da20 from "@/assets/Dr.Attri/image copy 19.png";
+import da21 from "@/assets/Dr.Attri/image copy 20.png";
+import da22 from "@/assets/Dr.Attri/image copy 21.png";
+import da23 from "@/assets/Dr.Attri/image copy 22.png";
+import da24 from "@/assets/Dr.Attri/image copy 23.png";
+import da25 from "@/assets/Dr.Attri/image copy 24.png";
+import da26 from "@/assets/Dr.Attri/image copy 25.png";
+import da27 from "@/assets/Dr.Attri/image copy 26.png";
+import da28 from "@/assets/Dr.Attri/image copy 27.png";
+import da29 from "@/assets/Dr.Attri/image copy 28.png";
+import da30 from "@/assets/Dr.Attri/image copy 29.png";
+
 
 // Dr. Harkant Residence
 import dhr2 from "@/assets/Dr.Harkant/Dr_Harkant_residence2.png";
@@ -1021,8 +1044,12 @@ export const allProjects: ProjectData[] = [
     category: "Residential",
     location: "Chandigarh, India",
     year: "2026",
-    image: dar3,
-    gallery: [dar4, dar5, dar6, dar7, dar8, dar9, dar10, dar11],
+    image: da1,
+    gallery: [
+      da2, da3, da4, da5, da6, da7, da8, da9, da10,
+      da11, da12, da13, da14, da15, da16, da17, da18, da19, da20,
+      da21, da22, da23, da24, da25, da26, da27, da28, da29, da30
+    ],
     tagline: "Urban living redefined through industrial and organic design elements.",
     description: "This contemporary residential development redefines urban living through a sophisticated blend of industrial and organic design elements. The structure features a striking multi-level facade, characterized by textured concrete finishes, warm brick jaali accents, and expansive glass windows that ensure sun-drenched interiors and seamless views.",
     area: "3,786.7 sq ft",
