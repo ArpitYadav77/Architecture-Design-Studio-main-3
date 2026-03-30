@@ -1136,7 +1136,7 @@ export const allProjects: ProjectData[] = [
     location: "Bhilai, Chhattisgarh",
     year: "2023",
     image: bhilai3,
-    gallery: [bhilai3, bhilai1, bhilai2, bhilai4, bhilai5],
+    gallery: [bhilai4, bhilai3, bhilai1, bhilai2, bhilai5],
     tagline: "A master plan for future-ready academic infrastructure.",
     description: "Competition entry for Bhilai University master plan, envisioning a campus that promotes interdisciplinary learning and sustainable growth.",
     status: "Competition",
