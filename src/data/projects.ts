@@ -88,6 +88,11 @@ import ambalaInt6 from "@/assets/Ambala_Mall/image copy 5.png";
 import ambalaInt7 from "@/assets/Ambala_Mall/image copy 6.png";
 import ambalaInt8 from "@/assets/Ambala_Mall/image copy 7.png";
 import galaxyMallPng from "@/assets/Ambala_Mall/galaxy_mall.png";
+import amb1 from "@/assets/Ambala_Mall/amb1.jpeg";
+import amb2 from "@/assets/Ambala_Mall/amb2.jpeg";
+import amb3 from "@/assets/Ambala_Mall/amb3.jpeg";
+import amb4 from "@/assets/Ambala_Mall/amb4.jpeg";
+import amb5 from "@/assets/Ambala_Mall/amb5.jpeg";
 
 // Clinic (webp files missing — using numbered png fallbacks)
 import clinicCover from "@/assets/clinic/clinic1.png";
@@ -105,10 +110,17 @@ import farmhouseInt3 from "@/assets/farmhouse/farmhouse_interior3.webp";
 // Haryana CM Residence
 import haryanaCMInterior from "@/assets/haryana_CM_interior.webp";
 
-// HP Tower (HP_tower.webp & HP_tower2.webp missing — using png / interior fallback)
-import hpTowerCover from "@/assets/HP_tower.png";
-import hpTower2 from "@/assets/HP_interior.webp";
-import hpInterior from "@/assets/HP_interior.webp";
+// HP Tower (D141 H&H technologies)
+import hpTowerCover from "@/assets/D141 H&H technologies/HP_tower.png";
+import hpTower2 from "@/assets/D141 H&H technologies/HP_interior.webp";
+import hpInterior from "@/assets/D141 H&H technologies/HP_interior.webp";
+import hp1 from "@/assets/D141 H&H technologies/hp1.jpeg";
+import hp2 from "@/assets/D141 H&H technologies/hp2.jpeg";
+import hp3 from "@/assets/D141 H&H technologies/hp3.jpeg";
+import hp4 from "@/assets/D141 H&H technologies/hp4.jpeg";
+import hp5 from "@/assets/D141 H&H technologies/hp5.jpeg";
+import hp6 from "@/assets/D141 H&H technologies/hp6.png";
+import hpIntPng from "@/assets/D141 H&H technologies/hpInteriorPng.png";
 
 // LandMark Wave (all webp files missing — using Wave_state png as placeholders)
 import landmarkWaveCover from "@/assets/Wave_Estate/Wave_state1.png";
@@ -116,10 +128,14 @@ import landmarkWaveExt from "@/assets/Wave_Estate/Wave_state2.png";
 import landmarkWaveInt1 from "@/assets/Wave_Estate/Wave_state3.png";
 import landmarkWaveInt2 from "@/assets/Wave_Estate/Wave_state4.png";
 
-// Mohali Club (webp files missing for cover & interior — using png fallbacks)
-import mohaliClubCover from "@/assets/Mohali_club.png";
-import mohaliClubInt1 from "@/assets/mohali_club2.png";
-import mohaliInt2 from "@/assets/mohali_interior2.webp";
+// Mohali Club (CLUBHOUSE TDI MOHALI)
+import mohaliClubCover from "@/assets/CLUBHOUSE TDI MOHALI/Mohali_club.png";
+import mohaliClubInt1 from "@/assets/CLUBHOUSE TDI MOHALI/mohali_club2.png";
+import mohaliInt2 from "@/assets/CLUBHOUSE TDI MOHALI/mohali_interior2.webp";
+import mc1 from "@/assets/CLUBHOUSE TDI MOHALI/mc1.jpeg";
+import mc2 from "@/assets/CLUBHOUSE TDI MOHALI/mc2.jpeg";
+import mc3 from "@/assets/CLUBHOUSE TDI MOHALI/mc3.jpeg";
+import mc4 from "@/assets/CLUBHOUSE TDI MOHALI/mc4.jpeg";
 
 // Reception
 import receptionCover from "@/assets/Reception_Interior/Reception_cover.webp";
@@ -134,11 +150,24 @@ import nvExterior2 from "@/assets/NV_Distilleries/NV_exterior2.png";
 import nvExterior3 from "@/assets/NV_Distilleries/NV_exterior3.png";
 import nvInterior from "@/assets/NV_Distilleries/NV_interior.png";
 import nvInterior2 from "@/assets/NV_Distilleries/NV_interior2.png";
+import nv1 from "@/assets/NV_Distilleries/nv1.jpeg";
+import nv2 from "@/assets/NV_Distilleries/nv2.jpeg";
+import nv3 from "@/assets/NV_Distilleries/nv3.jpeg";
+import nv4 from "@/assets/NV_Distilleries/nv4.jpeg";
+import nv5 from "@/assets/NV_Distilleries/nv5.jpeg";
+import nv6 from "@/assets/NV_Distilleries/nv6.jpeg";
+import nv7 from "@/assets/NV_Distilleries/nv7.jpeg";
+import nv8 from "@/assets/NV_Distilleries/nv8.jpeg";
+import nv9 from "@/assets/NV_Distilleries/nv9.jpeg";
+import nv10 from "@/assets/NV_Distilleries/nv10.jpeg";
 
 // TRIAM Tower
-import triamCover from "@/assets/triam_cover.png";
-import triamExterior from "@/assets/traim_exterior.png";
-import triamExterior2 from "@/assets/triam_exterior2.png";
+import triamCover from "@/assets/TRIAM TOWER/triam_cover.png";
+import triamExterior from "@/assets/TRIAM TOWER/traim_exterior.png";
+import triamExterior2 from "@/assets/TRIAM TOWER/triam_exterior2.png";
+import triam1 from "@/assets/TRIAM TOWER/triam1.jpeg";
+import triam2 from "@/assets/TRIAM TOWER/triam2.jpeg";
+import triam3 from "@/assets/TRIAM TOWER/triam3.jpeg";
 
 // Kurukshetra University
 // import kurkushetraExterior from "@/assets/kurkushetra_exterior.png";
@@ -582,14 +611,14 @@ import dg15 from "@/assets/Dr.Gupta/Dr. Gupta series number 15.png";
 import dg16 from "@/assets/Dr.Gupta/Dr. Gupta series number 16.png";
 
 // RAJ KALA MANDIR series (1–8)
-import rkm1 from "@/assets/RAJ KALA MANDIR series number 1.png";
-import rkm2 from "@/assets/RAJ KALA MANDIR series number 2.png";
-import rkm3 from "@/assets/RAJ KALA MANDIR series number 3.png";
-import rkm4 from "@/assets/RAJ KALA MANDIR series number 4.png";
-import rkm5 from "@/assets/RAJ KALA MANDIR series number 5.png";
-import rkm6 from "@/assets/RAJ KALA MANDIR series number 6.png";
-import rkm7 from "@/assets/RAJ KALA MANDIR series number 7.png";
-import rkm8 from "@/assets/RAJ KALA MANDIR series number 8.png";
+import rkm1 from "@/assets/Raja_Kala_Mandir/RAJ KALA MANDIR series number 1.png";
+import rkm2 from "@/assets/Raja_Kala_Mandir/RAJ KALA MANDIR series number 2.png";
+import rkm3 from "@/assets/Raja_Kala_Mandir/RAJ KALA MANDIR series number 3.png";
+import rkm4 from "@/assets/Raja_Kala_Mandir/RAJ KALA MANDIR series number 4.png";
+import rkm5 from "@/assets/Raja_Kala_Mandir/RAJ KALA MANDIR series number 5.png";
+import rkm6 from "@/assets/Raja_Kala_Mandir/RAJ KALA MANDIR series number 6.png";
+import rkm7 from "@/assets/Raja_Kala_Mandir/RAJ KALA MANDIR series number 7.png";
+import rkm8 from "@/assets/Raja_Kala_Mandir/RAJ KALA MANDIR series number 8.png";
 
 // Chaudhary Devi Lal University
 import cdl1 from "@/assets/Devi_Lal_university/Chaudhary-Devi-Lal-University Hero.jpg"
@@ -605,6 +634,13 @@ import cdl10 from "@/assets/Devi_Lal_university/cdl10.jpeg"
 import cdl11 from "@/assets/Devi_Lal_university/cdl11.jpeg";
 import cdl12 from "@/assets/Devi_Lal_university/cdl12.jpeg";
 import cdl13 from "@/assets/Devi_Lal_university/cdl13.jpeg";
+
+// NAAR TOWER
+import naar1 from "@/assets/NAAR_TOWER/naar1.jpeg";
+import naar2 from "@/assets/NAAR_TOWER/naar2.jpeg";
+import naar3 from "@/assets/NAAR_TOWER/naar3.jpeg";
+import naar4 from "@/assets/NAAR_TOWER/naar4.jpeg";
+import naar5 from "@/assets/NAAR_TOWER/naar5.jpeg";
 
 // ── project catalogue ────────────────────────────────────────────────────────
 export const allProjects: ProjectData[] = [
@@ -748,7 +784,7 @@ export const allProjects: ProjectData[] = [
     location: "Mohali, Punjab",
     year: "2017",
     image: mohaliClubCover,
-    gallery: [mohaliClubInt1, mohaliInt2, mohaliClubPng, mohaliClub2],
+    gallery: [mohaliClubInt1, mohaliInt2, mc1, mc2, mc3, mc4],
     tagline: "A members' club conceived for leisure, community, and refined living.",
     description:
       "The Mohali Club is a private members' facility serving one of Punjab's fastest-growing residential and commercial precincts. The brief called for a clubhouse that would feel genuinely exclusive without being unwelcoming — a place where members could entertain guests, conduct informal business, or simply relax in surroundings of understated quality.\n\nThe building is organised around a landscaped internal courtyard that acts as a cooling device, a visual amenity, and a spatial anchor. Dining, bar, and lounge spaces wrap this courtyard on three sides, each zone with a distinct character but unified by a consistent material language of terracotta tile, teak joinery, and painted plaster.\n\nA sports wing to the rear houses a gymnasium, squash courts, and a 25-metre pool. The connection between social and sports wings was designed as a sheltered walkway lined with planting — a transition that reinforces the sense of moving through different parts of a composed estate rather than a single building.",
@@ -802,7 +838,7 @@ export const allProjects: ProjectData[] = [
     location: "Chandigarh, India",
     year: "2014",
     image: hpTowerCover,
-    gallery: [hpTower2, hpInterior],
+    gallery: [hpTower2, hpInterior, hpIntPng, hp1, hp2, hp3, hp4, hp5, hp6],
     order: 2,
     tagline: "Corporate presence and civic identity in one composed tower form.",
     description:
@@ -819,7 +855,7 @@ export const allProjects: ProjectData[] = [
     location: "Sector 83, Alpha, India",
     year: "2020",
     image: triamCover,
-    gallery: [triamExterior, triamExterior2],
+    gallery: [triamExterior, triamExterior2, triam1, triam2, triam3],
     order: 1,
     tagline: "A bold corporate tower designed for presence and performance.",
     description:
@@ -836,7 +872,11 @@ export const allProjects: ProjectData[] = [
     location: "India",
     year: "2018",
     image: nvCover,
-    gallery: [nvExterior, nvExterior2, nvExterior3, nvExterior4, nvInterior, nvInterior2, mandirImg, mandir2Img],
+    gallery: [
+      nvExterior, nvExterior2, nvExterior3, nvExterior4, nvInterior, nvInterior2,
+      nv1, nv2, nv3, nv4, nv5, nv6, nv7, nv8, nv9, nv10,
+      mandirImg, mandir2Img
+    ],
     order: 3,
     tagline: "A purpose-built corporate facility for one of India's leading beverage enterprises.",
     description:
@@ -993,6 +1033,7 @@ export const allProjects: ProjectData[] = [
       ambalaHero, ambalaG1, ambalaG2,
       ambalaInt1, ambalaInt2, ambalaInt3, ambalaInt4,
       ambalaInt5, ambalaInt6, ambalaInt7, ambalaInt8,
+      amb1, amb2, amb3, amb4, amb5,
       galaxyMallPng
     ],
     order: 1,
@@ -1230,6 +1271,22 @@ export const allProjects: ProjectData[] = [
     area: "450 sq m",
     client: "Government",
     status: "Ongoing",
+  },
+
+  {
+    slug: "naar-tower",
+    title: "NAAR TOWER",
+    category: "Corporate",
+    location: "Chandigarh, India",
+    year: "2024",
+    image: naar1,
+    gallery: [naar1, naar2, naar3, naar4, naar5],
+    tagline: "A vertical landmark of corporate excellence and architectural precision.",
+    description: "NAAR TOWER is a state-of-the-art corporate development designed to redefine the urban skyline. The architecture emphasizes verticality and transparency, utilizing a sophisticated glass and metal facade that reflects the dynamic energy of the corporate world. Internally, the tower offers flexible, high-performance office spaces integrated with premium amenities, fostering a culture of innovation and collaboration. The design prioritizes sustainability and occupant well-being, featuring advanced climate control systems and abundant natural light throughout its expansive floor plates.",
+    area: "12,500 sq m",
+    client: "Naar Group",
+    status: "Ongoing",
+    priority: 5,
   },
 ];
 
