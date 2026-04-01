@@ -696,7 +696,6 @@ export const allProjects: ProjectData[] = [
     area: "1125 acres",
     client: "Lala Lajpat Rai University of Veterinary and Animal Science",
     status: "Ongoing",
-    isLandmark: true,
     priority: 6,
   },
 
@@ -717,7 +716,6 @@ export const allProjects: ProjectData[] = [
     area: "88 acres",
     client: "Bhagat Phool Singh Mahila Vishwavidyalay",
     status: "Ongoing",
-    isLandmark: true,
     priority: 4,
   },
 
@@ -770,7 +768,7 @@ export const allProjects: ProjectData[] = [
       cs11, cs12, cs13, cs14, cs15, cs16, cs17, cs18, cs19, cs20,
       cs21, cs22, cs23, cs24, cs25,
     ],
-    order: 2,
+    priority: 4,
     tagline: "A striking modern landmark designed as a premier commercial and lifestyle destination.",
     description: "Chandigarh Square is a striking modern landmark designed as a premier commercial and lifestyle destination. The project features a sleek, multi-story glass facade accented by intricate white geometric overlays and contemporary curved balconies, creating a high-end visual identity.\n\nThe architectural experience is anchored by an expansive, designer plaza that prioritizes pedestrian comfort and aesthetic appeal. Featuring a sophisticated layout of linear stone paving, symmetrical water fountains, and integrated brick-cladded planters with lush greenery, the courtyard serves as a vibrant social hub.",
     area: "9,840 sq m",
@@ -781,6 +779,7 @@ export const allProjects: ProjectData[] = [
     slug: "mohali-club",
     title: "CLUBHOUSE TDI MOHALI",
     category: "Commercial",
+    priority: 3,
     location: "Mohali, Punjab",
     year: "2017",
     image: mohaliClubCover,
@@ -834,12 +833,12 @@ export const allProjects: ProjectData[] = [
   {
     slug: "d-141-hh-technologies",
     title: "D141 H&H technologies",
-    category: "Corporate",
+    category: "Commercial",
     location: "Chandigarh, India",
     year: "2014",
     image: hpTowerCover,
     gallery: [hpTower2, hpInterior, hpIntPng, hp1, hp2, hp3, hp4, hp5, hp6],
-    order: 2,
+    priority: 1,
     tagline: "Corporate presence and civic identity in one composed tower form.",
     description:
       "HP Tower was designed to serve as a flagship corporate address — a building that announces institutional permanence while offering the spatial flexibility demanded by a major technology and services organisation.\n\nThe tower's profile is defined by its expressed structural frame and the rhythm of its facade panels, which alternate solid and glazed bays to control solar gain on the east and west orientations. The base podium is carved to create a generous covered public plaza — a civic gesture that connects the building to the life of the surrounding precinct.\n\nInternally, floor plates are column-free over large spans, enabling efficient open-plan working arrangements. A shared conference centre and visitor reception occupy the most prominent position in the building — at the junction of the podium and the tower — where views and natural light are maximised.",
@@ -856,7 +855,7 @@ export const allProjects: ProjectData[] = [
     year: "2020",
     image: triamCover,
     gallery: [triamExterior, triamExterior2, triam1, triam2, triam3],
-    order: 1,
+    priority: 2,
     tagline: "A bold corporate tower designed for presence and performance.",
     description:
       "TRIAM TOWER at I-42, Sector 83, Alpha is a corporate office development conceived to project institutional confidence while delivering efficient, flexible floor plates suited to modern commercial tenants.\n\nThe tower's facade is a disciplined composition of glass and pre-cast concrete panels that modulate light and scale across the elevation. At street level, a double-height lobby with stone finishes and curated lighting establishes the building's identity from the moment of arrival.\n\nThe project demonstrates Bachitter Singh Associates' ability to deliver corporate architecture that balances civic presence with the pragmatic demands of commercial real estate.",
@@ -877,7 +876,7 @@ export const allProjects: ProjectData[] = [
       nv1, nv2, nv3, nv4, nv5, nv6, nv7, nv8, nv9, nv10,
       mandirImg, mandir2Img
     ],
-    order: 3,
+    priority: 1,
     tagline: "A purpose-built corporate facility for one of India's leading beverage enterprises.",
     description:
       "The NV Distilleries & Breweries corporate facility was designed to house the administrative headquarters and visitor experience centre of one of India's prominent beverage manufacturers.\n\nThe building's plan separates operational and representational functions across two distinct wings connected by a central reception atrium that serves as the building's social and circulatory heart. The facade employs a restrained palette of stone cladding and tinted glazing, projecting corporate sobriety while admitting generous natural light to the office floors.\n\nLandscaping plays an integral role — approach drives, forecourts, and perimeter planting were designed as part of the architectural composition rather than as afterthoughts, ensuring the building reads as a coherent campus from every approach.",
@@ -1015,7 +1014,6 @@ export const allProjects: ProjectData[] = [
     area: "2,400 sq m",
     client: "Government of Haryana",
     status: "Built",
-    isLandmark: true,
   },
 
   // ════════════════════════════════════════════════════════════════════════════
@@ -1037,7 +1035,7 @@ export const allProjects: ProjectData[] = [
       galaxyMallPng
     ],
     order: 1,
-    priority: 1,
+    priority: 2,
     tagline: "A contemporary commercial destination featuring iconic architecture and global brands.",
     description: "The project envisions a contemporary commercial destination defined by a bold, sculptural architectural language that integrates retail, dining, and entertainment. The facade is organized around a strong central identity element—a distinctive, curved glass volume featuring a hexagonal crystalline overlay that acts as a focal landmark. Retail storefronts for global brands like Adidas, Gucci, and Nike are strategically arranged at the street level to create an active pedestrian interface, while upper levels accommodate high-profile dining and cinema components.",
     area: "4,696.8 sq m",
@@ -1286,7 +1284,7 @@ export const allProjects: ProjectData[] = [
     area: "12,500 sq m",
     client: "Naar Group",
     status: "Ongoing",
-    priority: 5,
+    priority: 3,
   },
 ];
 
@@ -1347,13 +1345,10 @@ export const getProjectBySlug = (slug: string): ProjectData | undefined =>
   _allCombined.find((p) => p.slug === slug);
 
 // ── landmark subset (for ProjectsPage landmark band) ────────────────────────
-export const landmarkProjects = _allCombined
-  .filter((p) => p.isLandmark)
-  .sort((a, b) => a.title.localeCompare(b.title));
+export const landmarkProjects: ProjectData[] = [];
 
-// ── portfolio subset (non-landmark — includes all CMS projects) ─────────────
+// ── portfolio subset (includes all CMS projects) ─────────────────────────────
 export const portfolioProjects = _allCombined
-  .filter((p) => !p.isLandmark)
   .sort((a, b) => {
     const ap = a.priority ?? a.order ?? Infinity;
     const bp = b.priority ?? b.order ?? Infinity;

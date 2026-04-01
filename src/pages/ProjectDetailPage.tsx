@@ -56,14 +56,6 @@ const ProjectDetailPage = () => {
         />
         {/* Dark gradient overlay */}
         <div className="absolute inset-0 bg-gradient-to-t from-black/80 via-black/30 to-black/10" />
-        {/* Landmark badge */}
-        {project.isLandmark && (
-          <div className="absolute top-24 left-6 md:left-12 lg:left-24 z-10">
-            <span className="bg-accent/90 text-white text-[10px] uppercase tracking-widest px-3 py-1">
-              Landmark Project
-            </span>
-          </div>
-        )}
         {/* Title over image */}
         <div className="absolute bottom-0 left-0 right-0 z-10 px-4 sm:px-6 md:px-12 lg:px-24 pb-8 sm:pb-10 md:pb-14">
           <p

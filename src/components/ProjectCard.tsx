@@ -32,11 +32,6 @@ const ProjectCard = memo<ProjectCardProps>(
           decoding="async"
           className="w-full h-full object-cover transition-transform duration-700 group-hover:scale-105"
         />
-        {isLandmark && (
-          <div className="absolute top-4 left-4 bg-accent/90 text-white text-[10px] uppercase tracking-widest px-3 py-1">
-            Landmark
-          </div>
-        )}
         {/* Dark overlay on hover */}
         <div
           className="absolute inset-0 opacity-0 group-hover:opacity-100 transition-opacity duration-500"
@@ -85,11 +80,9 @@ const ProjectCard = memo<ProjectCardProps>(
               {category} · {location}
             </p>
           </div>
-          {isLandmark && (
-            <span className="text-xs text-accent font-medium uppercase tracking-widest mt-1">
+            <span className="text-xs text-foreground/50 font-medium uppercase tracking-widest mt-1">
               {year}
             </span>
-          )}
         </div>
       </div>
     </Link>

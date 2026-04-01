@@ -4,7 +4,7 @@ import Navbar from "@/components/Navbar";
 import Footer from "@/components/Footer";
 import ScrollReveal from "@/components/ScrollReveal";
 import ProjectCard from "@/components/ProjectCard";
-import { portfolioProjects, landmarkProjects, allProjectsSorted } from "@/data/projects";
+import { portfolioProjects, allProjectsSorted } from "@/data/projects";
 
 // Competition always last
 const categories = [
@@ -49,7 +49,6 @@ const filtered =
           return a.title.localeCompare(b.title);
         });
 
-  const showLandmarks = activeCategory === "All";
 
   const handleNav = useCallback(
     (cat: string) => navigate(categoryPath(cat)),
@@ -123,52 +122,7 @@ const filtered =
           </div>
         </ScrollReveal>
 
-        {/* ── LANDMARK / PRESTIGE PROJECTS ── */}
-        {showLandmarks && (
-          <div className="mb-20">
-            <ScrollReveal>
-              <div className="flex items-center gap-4 mb-10">
-                <div className="w-1 h-8 bg-accent" />
-                <div>
-                  <p className="text-[10px] uppercase tracking-[0.25em] text-accent mb-1">Prestige Works</p>
-                  <h2 className="text-2xl md:text-3xl font-serif font-light text-foreground">
-                    Landmark <em className="italic">Projects</em>
-                  </h2>
-                </div>
-              </div>
-            </ScrollReveal>
-
-            <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
-              {landmarkProjects.map((project, i) => (
-                <ScrollReveal key={project.slug} delay={i * 120}>
-                  <ProjectCard
-                    slug={project.slug}
-                    image={project.image}
-                    title={project.title}
-                    category={project.category}
-                    location={project.location}
-                    year={project.year}
-                    isLandmark
-                    tagline={project.tagline}
-                  />
-                </ScrollReveal>
-              ))}
-            </div>
-
-            {/* All works divider */}
-            <ScrollReveal delay={200}>
-              <div className="flex items-center gap-4 mt-16 mb-2">
-                <div className="w-1 h-8 bg-foreground/20" />
-                <div>
-                  <p className="text-[10px] uppercase tracking-[0.25em] text-foreground/40 mb-1">Portfolio</p>
-                  <h2 className="text-2xl md:text-3xl font-serif font-light text-foreground">
-                    All <em className="italic">Works</em>
-                  </h2>
-                </div>
-              </div>
-            </ScrollReveal>
-          </div>
-        )}
+        {/* ── PROJECTS GRID ── */}
 
         {/* Projects grid */}
         {filtered.length === 0 ? (
