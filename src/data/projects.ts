@@ -111,6 +111,12 @@ import haryanaCmGalleryImg9 from "@/assets/Haryana_CM/WhatsApp Image 2026-04-02 
 import haryanaCmGalleryImg10 from "@/assets/Haryana_CM/WhatsApp Image 2026-04-02 at 12.02.07 (1).jpeg";
 import haryanaCmGalleryImg11 from "@/assets/Haryana_CM/WhatsApp Image 2026-04-02 at 12.02.07.jpeg";
 
+
+// Auto generated imports for RAJASTHAN BHAVAN
+import rajasthan1 from "@/assets/RAJASTHAN BHAVAN/WhatsApp Image 2026-04-02 at 12.15.54.jpeg";
+import rajasthan2 from "@/assets/RAJASTHAN BHAVAN/WhatsApp Image 2026-04-02 at 12.15.55 (1).jpeg";
+import rajasthan3 from "@/assets/RAJASTHAN BHAVAN/WhatsApp Image 2026-04-02 at 12.15.55.jpeg";
+
 export interface ProjectData {
   slug: string;
   title: string;
@@ -1371,7 +1377,7 @@ export const allProjects: ProjectData[] = [
     location: "Sector 8, Panchkula, Haryana",
     year: "2023",
     image: dg1,
-    gallery: [dg1, dg2, dg3, dg4, dg5, dg6, dg7,   dg10, dg11,   dg14, dg15, dg16],
+    gallery: [dg1, dg2, dg3, dg4, dg5, dg6, dg7, dg10, dg11, dg14, dg15, dg16],
     tagline: "A refined expression of contemporary living, where comfort, elegance, and functionality meet.",
     description:
       "This residence in Sector 8, Panchkula is designed as a refined expression of contemporary living, where comfort, elegance, and functionality come together seamlessly. The interiors follow a cohesive design language, defined by clean lines, balanced proportions, and a warm, neutral material palette.\n\nThe private spaces, including the bedrooms, are conceived as serene retreats—featuring soft ambient lighting, layered textures, and carefully detailed wall treatments that add depth without overwhelming the space. Bespoke furniture and curated elements enhance both comfort and visual identity.\n\nA dedicated lounge and recreation area introduces a more intimate and indulgent dimension to the home. Designed as a social and leisure hub, the space features rich materials, mood lighting, and a sophisticated ambiance, creating the perfect setting for relaxation and entertainment. The integration of custom shelving, accent lighting, and comfortable seating adds both functionality and character.\n\nAcross the residence, the design emphasizes openness, natural light, and fluid spatial transitions. Every element has been thoughtfully crafted to create a home that is modern, elegant, and deeply livable.",
@@ -1394,6 +1400,22 @@ export const allProjects: ProjectData[] = [
     client: "Government",
     status: "Ongoing",
   },
+
+  {
+    slug: "rajasthan-bhavan",
+    title: "Rajasthan Bhavan",
+    category: "Interior",
+    location: "Rajasthan, India",
+    year: "2026",
+    image: rajasthan1,
+    gallery: [rajasthan1, rajasthan2, rajasthan3],
+    tagline: "A representation of Rajasthan's heritage.",
+    description: "Rajasthan Bhavan is a civic project intended to showcase the rich cultural heritage and architectural grandeur of Rajasthan. Spaces are designed to act as a cultural embassy, offering a blend of traditional motifs and modern functionality.",
+    area: "Varies",
+    client: "Government of Rajasthan",
+    status: "Under Construction"
+  },
+
 
   {
     slug: "naar-tower",
