@@ -5,6 +5,9 @@ import Footer from "@/components/Footer";
 import ScrollReveal from "@/components/ScrollReveal";
 import ProjectCard from "@/components/ProjectCard";
 import { portfolioProjects, allProjectsSorted } from "@/data/projects";
+import { useSanityProjects } from "@/hooks/useSanityProjects";
+import { useMemo } from "react";
+
 
 // Competition always last
 const categories = [
@@ -30,24 +33,47 @@ const ProjectsPage = () => {
     ? categories.find((c) => c.toLowerCase() === category.toLowerCase()) ?? "All"
     : "All";
 
-const filtered =
-  activeCategory === "All"
-    ? portfolioProjects
-    : allProjectsSorted
-        .filter((p) => p.category.toLowerCase() === activeCategory.toLowerCase())
-        .sort((a, b) => {
-          const getPriority = (obj: typeof a) => {
-            if (typeof obj.priority === "number") return obj.priority;
-            if (typeof (obj as any).P === "number") return (obj as any).P;
-            return Infinity;
-          };
+  const { projects: sanityProjects } = useSanityProjects();
 
-          const ap = getPriority(a);
-          const bp = getPriority(b);
+  const combinedProjects = useMemo(() => {
+    // Map sanity data to match the project shape
+    const mappedSanity = sanityProjects.map((p) => ({
+      ...p,
+      image: p.coverImage, // Use Sanity's cover image instead of local static image
+      year: String(p.year),
+    }));
+    // Merge sanity data (showing up first) and static data together
+    return [...mappedSanity, ...allProjectsSorted];
+  }, [sanityProjects]);
 
-          if (ap !== bp) return ap - bp;
-          return a.title.localeCompare(b.title);
-        });
+  const combinedPortfolioProjects = useMemo(() => {
+     // A similar approach for matching the default portfolio array
+    const mappedSanity = sanityProjects.map((p) => ({
+      ...p,
+      image: p.coverImage,
+      year: String(p.year),
+    }));
+    return [...mappedSanity, ...portfolioProjects];
+  }, [sanityProjects]);
+
+  const filtered =
+    activeCategory === "All"
+      ? combinedPortfolioProjects
+      : combinedProjects
+          .filter((p) => p.category?.toLowerCase() === activeCategory.toLowerCase())
+          .sort((a, b) => {
+            const getPriority = (obj: any) => {
+              if (typeof obj.priority === "number") return obj.priority;
+              if (typeof obj.P === "number") return obj.P;
+              return Infinity;
+            };
+
+            const ap = getPriority(a);
+            const bp = getPriority(b);
+
+            if (ap !== bp) return ap - bp;
+            return a.title.localeCompare(b.title);
+          });
 
 
   const handleNav = useCallback(

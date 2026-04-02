@@ -40,25 +40,25 @@ import punjabHCImg from "@/assets/Punjab_Haryana_HC.webp";
 import chandigarhSqCover from "@/assets/chandigarh_square/chandigarh_square.png";
 
 // Amritsar Residence
-import amritsarCover from "@/assets/Amritsar/Amritsar.webp";
-import amritsarInt1 from "@/assets/Amritsar/Amritsar_cover_Interior.webp";
-import amritsarInt2 from "@/assets/Amritsar/Amritsar_Interior.webp";
-import amritsarInt3 from "@/assets/Amritsar/Amritsar_Interior2.webp";
-import amritsarInt4 from "@/assets/Amritsar/Amritsar_cover2_interior.webp";
+import amritsarCover from "@/assets/Amritsar/Le_meriden_Hero.jpeg";
+
+
+
+
 
 // Chandigarh Golf Club
 import golfCover from "@/assets/chandigarh_golf_cover.webp";
 import golfTopview from "@/assets/Chandigarh_Golf_Club_topview.webp";
 
 // Paras Downtown Mall, Zirakpur
-import chandigarhSq2 from "@/assets/chandigarh_square/chandigarh_square2.webp";
+
 
 // Kasauli Retreat
-import kasauliCover from "@/assets/Kasauli/Kasuli_cover.webp";
-import kasauliInterior from "@/assets/Kasauli/Kasauli_Interior.webp";
-import kasauliSideview from "@/assets/Kasauli/sideview_Kasuli.webp";
-import kasauliInt2 from "@/assets/Kasauli/Kasuli_interior2.webp";
-import kasauliInt3 from "@/assets/Kasauli/kasuli_interior3.webp";
+import kasauliCover from "@/assets/Kasauli/Kasuli_cover.png";
+import kasauliInterior from "@/assets/Kasauli/kasuli_interior.png";
+import kasauliSideview from "@/assets/Kasauli/sideview_Kasuli.png";
+
+import kasauliInt3 from "@/assets/Kasauli/kasuli_exterior3.png";
 
 // University Campus (webp files missing — using closest available png fallbacks)
 import universityCover from "@/assets/Lajpat_Rai_University/Lajpat_Rai_uni1.png";
@@ -73,7 +73,7 @@ import uniLibrary from "@/assets/Ranbir_University/ranbir_university_interior.pn
 import vidhanSabha2 from "@/assets/Punjab_Haryana_HC.webp";
 
 // Amritsar exterior
-import amritsarExterior from "@/assets/Amritsar/Amrtisar_exterior.webp";
+
 
 // Galaxy Mall
 import ambalaHero from "@/assets/Ambala_Mall/Ambala_Mall_Hero.png";
@@ -100,15 +100,15 @@ import clinicInt1 from "@/assets/clinic/clinic2.png";
 import clinicPassage from "@/assets/clinic/clinic3.png";
 
 // Farmhouse
-import farmhouseCover from "@/assets/farmhouse/farmhouse.webp";
-import farmhouseExt1 from "@/assets/farmhouse/farmhouse_exterior.webp";
-import farmhouseExt2 from "@/assets/farmhouse/farmhouse_exterior2.webp";
+import farmhouseCover from "@/assets/farmhouse/image copy.png";
+import farmhouseExt1 from "@/assets/farmhouse/image.png";
+import farmhouseExt2 from "@/assets/farmhouse/image copy 2.png";
 import farmhouseInt1 from "@/assets/farmhouse/farmhouse_interior.webp";
 import farmhouseInt2 from "@/assets/farmhouse/farmhouse_interior2.webp";
 import farmhouseInt3 from "@/assets/farmhouse/farmhouse_interior3.webp";
 
 // Haryana CM Residence
-import haryanaCMInterior from "@/assets/haryana_CM_interior.webp";
+import haryanaCMInterior from "@/assets/Haryana_CM/HaryanaCm_hero.jpeg";
 
 // HP Tower (D141 H&H technologies)
 import hpTowerCover from "@/assets/D141 H&H technologies/HP_tower.png";
@@ -129,9 +129,9 @@ import landmarkWaveInt1 from "@/assets/Wave_Estate/Wave_state3.png";
 import landmarkWaveInt2 from "@/assets/Wave_Estate/Wave_state4.png";
 
 // Mohali Club (CLUBHOUSE TDI MOHALI)
-import mohaliClubCover from "@/assets/CLUBHOUSE TDI MOHALI/Mohali_club.png";
-import mohaliClubInt1 from "@/assets/CLUBHOUSE TDI MOHALI/mohali_club2.png";
-import mohaliInt2 from "@/assets/CLUBHOUSE TDI MOHALI/mohali_interior2.webp";
+import mohaliClubCover from "@/assets/mohali_club2.png";
+
+
 import mc1 from "@/assets/CLUBHOUSE TDI MOHALI/mc1.jpeg";
 import mc2 from "@/assets/CLUBHOUSE TDI MOHALI/mc2.jpeg";
 import mc3 from "@/assets/CLUBHOUSE TDI MOHALI/mc3.jpeg";
@@ -230,7 +230,18 @@ import am5 from "@/assets/Amritsar/Amritsar5.png";
 import am6 from "@/assets/Amritsar/Amritsar6.png";
 import am7 from "@/assets/Amritsar/Amritsar7.png";
 import am8 from "@/assets/Amritsar/Amritsar8.png";
-import amInt1Png from "@/assets/Amritsar/Amritsar_interior1.png";
+import am9 from "@/assets/Amritsar/am9.jpeg";
+import am10 from "@/assets/Amritsar/am10.jpeg";
+import am11 from "@/assets/Amritsar/am11.jpeg";
+import am12 from "@/assets/Amritsar/am12.jpeg";
+import am13 from "@/assets/Amritsar/am13.jpeg";
+import am14 from "@/assets/Amritsar/am14.jpeg";
+import am15 from "@/assets/Amritsar/am15.jpeg";
+import am16 from "@/assets/Amritsar/am16.jpeg";
+import am17 from "@/assets/Amritsar/am17.jpeg";
+import am18 from "@/assets/Amritsar/am18.jpeg";
+import am19 from "@/assets/Amritsar/am19.jpeg";
+
 
 // Clinic series (1–9)
 import cl1 from "@/assets/clinic/clinic1.png";
@@ -242,6 +253,11 @@ import cl6 from "@/assets/clinic/clinic6.png";
 import cl7 from "@/assets/clinic/clinic7.png";
 import cl8 from "@/assets/clinic/clinic8.png";
 import cl9 from "@/assets/clinic/clinic9.png";
+import cl10 from "@/assets/clinic/cl10.jpeg";
+import cl11 from "@/assets/clinic/cl11.jpeg";
+import cl12 from "@/assets/clinic/cl12.jpeg";
+import cl13 from "@/assets/clinic/cl13.jpeg";
+import cl14 from "@/assets/clinic/cl14.jpeg";
 
 // Farmhouse series (1–8)
 import fh3 from "@/assets/farmhouse/farmhouse3.png";
@@ -289,7 +305,7 @@ import lru2 from "@/assets/Lajpat_Rai_University/Lajpat_Rai_uni2.png";
 import lru3 from "@/assets/Lajpat_Rai_University/Lajpat_Rai_uni3.png";
 
 // Haryana CM (additional)
-import haryanaCmPng from "@/assets/haryana_cm.png";
+import haryanaCmPng from "@/assets/Haryana_CM/HaryanaCm_hero.jpeg";
 
 // Mahila Bhawan
 import mahilaBhawanImg from "@/assets/Mahila_Bhawan.png";
@@ -297,10 +313,10 @@ import mahilaBhawanImg from "@/assets/Mahila_Bhawan.png";
 // Galaxy World Mall - assets now migrated to Ambala_Mall folder
 
 // Hotel Barog Valley
-import hbv1 from "@/assets/Hotel_Barog_Valley/Hotel_Barog_Valley1.png";
-import hbv2 from "@/assets/Hotel_Barog_Valley/Hotel_Barog_Valley2.png";
-import hbv3 from "@/assets/Hotel_Barog_Valley/Hotel_Barog_Valley3.png";
-import hbv4 from "@/assets/Hotel_Barog_Valley/Hotel_Barog_Valley4.png";
+import hbv1 from "@/assets/Hotel_Barog_Valley/WhatsApp Image 2026-04-02 at 12.01.55.jpeg";
+import hbv2 from "@/assets/Hotel_Barog_Valley/WhatsApp Image 2026-04-02 at 12.01.55 (1).jpeg";
+import hbv3 from "@/assets/Hotel_Barog_Valley/WhatsApp Image 2026-04-02 at 12.01.56.jpeg";
+import hbv4 from "@/assets/Hotel_Barog_Valley/WhatsApp Image 2026-04-02 at 12.01.57.jpeg";
 
 // Devi Lal University
 import dlu1 from "@/assets/Devi_Lal_university/Devi_Lal_uni1.png";
@@ -730,7 +746,7 @@ export const allProjects: ProjectData[] = [
     location: "Amritsar, Punjab",
     year: "2015",
     image: amritsarCover,
-    gallery: [amritsarExterior, amritsarInt1, amritsarInt2, amritsarInt3, amritsarInt4, amInt1Png, am1, am2, am3, am4, am5, am6, am7, am8],
+    gallery: [am1, am2, am3, am4, am5, am6, am7, am8, am9, am10, am11, am12, am13, am14, am15, am16, am17, am18, am19],
     tagline: "A luxury hotel landmark bringing world-class hospitality to the city of the Golden Temple.",
     description:
       "Hotel Le Meridien, Amritsar is a landmark hospitality commission that demanded architecture capable of holding its own against one of the world's most iconic pilgrimage cities.\n\nThe hotel's design draws from the classical layering and material richness of Amritsari architecture — warm stone cladding, deep-set arched openings, and ornamental grilles — while delivering the spatial efficiency and contemporary comfort expected of an international five-star property. The arrival sequence is ceremonial: a long approach drive, a generous porte-cochère, and a double-height lobby whose proportions command immediate attention.\n\nGuest rooms are oriented to maximise natural light while maintaining privacy; the landscaped podium gardens and rooftop pool create a private world of calm within the city's vibrant fabric.",
@@ -746,7 +762,7 @@ export const allProjects: ProjectData[] = [
     location: "Chandigarh, India",
     year: "2015",
     image: golfCover,
-    gallery: [golfTopview],
+    gallery: [golfGalleryImg0, golfGalleryImg1, golfGalleryImg2, golfGalleryImg3, golfGalleryImg4, golfGalleryImg5, golfGalleryImg6, golfGalleryImg7, golfGalleryImg8, golfGalleryImg9, golfGalleryImg10, golfGalleryImg11],
     tagline: "A hospitality landmark set within the lush greens of Chandigarh.",
     description:
       "The Chandigarh Golf Club commission asked for a clubhouse facility that would be equally at home hosting elite tournament events and relaxed weekend rounds. The design responds to the landscape first — the building traces the contour of the 18th fairway, its long horizontal profile reading as a natural extension of the rolling greens rather than an imposition upon them.\n\nFrom the approach drive, the building presents a welcoming forecourt framed by a generous porte-cochère. Inside, the plan organises changing rooms, pro shop, bar, and dining room in a clear sequence from arrival to the panoramic terrace overlooking the course. The terrace — shaded by a deep cantilevered canopy — functions as the social heart of the building: a place to watch play, celebrate results, and simply enjoy the landscape.\n\nMaterial choices reinforce the relationship with the course: warm sandstone, open timber ceilings, and brass fittings that will patina beautifully over time.",
@@ -892,7 +908,7 @@ export const allProjects: ProjectData[] = [
     location: "Punjab, India",
     year: "2019",
     image: farmhouseCover,
-    gallery: [farmhouseExt1, farmhouseExt2, farmhouseInt1, farmhouseInt2, farmhouseInt3, fh3, fh4, fh5, fh6, fh7, fh8],
+    gallery: [fhGalleryImg0, fhGalleryImg1, fhGalleryImg2, fhGalleryImg3, fhGalleryImg4, fhGalleryImg5, fhGalleryImg6, fhGalleryImg7, fhGalleryImg8, fhGalleryImg9, fhGalleryImg10],
     tagline: "A countryside residence where open land and refined living meet.",
     description:
       "This private farmhouse occupies a generous rural landholding outside Chandigarh, its architecture conceived as a series of interlocking volumes that frame views across open fields while maintaining a composed, legible facade from the approach drive.\n\nThe plan separates the house into a formal wing for entertaining and guest accommodation and a private family wing oriented toward the garden and the evening sun. Both wings are connected by a covered verandah that runs the full length of the building — a threshold between interior and landscape that is the most-used space in the house.\n\nConstruction is in load-bearing brick with concrete-framed openings, the external walls finished in a warm ochre plaster that references the agricultural buildings of the Punjab plains. Interior finishes were selected for their material warmth and practicality: stone floors throughout, hand-painted tiles in the kitchen and bathrooms, and bespoke joinery crafted by local workshops.",
@@ -908,7 +924,7 @@ export const allProjects: ProjectData[] = [
     location: "Chandigarh, India",
     year: "2021",
     image: clinicCover,
-    gallery: [clinicInt1, clinicPassage, cl1, cl2, cl3, cl4, cl5, cl6, cl7, cl8, cl9],
+    gallery: [clinicGalleryImg0, clinicGalleryImg1, clinicGalleryImg2, clinicGalleryImg3, clinicGalleryImg4],
     tagline: "A healthcare interior that prioritises calm, clarity, and patient dignity.",
     description:
       "Designing a medical clinic requires resolving a fundamental tension: the space must be efficient and hygienic, yet calming and humane. This project in Chandigarh addressed that challenge through material restraint, careful spatial sequencing, and a palette chosen to reduce clinical anxiety without sacrificing cleanliness or function.\n\nThe entry and waiting area is deliberately airy, with high ceilings, warm-toned wall panels, and indirect lighting that avoids the harshness of conventional medical environments. Consultation rooms are compact but precisely planned — each with a window, good natural light, and storage that keeps clinical equipment out of sight when not in use.\n\nThe circulation spine — a wide, gently lit passage — connects all zones of the clinic while providing clear wayfinding. Materials throughout are selected for ease of cleaning and long-term durability: porcelain floor tiles, moisture-resistant wall finishes, and solid-core joinery.",
@@ -1007,7 +1023,7 @@ export const allProjects: ProjectData[] = [
     location: "Haryana, India",
     year: "2005",
     image: haryanaCmPng,
-    gallery: [haryanaCMInterior],
+    gallery: [haryanaCmGalleryImg0, haryanaCmGalleryImg1, haryanaCmGalleryImg2, haryanaCmGalleryImg3, haryanaCmGalleryImg4, haryanaCmGalleryImg5, haryanaCmGalleryImg6, haryanaCmGalleryImg7, haryanaCmGalleryImg8, haryanaCmGalleryImg9, haryanaCmGalleryImg10, haryanaCmGalleryImg11],
     tagline: "An official residence that balances state protocol with domestic grace.",
     description:
       "The Chief Minister's official residence in Haryana demanded an architecture that could hold two competing requirements simultaneously: the formal weight appropriate to a head-of-government residence, and the domestic comfort and privacy expected of a private home.\n\nThe design achieves this through clear zoning — public reception rooms occupy the formal front of the building, while the private residential quarters are set behind a landscaped court that screens them from the arrival sequence. The interior of the formal wing is designed for state occasions: high ceilings, generous circulation, and a material palette of marble, polished plaster, and solid timber that signals institutional quality without resorting to ostentation.\n\nEvery detail — from the pattern of the stone floors to the design of the window hardware — was treated with the same care the firm applies to its major public commissions.",
@@ -1050,7 +1066,7 @@ export const allProjects: ProjectData[] = [
     location: "Barog, Himachal Pradesh",
     year: "2021",
     image: hbv4,
-    gallery: [hbv1, hbv2, hbv3],
+    gallery: [hbvGalleryImg0, hbvGalleryImg1, hbvGalleryImg2, hbvGalleryImg3, hbvGalleryImg4, hbvGalleryImg5, hbvGalleryImg6, hbvGalleryImg7, hbvGalleryImg8],
     tagline: "A valley retreat where architecture and landscape merge seamlessly.",
     description:
       "Hotel Barog Valley is a hospitality project nestled in the scenic hills of Barog, Himachal Pradesh. The design responds to the dramatic topography by stepping the building down the slope, ensuring every guest room captures panoramic valley views.\n\nThe material palette draws from the local vernacular — stone masonry walls, timber-framed windows, and slate roofing — while providing the spatial efficiency and modern comfort expected of a contemporary hotel. Public spaces are oriented towards the valley, with generous terraces and lounges that blur the boundary between built form and landscape.",
