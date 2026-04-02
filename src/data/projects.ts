@@ -4,6 +4,113 @@
 // every part of the app (home preview, portfolio grid, detail page) shares
 // the same source of truth.
 
+
+// Auto generated imports for Hotel_Barog_Valley
+import hbvGalleryImg0 from "@/assets/Hotel_Barog_Valley/WhatsApp Image 2026-04-02 at 12.01.55 (1).jpeg";
+import hbvGalleryImg1 from "@/assets/Hotel_Barog_Valley/WhatsApp Image 2026-04-02 at 12.01.55 (2).jpeg";
+import hbvGalleryImg2 from "@/assets/Hotel_Barog_Valley/WhatsApp Image 2026-04-02 at 12.01.55.jpeg";
+import hbvGalleryImg3 from "@/assets/Hotel_Barog_Valley/WhatsApp Image 2026-04-02 at 12.01.56 (1).jpeg";
+import hbvGalleryImg4 from "@/assets/Hotel_Barog_Valley/WhatsApp Image 2026-04-02 at 12.01.56 (2).jpeg";
+import hbvGalleryImg5 from "@/assets/Hotel_Barog_Valley/WhatsApp Image 2026-04-02 at 12.01.56.jpeg";
+import hbvGalleryImg6 from "@/assets/Hotel_Barog_Valley/WhatsApp Image 2026-04-02 at 12.01.57 (1).jpeg";
+import hbvGalleryImg7 from "@/assets/Hotel_Barog_Valley/WhatsApp Image 2026-04-02 at 12.01.57 (2).jpeg";
+import hbvGalleryImg8 from "@/assets/Hotel_Barog_Valley/WhatsApp Image 2026-04-02 at 12.01.57.jpeg";
+
+
+// Auto generated imports for Kasauli
+import kasauliGalleryImg0 from "@/assets/Kasauli/image copy.png";
+import kasauliGalleryImg1 from "@/assets/Kasauli/image.png";
+import kasauliGalleryImg2 from "@/assets/Kasauli/Kasuli_cover.png";
+
+import kasauliGalleryImg4 from "@/assets/Kasauli/kasuli_exterior3.png";
+
+import kasauliGalleryImg6 from "@/assets/Kasauli/WhatsApp Image 2026-04-02 at 12.01.49 (1).jpeg";
+import kasauliGalleryImg7 from "@/assets/Kasauli/WhatsApp Image 2026-04-02 at 12.01.49 (2).jpeg";
+import kasauliGalleryImg8 from "@/assets/Kasauli/WhatsApp Image 2026-04-02 at 12.01.49.jpeg";
+import kasauliGalleryImg9 from "@/assets/Kasauli/WhatsApp Image 2026-04-02 at 12.01.50 (1).jpeg";
+import kasauliGalleryImg10 from "@/assets/Kasauli/WhatsApp Image 2026-04-02 at 12.01.50.jpeg";
+
+
+// Auto generated imports for chandigarh_square
+import chandigarhSqGalleryImg0 from "@/assets/chandigarh_square/chandigarh_square.png";
+import chandigarhSqGalleryImg1 from "@/assets/chandigarh_square/chandigarh_square15.png";
+import chandigarhSqGalleryImg2 from "@/assets/chandigarh_square/chandigarh_square16.png";
+import chandigarhSqGalleryImg3 from "@/assets/chandigarh_square/chandigarh_square18.png";
+import chandigarhSqGalleryImg4 from "@/assets/chandigarh_square/chandigarh_square19.png";
+import chandigarhSqGalleryImg5 from "@/assets/chandigarh_square/chandigarh_square20.png";
+import chandigarhSqGalleryImg6 from "@/assets/chandigarh_square/chandigarh_square21.png";
+import chandigarhSqGalleryImg7 from "@/assets/chandigarh_square/chandigarh_square22.png";
+import chandigarhSqGalleryImg8 from "@/assets/chandigarh_square/chandigarh_square23.png";
+import chandigarhSqGalleryImg9 from "@/assets/chandigarh_square/chandigarh_square24.png";
+import chandigarhSqGalleryImg10 from "@/assets/chandigarh_square/chandigarh_square25.png";
+import chandigarhSqGalleryImg11 from "@/assets/chandigarh_square/chandigarh_square6.png";
+import chandigarhSqGalleryImg12 from "@/assets/chandigarh_square/image copy 11.png";
+import chandigarhSqGalleryImg13 from "@/assets/chandigarh_square/image copy 12.png";
+import chandigarhSqGalleryImg14 from "@/assets/chandigarh_square/image copy 13.png";
+import chandigarhSqGalleryImg15 from "@/assets/chandigarh_square/image copy 14.png";
+import chandigarhSqGalleryImg16 from "@/assets/chandigarh_square/image copy 2.png";
+import chandigarhSqGalleryImg17 from "@/assets/chandigarh_square/image copy 3.png";
+import chandigarhSqGalleryImg18 from "@/assets/chandigarh_square/image copy 4.png";
+import chandigarhSqGalleryImg19 from "@/assets/chandigarh_square/image copy 5.png";
+import chandigarhSqGalleryImg20 from "@/assets/chandigarh_square/image copy 6.png";
+import chandigarhSqGalleryImg21 from "@/assets/chandigarh_square/image copy 7.png";
+import chandigarhSqGalleryImg22 from "@/assets/chandigarh_square/image copy 8.png";
+import chandigarhSqGalleryImg23 from "@/assets/chandigarh_square/image copy 9.png";
+import chandigarhSqGalleryImg24 from "@/assets/chandigarh_square/image copy.png";
+import chandigarhSqGalleryImg25 from "@/assets/chandigarh_square/image.png";
+
+
+// Auto generated imports for farmhouse
+import fhGalleryImg0 from "@/assets/farmhouse/farmhouse.png";
+import fhGalleryImg1 from "@/assets/farmhouse/farmhouse3.png";
+import fhGalleryImg2 from "@/assets/farmhouse/farmhouse5.png";
+import fhGalleryImg3 from "@/assets/farmhouse/farmhouse_exterior.png";
+import fhGalleryImg4 from "@/assets/farmhouse/farmhouse_exterior2.png";
+import fhGalleryImg5 from "@/assets/farmhouse/farmhouse_interior.png";
+import fhGalleryImg6 from "@/assets/farmhouse/farmhouse_interior2.png";
+import fhGalleryImg7 from "@/assets/farmhouse/farmhouse_interior3.png";
+import fhGalleryImg8 from "@/assets/farmhouse/image copy 2.png";
+import fhGalleryImg9 from "@/assets/farmhouse/image copy.png";
+import fhGalleryImg10 from "@/assets/farmhouse/image.png";
+
+
+// Auto generated imports for Golf_club
+import golfGalleryImg0 from "@/assets/Golf_club/WhatsApp Image 2026-04-02 at 12.01.51 (1).jpeg";
+import golfGalleryImg1 from "@/assets/Golf_club/WhatsApp Image 2026-04-02 at 12.01.51 (2).jpeg";
+import golfGalleryImg2 from "@/assets/Golf_club/WhatsApp Image 2026-04-02 at 12.01.51.jpeg";
+import golfGalleryImg3 from "@/assets/Golf_club/WhatsApp Image 2026-04-02 at 12.01.52 (1).jpeg";
+import golfGalleryImg4 from "@/assets/Golf_club/WhatsApp Image 2026-04-02 at 12.01.52 (2).jpeg";
+import golfGalleryImg5 from "@/assets/Golf_club/WhatsApp Image 2026-04-02 at 12.01.52.jpeg";
+import golfGalleryImg6 from "@/assets/Golf_club/WhatsApp Image 2026-04-02 at 12.01.53 (1).jpeg";
+import golfGalleryImg7 from "@/assets/Golf_club/WhatsApp Image 2026-04-02 at 12.01.53 (2).jpeg";
+import golfGalleryImg8 from "@/assets/Golf_club/WhatsApp Image 2026-04-02 at 12.01.53 (3).jpeg";
+import golfGalleryImg9 from "@/assets/Golf_club/WhatsApp Image 2026-04-02 at 12.01.53.jpeg";
+import golfGalleryImg10 from "@/assets/Golf_club/WhatsApp Image 2026-04-02 at 12.01.54 (1).jpeg";
+import golfGalleryImg11 from "@/assets/Golf_club/WhatsApp Image 2026-04-02 at 12.01.54.jpeg";
+
+
+// Auto generated imports for clinic
+import clinicGalleryImg0 from "@/assets/clinic/cl10.jpeg";
+import clinicGalleryImg1 from "@/assets/clinic/cl11.jpeg";
+import clinicGalleryImg2 from "@/assets/clinic/cl12.jpeg";
+import clinicGalleryImg3 from "@/assets/clinic/cl13.jpeg";
+import clinicGalleryImg4 from "@/assets/clinic/cl14.jpeg";
+
+
+// Auto generated imports for Haryana_CM
+import haryanaCmGalleryImg0 from "@/assets/Haryana_CM/HaryanaCm_hero.jpeg";
+import haryanaCmGalleryImg1 from "@/assets/Haryana_CM/WhatsApp Image 2026-04-02 at 12.02.03.jpeg";
+import haryanaCmGalleryImg2 from "@/assets/Haryana_CM/WhatsApp Image 2026-04-02 at 12.02.04 (1).jpeg";
+import haryanaCmGalleryImg3 from "@/assets/Haryana_CM/WhatsApp Image 2026-04-02 at 12.02.04 (2).jpeg";
+import haryanaCmGalleryImg4 from "@/assets/Haryana_CM/WhatsApp Image 2026-04-02 at 12.02.04.jpeg";
+import haryanaCmGalleryImg5 from "@/assets/Haryana_CM/WhatsApp Image 2026-04-02 at 12.02.05 (1).jpeg";
+import haryanaCmGalleryImg6 from "@/assets/Haryana_CM/WhatsApp Image 2026-04-02 at 12.02.05 (2).jpeg";
+import haryanaCmGalleryImg7 from "@/assets/Haryana_CM/WhatsApp Image 2026-04-02 at 12.02.05.jpeg";
+import haryanaCmGalleryImg8 from "@/assets/Haryana_CM/WhatsApp Image 2026-04-02 at 12.02.06 (1).jpeg";
+import haryanaCmGalleryImg9 from "@/assets/Haryana_CM/WhatsApp Image 2026-04-02 at 12.02.06.jpeg";
+import haryanaCmGalleryImg10 from "@/assets/Haryana_CM/WhatsApp Image 2026-04-02 at 12.02.07 (1).jpeg";
+import haryanaCmGalleryImg11 from "@/assets/Haryana_CM/WhatsApp Image 2026-04-02 at 12.02.07.jpeg";
+
 export interface ProjectData {
   slug: string;
   title: string;
@@ -26,15 +133,15 @@ export interface ProjectData {
 
 // ── Real project assets (WebP — 91% smaller than PNG originals) ──────────────
 // Vidhan Sabha
-import vidhanSabhaImg from "@/assets/Punjab_Haryana_HC.webp";
+
 
 //Baghat_university
-import baghatCover from "@/assets/bhagat_cover.png";
-import baghatInt1 from "@/assets/baghat_interior.png";
+
+
 import baghatInt2 from "@/assets/bhagat_exterior.png";
 
 // Punjab & Haryana High Court
-import punjabHCImg from "@/assets/Punjab_Haryana_HC.webp";
+
 
 // Chandigarh square cover (was .webp, only .png exists)
 import chandigarhSqCover from "@/assets/chandigarh_square/chandigarh_square.png";
@@ -47,30 +154,34 @@ import amritsarCover from "@/assets/Amritsar/Le_meriden_Hero.jpeg";
 
 
 // Chandigarh Golf Club
-import golfCover from "@/assets/chandigarh_golf_cover.webp";
-import golfTopview from "@/assets/Chandigarh_Golf_Club_topview.webp";
+import golfCover from "@/assets/Golf_club/WhatsApp Image 2026-04-02 at 12.01.51 (1).jpeg";
+import golfTopview from "@/assets/Golf_club/WhatsApp Image 2026-04-02 at 12.01.51 (2).jpeg";
 
 // Paras Downtown Mall, Zirakpur
 
 
 // Kasauli Retreat
 import kasauliCover from "@/assets/Kasauli/Kasuli_cover.png";
-import kasauliInterior from "@/assets/Kasauli/kasuli_interior.png";
-import kasauliSideview from "@/assets/Kasauli/sideview_Kasuli.png";
-
-import kasauliInt3 from "@/assets/Kasauli/kasuli_exterior3.png";
+import kasauliImg1 from "@/assets/Kasauli/WhatsApp Image 2026-04-02 at 12.01.49 (1).jpeg";
+import kasauliImg2 from "@/assets/Kasauli/WhatsApp Image 2026-04-02 at 12.01.49 (2).jpeg";
+import kasauliImg3 from "@/assets/Kasauli/WhatsApp Image 2026-04-02 at 12.01.49.jpeg";
+import kasauliImg4 from "@/assets/Kasauli/WhatsApp Image 2026-04-02 at 12.01.50 (1).jpeg";
+import kasauliImg5 from "@/assets/Kasauli/WhatsApp Image 2026-04-02 at 12.01.50.jpeg";
+import kasauliImg6 from "@/assets/Kasauli/image copy.png";
+import kasauliImg7 from "@/assets/Kasauli/image.png";
+import kasauliImg8 from "@/assets/Kasauli/kasuli_exterior3.png";
 
 // University Campus (webp files missing — using closest available png fallbacks)
 import universityCover from "@/assets/Lajpat_Rai_University/Lajpat_Rai_uni1.png";
-import universityInt1 from "@/assets/Lajpat_Rai_University/Lajpat_Rai_uni2.png";
+
 import universityInt2 from "@/assets/Lajpat_Rai_University/Lajpat_Rai_uni3.png";
 import uniAdmin from "@/assets/Ranbir_University/ranbir_uni.png";
-import uniBuilding from "@/assets/Ranbir_University/ranbir_singh1.png";
+
 import uniBuildingInt from "@/assets/Ranbir_University/ranbir_uni_interior.png";
 import uniLibrary from "@/assets/Ranbir_University/ranbir_university_interior.png";
 
 // Vidhan Sabha extra (webp missing — reusing HC image)
-import vidhanSabha2 from "@/assets/Punjab_Haryana_HC.webp";
+
 
 // Amritsar exterior
 
@@ -95,9 +206,9 @@ import amb4 from "@/assets/Ambala_Mall/amb4.jpeg";
 import amb5 from "@/assets/Ambala_Mall/amb5.jpeg";
 
 // Clinic (webp files missing — using numbered png fallbacks)
-import clinicCover from "@/assets/clinic/clinic1.png";
-import clinicInt1 from "@/assets/clinic/clinic2.png";
-import clinicPassage from "@/assets/clinic/clinic3.png";
+
+
+
 
 // Farmhouse
 import farmhouseCover from "@/assets/farmhouse/image copy.png";
@@ -112,29 +223,29 @@ import haryanaCMInterior from "@/assets/Haryana_CM/HaryanaCm_hero.jpeg";
 
 // HP Tower (D141 H&H technologies)
 import hpTowerCover from "@/assets/D141 H&H technologies/HP_tower.png";
-import hpTower2 from "@/assets/D141 H&H technologies/HP_interior.webp";
-import hpInterior from "@/assets/D141 H&H technologies/HP_interior.webp";
+
+
 import hp1 from "@/assets/D141 H&H technologies/hp1.jpeg";
 import hp2 from "@/assets/D141 H&H technologies/hp2.jpeg";
 import hp3 from "@/assets/D141 H&H technologies/hp3.jpeg";
 import hp4 from "@/assets/D141 H&H technologies/hp4.jpeg";
 import hp5 from "@/assets/D141 H&H technologies/hp5.jpeg";
 import hp6 from "@/assets/D141 H&H technologies/hp6.png";
-import hpIntPng from "@/assets/D141 H&H technologies/hpInteriorPng.png";
+
 
 // LandMark Wave (all webp files missing — using Wave_state png as placeholders)
 import landmarkWaveCover from "@/assets/Wave_Estate/Wave_state1.png";
 import landmarkWaveExt from "@/assets/Wave_Estate/Wave_state2.png";
-import landmarkWaveInt1 from "@/assets/Wave_Estate/Wave_state3.png";
-import landmarkWaveInt2 from "@/assets/Wave_Estate/Wave_state4.png";
+
+
 
 // Mohali Club (CLUBHOUSE TDI MOHALI)
-import mohaliClubCover from "@/assets/mohali_club2.png";
+
 
 
 import mc1 from "@/assets/CLUBHOUSE TDI MOHALI/mc1.jpeg";
 import mc2 from "@/assets/CLUBHOUSE TDI MOHALI/mc2.jpeg";
-import mc3 from "@/assets/CLUBHOUSE TDI MOHALI/mc3.jpeg";
+
 import mc4 from "@/assets/CLUBHOUSE TDI MOHALI/mc4.jpeg";
 
 // Reception
@@ -162,21 +273,21 @@ import nv9 from "@/assets/NV_Distilleries/nv9.jpeg";
 import nv10 from "@/assets/NV_Distilleries/nv10.jpeg";
 
 // TRIAM Tower
-import triamCover from "@/assets/TRIAM TOWER/triam_cover.png";
+
 import triamExterior from "@/assets/TRIAM TOWER/traim_exterior.png";
-import triamExterior2 from "@/assets/TRIAM TOWER/triam_exterior2.png";
+
 import triam1 from "@/assets/TRIAM TOWER/triam1.jpeg";
 import triam2 from "@/assets/TRIAM TOWER/triam2.jpeg";
 import triam3 from "@/assets/TRIAM TOWER/triam3.jpeg";
 
 // Kurukshetra University
-// import kurkushetraExterior from "@/assets/kurkushetra_exterior.png";
-// import kurkushetraExterior3 from "@/assets/kurkushetra_exterior3.png";
-// import kurkushetraExterior4 from "@/assets/kurkushetra_exterior4.png";
-// import kurkushetraInterior from "@/assets/kurkushetra_interior.png";
-// import kurkushetraInterior1 from "@/assets/kurkushetra_interior1.png";
-// import kurkushetraInterior2 from "@/assets/kurkushetra_interior2.png";
-// import kurshetraExte from "@/assets/kurshetra_exte.png";
+// 
+// 
+// 
+// 
+// 
+// 
+// 
 import ku1 from "@/assets/Kurushetra_University/ku1.jpeg"
 import ku2 from "@/assets/Kurushetra_University/ku2.jpeg"
 import ku3 from "@/assets/Kurushetra_University/ku3.jpeg"
@@ -190,28 +301,28 @@ import ku10 from "@/assets/Kurushetra_University/ku10.jpeg"
 import kuHero from "@/assets/Kurushetra_University/kuHero.jpg"
 
 // RGTPP Residential Township
-import rgtppTower from "@/assets/residence_tower.png";
+
 
 // ── New image imports (added for new assets) ─────────────────────────────────
 
 // Chandigarh Square series (1–25)
 import csCoverPng from "@/assets/chandigarh_square/chandigarh_square.png";
-import cs1 from "@/assets/chandigarh_square/chandigarh_square1.png";
-import cs2 from "@/assets/chandigarh_square/chandigarh_square2.png";
-import cs3 from "@/assets/chandigarh_square/chandigarh_square3.png";
-import cs4 from "@/assets/chandigarh_square/chandigarh_square4.png";
-import cs5 from "@/assets/chandigarh_square/chandigarh_square5.png";
+
+
+
+
+
 import cs6 from "@/assets/chandigarh_square/chandigarh_square6.png";
-import cs7 from "@/assets/chandigarh_square/chandigarh_square7.png";
-import cs9 from "@/assets/chandigarh_square/chandigarh_square9.png";
-import cs10 from "@/assets/chandigarh_square/chandigarh_square10.png";
-import cs11 from "@/assets/chandigarh_square/chandigarh_square11.png";
-import cs12 from "@/assets/chandigarh_square/chandigarh_square12.png";
-import cs13 from "@/assets/chandigarh_square/chandigarh_square13.png";
-import cs14 from "@/assets/chandigarh_square/chandigarh_square14.png";
+
+
+
+
+
+
+
 import cs15 from "@/assets/chandigarh_square/chandigarh_square15.png";
 import cs16 from "@/assets/chandigarh_square/chandigarh_square16.png";
-import cs17 from "@/assets/chandigarh_square/chandigarh_square17.png";
+
 import cs18 from "@/assets/chandigarh_square/chandigarh_square18.png";
 import cs19 from "@/assets/chandigarh_square/chandigarh_square19.png";
 import cs20 from "@/assets/chandigarh_square/chandigarh_square20.png";
@@ -222,14 +333,14 @@ import cs24 from "@/assets/chandigarh_square/chandigarh_square24.png";
 import cs25 from "@/assets/chandigarh_square/chandigarh_square25.png";
 
 // Amritsar series (1–8)
-import am1 from "@/assets/Amritsar/Amritsar1.png";
-import am2 from "@/assets/Amritsar/Amritsar2.png";
-import am3 from "@/assets/Amritsar/Amritsar3.png";
-import am4 from "@/assets/Amritsar/Amritsar4.png";
-import am5 from "@/assets/Amritsar/Amritsar5.png";
-import am6 from "@/assets/Amritsar/Amritsar6.png";
-import am7 from "@/assets/Amritsar/Amritsar7.png";
-import am8 from "@/assets/Amritsar/Amritsar8.png";
+
+
+
+
+
+
+
+
 import am9 from "@/assets/Amritsar/am9.jpeg";
 import am10 from "@/assets/Amritsar/am10.jpeg";
 import am11 from "@/assets/Amritsar/am11.jpeg";
@@ -244,15 +355,15 @@ import am19 from "@/assets/Amritsar/am19.jpeg";
 
 
 // Clinic series (1–9)
-import cl1 from "@/assets/clinic/clinic1.png";
-import cl2 from "@/assets/clinic/clinic2.png";
-import cl3 from "@/assets/clinic/clinic3.png";
-import cl4 from "@/assets/clinic/clinic4.png";
-import cl5 from "@/assets/clinic/clinic5.png";
-import cl6 from "@/assets/clinic/clinic6.png";
-import cl7 from "@/assets/clinic/clinic7.png";
-import cl8 from "@/assets/clinic/clinic8.png";
-import cl9 from "@/assets/clinic/clinic9.png";
+
+
+
+
+
+
+
+
+
 import cl10 from "@/assets/clinic/cl10.jpeg";
 import cl11 from "@/assets/clinic/cl11.jpeg";
 import cl12 from "@/assets/clinic/cl12.jpeg";
@@ -261,11 +372,11 @@ import cl14 from "@/assets/clinic/cl14.jpeg";
 
 // Farmhouse series (1–8)
 import fh3 from "@/assets/farmhouse/farmhouse3.png";
-import fh4 from "@/assets/farmhouse/farmhouse4.png";
+
 import fh5 from "@/assets/farmhouse/farmhouse5.png";
-import fh6 from "@/assets/farmhouse/farmhouse6.png";
-import fh7 from "@/assets/farmhouse/farmhouse7.png";
-import fh8 from "@/assets/farmhouse/farmhouse8.png";
+
+
+
 
 // BPSMV (Bhagat Phool Singh Mahila Vishwavidyalaya)
 import bpsmv1 from "@/assets/BPSMV/BPSMV1.png";
@@ -276,39 +387,39 @@ import bpsmv5 from "@/assets/BPSMV/BPSMV5.png";
 import bpsv from "@/assets/BPSMV/BPSV.png";
 
 // Mohali Club (additional)
-import mohaliClubPng from "@/assets/Mohali_club.png";
-import mohaliClub2 from "@/assets/mohali_club2.png";
+
+
 
 // NV Distilleries (additional)
 import nvExterior4 from "@/assets/NV_Distilleries/NV_exterior4.png";
 
 // Kasauli (additional)
-import kasuliCollage from "@/assets/Kasauli/kasuli_collage.png";
-import kasuliExteriorPng from "@/assets/Kasauli/kasuli_exterior.png";
+
+
 import kasuliExterior3 from "@/assets/Kasauli/kasuli_exterior3.png";
-import kasuliExterior4 from "@/assets/Kasauli/kasuli_exterior4.png";
-import kasuliFloor from "@/assets/Kasauli/kasuli_floor.png";
-import kasuliInteriorPng from "@/assets/Kasauli/kasuli_interior.png";
+
+
+
 
 // Ranbir Singh / CRSU
-import rs1 from "@/assets/Ranbir_University/ranbir_singh1.png";
-import rs2 from "@/assets/Ranbir_University/ranbir_singh2.png";
-import rs3 from "@/assets/Ranbir_University/ranbir_singh3.png";
-import rs4 from "@/assets/Ranbir_University/ranbir_singh4.png";
+
+
+
+
 import ranbirUni from "@/assets/Ranbir_University/ranbir_uni.png";
 import ranbirUniInt from "@/assets/Ranbir_University/ranbir_uni_interior.png";
 import ranbirUniInt2 from "@/assets/Ranbir_University/ranbir_university_interior.png";
 
 // Lajpat Rai University
 import lru1 from "@/assets/Lajpat_Rai_University/Lajpat_Rai_uni1.png";
-import lru2 from "@/assets/Lajpat_Rai_University/Lajpat_Rai_uni2.png";
+
 import lru3 from "@/assets/Lajpat_Rai_University/Lajpat_Rai_uni3.png";
 
 // Haryana CM (additional)
 import haryanaCmPng from "@/assets/Haryana_CM/HaryanaCm_hero.jpeg";
 
 // Mahila Bhawan
-import mahilaBhawanImg from "@/assets/Mahila_Bhawan.png";
+
 
 // Galaxy World Mall - assets now migrated to Ambala_Mall folder
 
@@ -327,7 +438,7 @@ import dlu3 from "@/assets/Devi_Lal_university/Devi_Lal_uni3.png";
 import fv1 from "@/assets/Farmville/Farmville6.png";
 import fv4 from "@/assets/Farmville/Farmville4.png";
 import fv5 from "@/assets/Farmville/Farmville5.png";
-import fv6 from "@/assets/Farmville/Farmville1.png";
+
 
 // Wave State
 import ws1 from "@/assets/Wave_Estate/Wave_state1.png";
@@ -387,11 +498,11 @@ import dhr10 from "@/assets/Dr.Harkant/Dr_Harkant_residence10.png";
 // Ecocity
 import eco1 from "@/assets/Ecocity/Ecocity3.png";
 import eco3 from "@/assets/Ecocity/Ecocity1.png";
-import eco4 from "@/assets/Ecocity/Ecocity4.png";
+
 
 // Doon
 import doonHero from "@/assets/dvsHero.jpg"
-import doonImg from "@/assets/Doon/Doon.png";
+
 import doon1 from "@/assets/Doon/Doon Valley School series number 1.png";
 import doon2 from "@/assets/Doon/Doon Valley School series number 2.png";
 import doon3 from "@/assets/Doon/Doon Valley School series number 3.png";
@@ -403,12 +514,12 @@ import doon8 from "@/assets/Doon/Doon Valley School series number 8.png";
 import doon9 from "@/assets/Doon/Doon Valley School series number 9.png";
 
 // Mandir
-import mandirImg from "@/assets/Mandir.png";
-import mandir2Img from "@/assets/Mandir2.png";
+
+
 
 // SBFI
-import sbfiImg from "@/assets/SBFI.png";
-import sbfi2Img from "@/assets/SBFI2.png";
+
+
 
 // Pt. Sundarlal Sharma Open University
 import sunderlalImg1 from "@/assets/Sunderlal_University/SUNDERLAL_UNIVERSITY_1.png";
@@ -584,7 +695,7 @@ import gt59 from "@/assets/Galaxy_towership/galaxy townshipseries number 59.png"
 import gt60 from "@/assets/Galaxy_towership/galaxy townshipseries number 60.png";
 import gt61 from "@/assets/Galaxy_towership/galaxy townshipseries number 61.png";
 import gt62 from "@/assets/Galaxy_towership/galaxy townshipseries number 62.png";
-import gt63 from "@/assets/Galaxy_towership/galaxy townshipseries number 63.png";
+
 
 // Bansal Mixed Land Use series (1–20)
 import bmu1 from "@/assets/bansal_mixed/bansal mixed series number 1.png";
@@ -616,12 +727,12 @@ import dg4 from "@/assets/Dr.Gupta/Dr. Gupta series number 4.png";
 import dg5 from "@/assets/Dr.Gupta/Dr. Gupta series number 5.png";
 import dg6 from "@/assets/Dr.Gupta/Dr. Gupta series number 6.png";
 import dg7 from "@/assets/Dr.Gupta/Dr. Gupta series number 7.png";
-import dg8 from "@/assets/Dr.Gupta/Dr. Gupta series number 8.png";
-import dg9 from "@/assets/Dr.Gupta/Dr. Gupta series number 9.png";
+
+
 import dg10 from "@/assets/Dr.Gupta/Dr. Gupta series number 10.png";
 import dg11 from "@/assets/Dr.Gupta/Dr. Gupta series number 11.png";
-import dg12 from "@/assets/Dr.Gupta/Dr. Gupta series number 12.png";
-import dg13 from "@/assets/Dr.Gupta/Dr. Gupta series number 13.png";
+
+
 import dg14 from "@/assets/Dr.Gupta/Dr. Gupta series number 14.png";
 import dg15 from "@/assets/Dr.Gupta/Dr. Gupta series number 15.png";
 import dg16 from "@/assets/Dr.Gupta/Dr. Gupta series number 16.png";
@@ -746,7 +857,7 @@ export const allProjects: ProjectData[] = [
     location: "Amritsar, Punjab",
     year: "2015",
     image: amritsarCover,
-    gallery: [am1, am2, am3, am4, am5, am6, am7, am8, am9, am10, am11, am12, am13, am14, am15, am16, am17, am18, am19],
+    gallery: [        am9, am10, am11, am12, am13, am14, am15, am16, am17, am18, am19],
     tagline: "A luxury hotel landmark bringing world-class hospitality to the city of the Golden Temple.",
     description:
       "Hotel Le Meridien, Amritsar is a landmark hospitality commission that demanded architecture capable of holding its own against one of the world's most iconic pilgrimage cities.\n\nThe hotel's design draws from the classical layering and material richness of Amritsari architecture — warm stone cladding, deep-set arched openings, and ornamental grilles — while delivering the spatial efficiency and contemporary comfort expected of an international five-star property. The arrival sequence is ceremonial: a long approach drive, a generous porte-cochère, and a double-height lobby whose proportions command immediate attention.\n\nGuest rooms are oriented to maximise natural light while maintaining privacy; the landscaped podium gardens and rooftop pool create a private world of calm within the city's vibrant fabric.",
@@ -779,11 +890,10 @@ export const allProjects: ProjectData[] = [
     year: "2020",
     image: chandigarhSqCover,
     gallery: [
-      chandigarhSq2, csCoverPng,
-      cs1, cs2, cs3, cs4, cs5, cs6, cs7, cs9, cs10,
-      cs11, cs12, cs13, cs14, cs15, cs16, cs17, cs18, cs19, cs20,
-      cs21, cs22, cs23, cs24, cs25,
-    ],
+       csCoverPng,
+           cs6,   
+          cs15, cs16,  cs18, cs19, cs20,
+      cs21, cs22, cs23, cs24, cs25],
     priority: 4,
     tagline: "A striking modern landmark designed as a premier commercial and lifestyle destination.",
     description: "Chandigarh Square is a striking modern landmark designed as a premier commercial and lifestyle destination. The project features a sleek, multi-story glass facade accented by intricate white geometric overlays and contemporary curved balconies, creating a high-end visual identity.\n\nThe architectural experience is anchored by an expansive, designer plaza that prioritizes pedestrian comfort and aesthetic appeal. Featuring a sophisticated layout of linear stone paving, symmetrical water fountains, and integrated brick-cladded planters with lush greenery, the courtyard serves as a vibrant social hub.",
@@ -798,8 +908,8 @@ export const allProjects: ProjectData[] = [
     priority: 3,
     location: "Mohali, Punjab",
     year: "2017",
-    image: mohaliClubCover,
-    gallery: [mohaliClubInt1, mohaliInt2, mc1, mc2, mc3, mc4],
+    image: mc1,
+    gallery: [mc1, mc2,  mc4],
     tagline: "A members' club conceived for leisure, community, and refined living.",
     description:
       "The Mohali Club is a private members' facility serving one of Punjab's fastest-growing residential and commercial precincts. The brief called for a clubhouse that would feel genuinely exclusive without being unwelcoming — a place where members could entertain guests, conduct informal business, or simply relax in surroundings of understated quality.\n\nThe building is organised around a landscaped internal courtyard that acts as a cooling device, a visual amenity, and a spatial anchor. Dining, bar, and lounge spaces wrap this courtyard on three sides, each zone with a distinct character but unified by a consistent material language of terracotta tile, teak joinery, and painted plaster.\n\nA sports wing to the rear houses a gymnasium, squash courts, and a 25-metre pool. The connection between social and sports wings was designed as a sheltered walkway lined with planting — a transition that reinforces the sense of moving through different parts of a composed estate rather than a single building.",
@@ -815,7 +925,7 @@ export const allProjects: ProjectData[] = [
     location: "Kasauli, Himachal Pradesh",
     year: "2020",
     image: kasauliCover,
-    gallery: [kasauliSideview, kasauliInterior, kasauliInt2, kasauliInt3, kasuliCollage, kasuliExteriorPng, kasuliExterior3, kasuliExterior4, kasuliFloor, kasuliInteriorPng],
+    gallery: [kasauliCover, kasauliImg1, kasauliImg2, kasauliImg3, kasauliImg4, kasauliImg5, kasauliImg6, kasauliImg7, kasauliImg8],
     tagline: "A hillside retreat where architecture defers entirely to the landscape.",
     description:
       "Perched on a cedar-forested ridge above Kasauli, this private retreat was designed around a deceptively simple proposition: build as little as possible, and make every built element count.\n\nThe single-storey plan traces the contour of the hillside, minimising cut and fill while aligning all primary living spaces toward the valley panorama. The structure is a hybrid of local stone masonry — echoing the vernacular buildings of the region — and precision-fabricated steel that enables the generous overhangs and cantilevered decks which are the building's signature moments.\n\nInteriors are spare and material-honest: exposed stone walls, wide-plank timber floors, and a restrained palette of white-washed surfaces that frame rather than compete with the views. The retreat operates off-grid with solar generation, rainwater harvesting, and passive heating strategies appropriate to the mountain climate.",
@@ -853,7 +963,7 @@ export const allProjects: ProjectData[] = [
     location: "Chandigarh, India",
     year: "2014",
     image: hpTowerCover,
-    gallery: [hpTower2, hpInterior, hpIntPng, hp1, hp2, hp3, hp4, hp5, hp6],
+    gallery: [   hp1, hp2, hp3, hp4, hp5, hp6],
     priority: 1,
     tagline: "Corporate presence and civic identity in one composed tower form.",
     description:
@@ -869,8 +979,8 @@ export const allProjects: ProjectData[] = [
     category: "Corporate",
     location: "Sector 83, Alpha, India",
     year: "2020",
-    image: triamCover,
-    gallery: [triamExterior, triamExterior2, triam1, triam2, triam3],
+    image: triamExterior,
+    gallery: [triamExterior,  triam1, triam2, triam3],
     priority: 2,
     tagline: "A bold corporate tower designed for presence and performance.",
     description:
@@ -889,9 +999,7 @@ export const allProjects: ProjectData[] = [
     image: nvCover,
     gallery: [
       nvExterior, nvExterior2, nvExterior3, nvExterior4, nvInterior, nvInterior2,
-      nv1, nv2, nv3, nv4, nv5, nv6, nv7, nv8, nv9, nv10,
-      mandirImg, mandir2Img
-    ],
+      nv1, nv2, nv3, nv4, nv5, nv6, nv7, nv8, nv9, nv10],
     priority: 1,
     tagline: "A purpose-built corporate facility for one of India's leading beverage enterprises.",
     description:
@@ -923,7 +1031,7 @@ export const allProjects: ProjectData[] = [
     category: "Interior",
     location: "Chandigarh, India",
     year: "2021",
-    image: clinicCover,
+    image: clinicGalleryImg0,
     gallery: [clinicGalleryImg0, clinicGalleryImg1, clinicGalleryImg2, clinicGalleryImg3, clinicGalleryImg4],
     tagline: "A healthcare interior that prioritises calm, clarity, and patient dignity.",
     description:
@@ -956,7 +1064,7 @@ export const allProjects: ProjectData[] = [
     location: "Haryana, India",
     year: "2005",
     image: haryanaCMInterior,
-    gallery: [],
+    gallery: [haryanaCmGalleryImg0, haryanaCmGalleryImg1, haryanaCmGalleryImg2, haryanaCmGalleryImg3, haryanaCmGalleryImg4, haryanaCmGalleryImg5, haryanaCmGalleryImg6, haryanaCmGalleryImg7, haryanaCmGalleryImg8, haryanaCmGalleryImg9, haryanaCmGalleryImg10, haryanaCmGalleryImg11],
     tagline: "An interior of quiet authority befitting the office of the Chief Minister.",
     description:
       "The interior of the Haryana Chief Minister Secretariat Building was designed to project institutional authority while maintaining the warmth and functionality required of a working government building.\n\nPublic-facing areas — the reception hall, conference rooms, and ministerial lobbies — employ a restrained palette of marble, polished plaster, and solid timber that signals quality without ostentation. Private offices and working areas are planned for efficiency and natural light, with bespoke joinery and carefully selected furnishings that reinforce the building's character of measured dignity.\n\nThe project demonstrates the firm's ability to translate civic purpose into interior spaces that serve both protocol and daily governance.",
@@ -1006,7 +1114,7 @@ export const allProjects: ProjectData[] = [
     category: "Misc",
     location: "Hisar, Haryana",
     year: "2015",
-    image: rgtppTower,
+    image: "",
     gallery: [],
     tagline: "A planned residential township serving the Rajiv Gandhi Thermal Power Plant community.",
     description:
@@ -1083,7 +1191,7 @@ export const allProjects: ProjectData[] = [
     location: "Punjab, India",
     year: "2022",
     image: fv5,
-    gallery: [fv1, fv4, fv6],
+    gallery: [fv1, fv4],
     tagline: "A rural residential estate blending countryside charm with modern living.",
     description:
       "Farmville is a residential estate that reimagines rural living through a contemporary architectural lens. The project organises a series of dwelling units within a lush, landscaped setting that preserves the openness and tranquillity of the agricultural landscape.\n\nEach residence is designed to frame views across open fields while maintaining privacy and a composed facade from the shared estate roads. Construction employs local materials — brick, stone, and timber — finished to a standard that balances rural authenticity with the expectations of modern domestic comfort.",
@@ -1134,7 +1242,7 @@ export const allProjects: ProjectData[] = [
     location: "Ecocity, New Chandigarh",
     year: "2025",
     image: eco3,
-    gallery: [eco1, eco4],
+    gallery: [eco1],
     tagline: "Modern luxury living defined by comfort, exclusivity, and understated elegance.",
     description: "Designed for modern luxury living, the home offers generous indoor spaces that seamlessly connect to outdoor areas, including landscaped surroundings and open terraces. The secure entry and thoughtfully designed layout ensure privacy while maintaining a welcoming atmosphere. This project embodies comfort, exclusivity, and understated elegance in a contemporary residential setting.",
     area: "4,590.7 sq ft",
@@ -1149,7 +1257,7 @@ export const allProjects: ProjectData[] = [
     location: "Solan, Himachal Pradesh",
     year: "2023",
     image: doonHero,
-    gallery: [doon1, doon2, doon3, doon4, doon5, doon6, doon7, doon8, doon9, doonImg],
+    gallery: [doon1, doon2, doon3, doon4, doon5, doon6, doon7, doon8, doon9],
     tagline: "A student-centric campus designed for intuitive learning and interaction.",
     description:
       "The Doon Valley School is designed as a student-centric campus that promotes learning, interaction, and easy movement through clear spatial planning and intuitive circulation. The architecture combines simple rectilinear forms with subtle curves, while exposed brick gives the building a warm and timeless character.\n\nSemi-open spaces, terraces, and shaded balconies extend learning beyond classrooms, encouraging interaction and comfort. Integrated greenery and climate-responsive features create a pleasant environment, resulting in a cohesive and engaging space for education and growth.",
@@ -1233,7 +1341,7 @@ export const allProjects: ProjectData[] = [
     location: "Mohali, Punjab",
     year: "2023",
     image: gt1,
-    gallery: [gt1, gt2, gt3, gt4, gt5, gt6, gt7, gt8, gt9, gt10, gt11, gt12, gt13, gt14, gt15, gt16, gt17, gt18, gt19, gt20, gt21, gt22, gt23, gt24, gt25, gt26, gt27, gt28, gt29, gt30, gt31, gt32, gt33, gt34, gt35, gt36, gt37, gt38, gt39, gt40, gt41, gt42, gt43, gt44, gt45, gt46, gt47, gt48, gt49, gt50, gt51, gt52, gt53, gt54, gt55, gt56, gt57, gt58, gt59, gt60, gt61, gt62, gt63],
+    gallery: [gt1, gt2, gt3, gt4, gt5, gt6, gt7, gt8, gt9, gt10, gt11, gt12, gt13, gt14, gt15, gt16, gt17, gt18, gt19, gt20, gt21, gt22, gt23, gt24, gt25, gt26, gt27, gt28, gt29, gt30, gt31, gt32, gt33, gt34, gt35, gt36, gt37, gt38, gt39, gt40, gt41, gt42, gt43, gt44, gt45, gt46, gt47, gt48, gt49, gt50, gt51, gt52, gt53, gt54, gt55, gt56, gt57, gt58, gt59, gt60, gt61, gt62],
     tagline: "A master-planned residential township set within Mohali's evolving urban fabric.",
     description: "Galaxy Township represents a significant milestone in master-planned residential development, offering a harmonious blend of modern living spaces and innovative township infrastructure. These sample residences showcase the architectural commitment to high-quality domestic environments, integrating natural light, efficient spatial layout, and contemporary material palettes. The broader township framework prioritizes community interaction, green connectivity, and sustainable urban growth, providing a comprehensive blueprint for long-term residential excellence.",
     area: "110 acres",
@@ -1263,7 +1371,7 @@ export const allProjects: ProjectData[] = [
     location: "Sector 8, Panchkula, Haryana",
     year: "2023",
     image: dg1,
-    gallery: [dg1, dg2, dg3, dg4, dg5, dg6, dg7, dg8, dg9, dg10, dg11, dg12, dg13, dg14, dg15, dg16],
+    gallery: [dg1, dg2, dg3, dg4, dg5, dg6, dg7,   dg10, dg11,   dg14, dg15, dg16],
     tagline: "A refined expression of contemporary living, where comfort, elegance, and functionality meet.",
     description:
       "This residence in Sector 8, Panchkula is designed as a refined expression of contemporary living, where comfort, elegance, and functionality come together seamlessly. The interiors follow a cohesive design language, defined by clean lines, balanced proportions, and a warm, neutral material palette.\n\nThe private spaces, including the bedrooms, are conceived as serene retreats—featuring soft ambient lighting, layered textures, and carefully detailed wall treatments that add depth without overwhelming the space. Bespoke furniture and curated elements enhance both comfort and visual identity.\n\nA dedicated lounge and recreation area introduces a more intimate and indulgent dimension to the home. Designed as a social and leisure hub, the space features rich materials, mood lighting, and a sophisticated ambiance, creating the perfect setting for relaxation and entertainment. The integration of custom shelving, accent lighting, and comfortable seating adds both functionality and character.\n\nAcross the residence, the design emphasizes openness, natural light, and fluid spatial transitions. Every element has been thoughtfully crafted to create a home that is modern, elegant, and deeply livable.",
@@ -1301,8 +1409,7 @@ export const allProjects: ProjectData[] = [
     client: "Naar Group",
     status: "Ongoing",
     priority: 3,
-  },
-];
+  }];
 
 // ── CMS-managed projects (Decap CMS → /content/projects/*.json) ─────────────
 // At build time Vite eagerly imports every JSON file from the content folder.

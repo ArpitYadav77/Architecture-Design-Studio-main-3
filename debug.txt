@@ -1,0 +1,82 @@
+﻿
+> vite_react_shadcn_ts@0.0.0 build
+> vite build
+
+[36mvite v5.4.19 [32mbuilding for production...[36m[39m
+transforming...
+npm : Browserslist: browsers data 
+(caniuse-lite) is 10 months old. 
+Please run:
+At line:1 char:1
++ npm run build > build_log.txt 2>&1
++ ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : NotSpeci 
+   fied: (Browserslist: b...ld. Pleas  
+  e run::String) [], RemoteException
+    + FullyQualifiedErrorId : NativeCo 
+   mmandError
+ 
+  npx update-browserslist-db@latest
+  Why you should do it regularly: https
+://github.com/browserslist/update-db#re
+adme
+[32mΓ£ô[39m 2049 modules transformed.
+[2mdist/[22m[32mplaceholder.svg.gz           [39m[1m[2m0.92 kB[1m[22m
+[2mdist/[22m[32mplaceholder.svg.br           [39m[1m[2m0.84 kB[1m[22m
+[2mdist/[22m[32madmin/config.yml.gz          [39m[1m[2m1.22 kB[1m[22m
+[2mdist/[22m[32madmin/index.html.gz          [39m[1m[2m1.32 kB[1m[22m
+[2mdist/[22m[32madmin/config.yml.br          [39m[1m[2m1.00 kB[1m[22m
+[2mdist/[22m[32madmin/index.html.br          [39m[1m[2m1.04 kB[1m[22m
+[2mdist/[22m[32mlogo1.png.br                 [39m[1m[2m27.67 kB[1m[22m
+[2mdist/[22m[32marchitecture/lord.mp4.br     [39m[1m[2m1,503.40 kB[1m[22m
+[2mdist/[22m[32marchitecture/lawn.mp4.br     [39m[1m[2m17,001.79 kB[1m[22m
+[2mdist/[22m[32madmin/config.yml.gz          [39m[1m[2m1.22 kB[1m[22m
+[2mdist/[22m[32mplaceholder.svg.br           [39m[1m[2m0.84 kB[1m[22m
+[2mdist/[22m[32mplaceholder.svg.gz           [39m[1m[2m0.92 kB[1m[22m
+[2mdist/[22m[32madmin/config.yml.br          [39m[1m[2m1.00 kB[1m[22m
+[2mdist/[22m[32madmin/index.html.gz          [39m[1m[2m1.32 kB[1m[22m
+[2mdist/[22m[32madmin/index.html.br          [39m[1m[2m1.04 kB[1m[22m
+[2mdist/[22m[32mlogo1.png.br                 [39m[1m[2m27.67 kB[1m[22m
+[2mdist/[22m[32marchitecture/lord.mp4.br     [39m[1m[2m1,503.40 kB[1m[22m
+[2mdist/[22m[32marchitecture/lawn.mp4.br     [39m[1m[2m17,001.79 kB[1m[22m
+[31mx[39m Build failed in 37.13s
+[31merror during build:
+[31m[vite:asset] Could not load C:\Use
+rs\arpit\Desktop\C_files\BSA\Architectu
+re-Design-Studio-main-3\src/assets/chan
+digarh_square/chandigarh_square9.png 
+(imported by src/data/projects.ts): 
+ENOENT: no such file or directory, 
+open 'C:\Users\arpit\Desktop\C_files\BS
+A\Architecture-Design-Studio-main-3\src
+\assets\chandigarh_square\chandigarh_sq
+uare9.png'[31m
+    at async open 
+(node:internal/fs/promises:639:25)
+    at async Object.readFile 
+(node:internal/fs/promises:1242:14)
+    at async fileToBuiltUrl (file:///C:
+/Users/arpit/Desktop/C_files/BSA/Archit
+ecture-Design-Studio-main-3/node_module
+s/vite/dist/node/chunks/dep-C6uTJdX2.js
+:20428:19)
+    at async Object.load (file:///C:/Us
+ers/arpit/Desktop/C_files/BSA/Architect
+ure-Design-Studio-main-3/node_modules/v
+ite/dist/node/chunks/dep-C6uTJdX2.js:20
+328:17)
+    at async 
+PluginDriver.hookFirstAndGetPlugin (fil
+e:///C:/Users/arpit/Desktop/C_files/BSA
+/Architecture-Design-Studio-main-3/node
+_modules/rollup/dist/es/shared/node-ent
+ry.js:20630:28)
+    at async file:///C:/Users/arpit/Des
+ktop/C_files/BSA/Architecture-Design-St
+udio-main-3/node_modules/rollup/dist/es
+/shared/node-entry.js:19750:33
+    at async Queue.work (file:///C:/Use
+rs/arpit/Desktop/C_files/BSA/Architectu
+re-Design-Studio-main-3/node_modules/ro
+llup/dist/es/shared/node-entry.js:20840
+:32)[39m
