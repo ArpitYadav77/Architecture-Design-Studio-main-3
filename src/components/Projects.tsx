@@ -4,7 +4,17 @@ import ScrollReveal from "./ScrollReveal";
 import ProjectCard from "./ProjectCard";
 import { portfolioProjects } from "@/data/projects";
 
-const categories = ["All", "Commercial", "Corporate", "Cultural", "Education", "Hospitality", "Interior", "Residential", "Urban", "Competition", "Misc"];
+const categories = [
+  "Institutional",
+  "Commercial",
+  "Corporate",
+  "Hospitality",
+  "Interior",
+  "Residential",
+  "Urban",
+  "Competition",
+  "Misc",
+];
 
 const Projects = memo(() => {
   const navigate = useNavigate();

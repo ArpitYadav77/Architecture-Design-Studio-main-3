@@ -246,16 +246,17 @@ import landmarkWaveExt from "@/assets/Wave_Estate/Wave_state2.png";
 
 
 // Mohali Club (CLUBHOUSE TDI MOHALI)
-
-
-
-import mc1 from "@/assets/CLUBHOUSE TDI MOHALI/mc1.jpeg";
-import mc2 from "@/assets/CLUBHOUSE TDI MOHALI/mc2.jpeg";
-
-import mc4 from "@/assets/CLUBHOUSE TDI MOHALI/mc4.jpeg";
-import mohaliClubHero from "@/assets/CLUBHOUSE TDI MOHALI/Mohali_club.png";
-import mc5 from "@/assets/CLUBHOUSE TDI MOHALI/mohali_club2.png";
-import mc6 from "@/assets/CLUBHOUSE TDI MOHALI/mohali_interior2.png";
+import clubhouseHero from "@/assets/CLUBHOUSE TDI MOHALI/Hero.jpeg";
+import clubhouse1 from "@/assets/CLUBHOUSE TDI MOHALI/1st.jpeg";
+import mcW1 from "@/assets/CLUBHOUSE TDI MOHALI/WhatsApp Image 2026-04-02 at 21.19.37 (1).jpeg";
+import mcW2 from "@/assets/CLUBHOUSE TDI MOHALI/WhatsApp Image 2026-04-02 at 21.19.37.jpeg";
+import mcW3 from "@/assets/CLUBHOUSE TDI MOHALI/WhatsApp Image 2026-04-02 at 21.19.38 (1).jpeg";
+import mcW4 from "@/assets/CLUBHOUSE TDI MOHALI/WhatsApp Image 2026-04-02 at 21.20.54 (1).jpeg";
+import mcW5 from "@/assets/CLUBHOUSE TDI MOHALI/WhatsApp Image 2026-04-02 at 21.20.54.jpeg";
+import mcW6 from "@/assets/CLUBHOUSE TDI MOHALI/WhatsApp Image 2026-04-02 at 21.20.55 (2).jpeg";
+import mcW7 from "@/assets/CLUBHOUSE TDI MOHALI/WhatsApp Image 2026-04-02 at 21.20.55.jpeg";
+import mcW8 from "@/assets/CLUBHOUSE TDI MOHALI/WhatsApp Image 2026-04-02 at 21.20.56 (1).jpeg";
+import mcW9 from "@/assets/CLUBHOUSE TDI MOHALI/WhatsApp Image 2026-04-02 at 21.20.56.jpeg";
 
 // Reception
 import receptionCover from "@/assets/Reception_Interior/Reception_cover.webp";
@@ -284,6 +285,7 @@ import nv10 from "@/assets/NV_Distilleries/nv10.jpeg";
 // TRIAM Tower
 
 import triamExterior from "@/assets/TRIAM TOWER/traim_exterior.png";
+import triamHero from "@/assets/TRIAM TOWER/image.png";
 
 import triam1 from "@/assets/TRIAM TOWER/triam1.jpeg";
 import triam2 from "@/assets/TRIAM TOWER/triam2.jpeg";
@@ -918,8 +920,8 @@ export const allProjects: ProjectData[] = [
     priority: 3,
     location: "Mohali, Punjab",
     year: "2017",
-    image: mohaliClubHero,
-    gallery: [mohaliClubHero, mc1, mc2, mc4, mc5, mc6],
+    image: clubhouseHero,
+    gallery: [clubhouse1, clubhouseHero, mcW1, mcW2, mcW3, mcW4, mcW5, mcW6, mcW7, mcW8, mcW9],
     tagline: "A members' club conceived for leisure, community, and refined living.",
     description:
       "The Mohali Club is a private members' facility serving one of Punjab's fastest-growing residential and commercial precincts. The brief called for a clubhouse that would feel genuinely exclusive without being unwelcoming — a place where members could entertain guests, conduct informal business, or simply relax in surroundings of understated quality.\n\nThe building is organised around a landscaped internal courtyard that acts as a cooling device, a visual amenity, and a spatial anchor. Dining, bar, and lounge spaces wrap this courtyard on three sides, each zone with a distinct character but unified by a consistent material language of terracotta tile, teak joinery, and painted plaster.\n\nA sports wing to the rear houses a gymnasium, squash courts, and a 25-metre pool. The connection between social and sports wings was designed as a sheltered walkway lined with planting — a transition that reinforces the sense of moving through different parts of a composed estate rather than a single building.",
@@ -990,7 +992,7 @@ export const allProjects: ProjectData[] = [
     location: "Sector 83, Alpha, India",
     year: "2020",
     image: triamExterior,
-    gallery: [triamExterior,  triam1, triam2, triam3],
+    gallery: [triamHero, triamExterior,  triam1, triam2, triam3],
     priority: 2,
     tagline: "A bold corporate tower designed for presence and performance.",
     description:
@@ -1037,12 +1039,13 @@ export const allProjects: ProjectData[] = [
 
   {
     slug: "clinic",
-    title: "Clinic",
+    title: "Dr. Tarun Clinic",
     category: "Interior",
     location: "Chandigarh, India",
     year: "2021",
     image: clinicGalleryImg0,
     gallery: [clinicGalleryImg0, clinicGalleryImg1, clinicGalleryImg2, clinicGalleryImg3, clinicGalleryImg4],
+    priority: 1,
     tagline: "A healthcare interior that prioritises calm, clarity, and patient dignity.",
     description:
       "Designing a medical clinic requires resolving a fundamental tension: the space must be efficient and hygienic, yet calming and humane. This project in Chandigarh addressed that challenge through material restraint, careful spatial sequencing, and a palette chosen to reduce clinical anxiety without sacrificing cleanliness or function.\n\nThe entry and waiting area is deliberately airy, with high ceilings, warm-toned wall panels, and indirect lighting that avoids the harshness of conventional medical environments. Consultation rooms are compact but precisely planned — each with a window, good natural light, and storage that keeps clinical equipment out of sight when not in use.\n\nThe circulation spine — a wide, gently lit passage — connects all zones of the clinic while providing clear wayfinding. Materials throughout are selected for ease of cleaning and long-term durability: porcelain floor tiles, moisture-resistant wall finishes, and solid-core joinery.",
@@ -1059,6 +1062,7 @@ export const allProjects: ProjectData[] = [
     year: "2023",
     image: receptionCover,
     gallery: [receptionInt1, receptionInt2, receptionInt3],
+    priority: 6,
     tagline: "A refined expression of contemporary corporate design and material richness.",
     description:
       "The interior of Triam is envisioned as a refined expression of contemporary corporate design, where material richness meets spatial clarity. The double-height lobby establishes a grand sense of arrival, enhanced by a seamless blend of natural stone, warm metallic accents, and expansive glazing that draws natural light deep into the space.\n\nThe reception acts as the central focal point—crafted in elegant marble with clean, sculptural lines—creating a strong first impression of sophistication and professionalism. Above, a bespoke geometric lighting installation introduces a dynamic visual identity while maintaining a warm, ambient atmosphere.\n\nA neutral palette, complemented by textured finishes and thoughtfully integrated greenery, adds depth and warmth to the environment. Circulation spaces are designed for intuitive movement, with vertical connectivity elements seamlessly integrated into the overall aesthetic.\n\nThe design of Triam reflects a forward-looking corporate ethos—timeless, efficient, and distinctive—offering an environment that is both welcoming and aspirational.",
@@ -1075,6 +1079,7 @@ export const allProjects: ProjectData[] = [
     year: "2005",
     image: haryanaCMInterior,
     gallery: [haryanaCmGalleryImg0, haryanaCmGalleryImg1, haryanaCmGalleryImg2, haryanaCmGalleryImg3, haryanaCmGalleryImg4, haryanaCmGalleryImg5, haryanaCmGalleryImg6, haryanaCmGalleryImg7, haryanaCmGalleryImg8, haryanaCmGalleryImg9, haryanaCmGalleryImg10, haryanaCmGalleryImg11],
+    priority: 2,
     tagline: "An interior of quiet authority befitting the office of the Chief Minister.",
     description:
       "The interior of the Haryana Chief Minister Secretariat Building was designed to project institutional authority while maintaining the warmth and functionality required of a working government building.\n\nPublic-facing areas — the reception hall, conference rooms, and ministerial lobbies — employ a restrained palette of marble, polished plaster, and solid timber that signals quality without ostentation. Private offices and working areas are planned for efficiency and natural light, with bespoke joinery and carefully selected furnishings that reinforce the building's character of measured dignity.\n\nThe project demonstrates the firm's ability to translate civic purpose into interior spaces that serve both protocol and daily governance.",
@@ -1382,6 +1387,7 @@ export const allProjects: ProjectData[] = [
     year: "2023",
     image: dg1,
     gallery: [dg1, dg2, dg3, dg4, dg5, dg6, dg7, dg10, dg11, dg14, dg15, dg16],
+    priority: 4,
     tagline: "A refined expression of contemporary living, where comfort, elegance, and functionality meet.",
     description:
       "This residence in Sector 8, Panchkula is designed as a refined expression of contemporary living, where comfort, elegance, and functionality come together seamlessly. The interiors follow a cohesive design language, defined by clean lines, balanced proportions, and a warm, neutral material palette.\n\nThe private spaces, including the bedrooms, are conceived as serene retreats—featuring soft ambient lighting, layered textures, and carefully detailed wall treatments that add depth without overwhelming the space. Bespoke furniture and curated elements enhance both comfort and visual identity.\n\nA dedicated lounge and recreation area introduces a more intimate and indulgent dimension to the home. Designed as a social and leisure hub, the space features rich materials, mood lighting, and a sophisticated ambiance, creating the perfect setting for relaxation and entertainment. The integration of custom shelving, accent lighting, and comfortable seating adds both functionality and character.\n\nAcross the residence, the design emphasizes openness, natural light, and fluid spatial transitions. Every element has been thoughtfully crafted to create a home that is modern, elegant, and deeply livable.",
@@ -1398,6 +1404,7 @@ export const allProjects: ProjectData[] = [
     year: "2023",
     image: rkm1,
     gallery: [rkm1, rkm2, rkm3, rkm4, rkm5, rkm6, rkm7, rkm8],
+    priority: 5,
     tagline: "A dynamic cultural and educational hub celebrating the intersection of art, music, and contemporary design.",
     description: "The project envisions a dynamic cultural and educational hub that celebrates the intersection of art, music, and contemporary design. Interior spaces are defined by a warm, natural material palette and bold graphic murals, creating an immersive environment that stimulates creativity and learning. The layout prioritizes functional transparency, utilizing large glass display units and arched internal windows to maintain visual connectivity between specialized zones. Strategic placement of bespoke cabinetry and rhythmic acoustic elements ensures a harmonious balance between technical utility and aesthetic expression.",
     area: "450 sq m",
@@ -1413,6 +1420,7 @@ export const allProjects: ProjectData[] = [
     year: "2026",
     image: rajasthan1,
     gallery: [rajasthan1, rajasthan2, rajasthan3],
+    priority: 3,
     tagline: "A representation of Rajasthan's heritage.",
     description: "Rajasthan Bhavan is a civic project intended to showcase the rich cultural heritage and architectural grandeur of Rajasthan. Spaces are designed to act as a cultural embassy, offering a blend of traditional motifs and modern functionality.",
     area: "Varies",

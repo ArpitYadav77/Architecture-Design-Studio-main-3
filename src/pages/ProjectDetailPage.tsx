@@ -3,6 +3,7 @@ import { ArrowLeft, MapPin, Calendar, Layers, User, Activity } from "lucide-reac
 import Navbar from "@/components/Navbar";
 import Footer from "@/components/Footer";
 import ScrollReveal from "@/components/ScrollReveal";
+import MasonryGallery from "@/components/MasonryGallery";
 import { getProjectBySlug, allProjects } from "@/data/projects";
 
 const ProjectDetailPage = () => {
@@ -156,61 +157,16 @@ const ProjectDetailPage = () => {
         </ScrollReveal>
       </div>
 
-      {/* ── GALLERY ──────────────────────────────────────────────────────── */}
+      {/* ── MASONRY GALLERY ─────────────────────────────────────────────── */}
       {project.gallery && project.gallery.length > 0 && (
-        <div className="max-w-7xl mx-auto px-4 sm:px-6 md:px-12 lg:px-24 pb-16 sm:pb-20">
+        <div className="max-w-7xl mx-auto px-4 sm:px-6 md:px-12 lg:px-24">
           <ScrollReveal>
-            <div className="flex items-center gap-4 mb-10">
-              <div className="w-1 h-8 bg-accent" />
-              <div>
-                <p className="text-[10px] uppercase tracking-[0.25em] text-accent mb-1">Visual Record</p>
-                <h2 className="text-2xl md:text-3xl font-serif font-light text-foreground">
-                  Image <em className="italic">Gallery</em>
-                </h2>
-              </div>
-            </div>
+            <MasonryGallery 
+              images={project.gallery} 
+              title="Image Gallery"
+              category="Visual Record"
+            />
           </ScrollReveal>
-
-          {/* Primary large image */}
-          <ScrollReveal delay={50}>
-            <div className="aspect-[16/7] overflow-hidden bg-muted mb-4">
-              <img
-                src={project.gallery[0]}
-                alt={`${project.title} — main view`}
-                loading="lazy"
-                decoding="async"
-                className="w-full h-full object-cover hover:scale-105 transition-transform duration-700"
-              />
-            </div>
-          </ScrollReveal>
-
-          {/* Secondary images — stacked vertically (1 col) or grid (2-3 cols) */}
-          {project.gallery.length > 1 && (() => {
-            const secondary = project.gallery.slice(1);
-            const gridCols =
-              secondary.length === 1
-                ? "grid-cols-1"
-                : secondary.length === 2
-                ? "grid-cols-1 md:grid-cols-2"
-                : "grid-cols-1 md:grid-cols-3";
-            return (
-              <div className={`grid ${gridCols} gap-4`}>
-                {secondary.map((img, idx) => (
-                  <ScrollReveal key={idx} delay={idx * 80 + 100}>
-                    <div className="aspect-[4/3] overflow-hidden bg-muted group">
-                      <img
-                        src={img}
-                        alt={`${project.title} — view ${idx + 2}`}
-                        loading="lazy"
-                        decoding="async"
-                        className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-700"
-                      />
-                    </div>
-                  </ScrollReveal>
-                ))}
-              </div>
-            );
-          })()}
         </div>
       )}
 
