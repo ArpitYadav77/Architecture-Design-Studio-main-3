@@ -434,6 +434,7 @@ import hbv1 from "@/assets/Hotel_Barog_Valley/WhatsApp Image 2026-04-02 at 12.01
 import hbv2 from "@/assets/Hotel_Barog_Valley/WhatsApp Image 2026-04-02 at 12.01.55 (1).jpeg";
 import hbv3 from "@/assets/Hotel_Barog_Valley/WhatsApp Image 2026-04-02 at 12.01.56.jpeg";
 import hbv4 from "@/assets/Hotel_Barog_Valley/WhatsApp Image 2026-04-02 at 12.01.57.jpeg";
+import hbvHero from "@/assets/Hotel_Barog_Valley/Hero_Image.png";
 
 // Devi Lal University
 import dlu1 from "@/assets/Devi_Lal_university/Devi_Lal_uni1.png";
@@ -1179,7 +1180,7 @@ export const allProjects: ProjectData[] = [
     category: "Hospitality",
     location: "Barog, Himachal Pradesh",
     year: "2021",
-    image: hbv4,
+    image: hbvHero,
     gallery: [hbvGalleryImg0, hbvGalleryImg1, hbvGalleryImg2, hbvGalleryImg3, hbvGalleryImg4, hbvGalleryImg5, hbvGalleryImg6, hbvGalleryImg7, hbvGalleryImg8],
     tagline: "A valley retreat where architecture and landscape merge seamlessly.",
     description:
