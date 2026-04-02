@@ -10,10 +10,8 @@ import hbvGalleryImg0 from "@/assets/Hotel_Barog_Valley/WhatsApp Image 2026-04-0
 import hbvGalleryImg1 from "@/assets/Hotel_Barog_Valley/WhatsApp Image 2026-04-02 at 12.01.55 (2).jpeg";
 import hbvGalleryImg2 from "@/assets/Hotel_Barog_Valley/WhatsApp Image 2026-04-02 at 12.01.55.jpeg";
 import hbvGalleryImg3 from "@/assets/Hotel_Barog_Valley/WhatsApp Image 2026-04-02 at 12.01.56 (1).jpeg";
-import hbvGalleryImg4 from "@/assets/Hotel_Barog_Valley/WhatsApp Image 2026-04-02 at 12.01.56 (2).jpeg";
 import hbvGalleryImg5 from "@/assets/Hotel_Barog_Valley/WhatsApp Image 2026-04-02 at 12.01.56.jpeg";
 import hbvGalleryImg6 from "@/assets/Hotel_Barog_Valley/WhatsApp Image 2026-04-02 at 12.01.57 (1).jpeg";
-import hbvGalleryImg7 from "@/assets/Hotel_Barog_Valley/WhatsApp Image 2026-04-02 at 12.01.57 (2).jpeg";
 import hbvGalleryImg8 from "@/assets/Hotel_Barog_Valley/WhatsApp Image 2026-04-02 at 12.01.57.jpeg";
 
 
@@ -1179,7 +1177,7 @@ export const allProjects: ProjectData[] = [
     location: "Barog, Himachal Pradesh",
     year: "2021",
     image: hbvHero,
-    gallery: [hbvGalleryImg0, hbvGalleryImg1, hbvGalleryImg2, hbvGalleryImg3, hbvGalleryImg4, hbvGalleryImg5, hbvGalleryImg6, hbvGalleryImg7, hbvGalleryImg8],
+    gallery: [hbvGalleryImg0, hbvGalleryImg1, hbvGalleryImg2, hbvGalleryImg3, hbvGalleryImg5, hbvGalleryImg6, hbvGalleryImg8],
     tagline: "A valley retreat where architecture and landscape merge seamlessly.",
     description:
       "Hotel Barog Valley is a hospitality project nestled in the scenic hills of Barog, Himachal Pradesh. The design responds to the dramatic topography by stepping the building down the slope, ensuring every guest room captures panoramic valley views.\n\nThe material palette draws from the local vernacular — stone masonry walls, timber-framed windows, and slate roofing — while providing the spatial efficiency and modern comfort expected of a contemporary hotel. Public spaces are oriented towards the valley, with generous terraces and lounges that blur the boundary between built form and landscape.",
