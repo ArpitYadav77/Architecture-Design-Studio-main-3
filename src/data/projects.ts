@@ -253,6 +253,9 @@ import mc1 from "@/assets/CLUBHOUSE TDI MOHALI/mc1.jpeg";
 import mc2 from "@/assets/CLUBHOUSE TDI MOHALI/mc2.jpeg";
 
 import mc4 from "@/assets/CLUBHOUSE TDI MOHALI/mc4.jpeg";
+import mohaliClubHero from "@/assets/CLUBHOUSE TDI MOHALI/Mohali_club.png";
+import mc5 from "@/assets/CLUBHOUSE TDI MOHALI/mohali_club2.png";
+import mc6 from "@/assets/CLUBHOUSE TDI MOHALI/mohali_interior2.png";
 
 // Reception
 import receptionCover from "@/assets/Reception_Interior/Reception_cover.webp";
@@ -915,8 +918,8 @@ export const allProjects: ProjectData[] = [
     priority: 3,
     location: "Mohali, Punjab",
     year: "2017",
-    image: mc1,
-    gallery: [mc1, mc2,  mc4],
+    image: mohaliClubHero,
+    gallery: [mohaliClubHero, mc1, mc2, mc4, mc5, mc6],
     tagline: "A members' club conceived for leisure, community, and refined living.",
     description:
       "The Mohali Club is a private members' facility serving one of Punjab's fastest-growing residential and commercial precincts. The brief called for a clubhouse that would feel genuinely exclusive without being unwelcoming — a place where members could entertain guests, conduct informal business, or simply relax in surroundings of understated quality.\n\nThe building is organised around a landscaped internal courtyard that acts as a cooling device, a visual amenity, and a spatial anchor. Dining, bar, and lounge spaces wrap this courtyard on three sides, each zone with a distinct character but unified by a consistent material language of terracotta tile, teak joinery, and painted plaster.\n\nA sports wing to the rear houses a gymnasium, squash courts, and a 25-metre pool. The connection between social and sports wings was designed as a sheltered walkway lined with planting — a transition that reinforces the sense of moving through different parts of a composed estate rather than a single building.",
