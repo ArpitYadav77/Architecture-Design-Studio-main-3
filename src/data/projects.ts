@@ -228,12 +228,12 @@ import farmhouseInt3 from "@/assets/farmhouse/farmhouse_interior3.webp";
 import haryanaCMInterior from "@/assets/Haryana_CM/HaryanaCm_hero.jpeg";
 
 // HP Tower (D141 H&H technologies)
-import hpTowerCover from "@/assets/D141 H&H technologies/HP_tower.png";
-
-
+// HP Tower (D141 H&H technologies)
+import hpHero from "@/assets/D141 H&H technologies/Hero.jpeg";
+import hp1st from "@/assets/D141 H&H technologies/1st.jpeg";
 import hp1 from "@/assets/D141 H&H technologies/hp1.jpeg";
 import hp2 from "@/assets/D141 H&H technologies/hp2.jpeg";
-import hp3 from "@/assets/D141 H&H technologies/hp3.jpeg";
+
 import hp4 from "@/assets/D141 H&H technologies/hp4.jpeg";
 import hp5 from "@/assets/D141 H&H technologies/hp5.jpeg";
 import hp6 from "@/assets/D141 H&H technologies/hp6.png";
@@ -276,11 +276,8 @@ import nv9 from "@/assets/NV_Distilleries/nv9.jpeg";
 import nv10 from "@/assets/NV_Distilleries/nv10.jpeg";
 
 // TRIAM Tower
-
 import triamExterior from "@/assets/TRIAM TOWER/traim_exterior.png";
-import triamHero from "@/assets/TRIAM TOWER/image.png";
-
-import triam1 from "@/assets/TRIAM TOWER/triam1.jpeg";
+import triam1st from "@/assets/TRIAM TOWER/1st.jpeg";
 import triam2 from "@/assets/TRIAM TOWER/triam2.jpeg";
 import triam3 from "@/assets/TRIAM TOWER/triam3.jpeg";
 
@@ -967,8 +964,8 @@ export const allProjects: ProjectData[] = [
     category: "Commercial",
     location: "Chandigarh, India",
     year: "2014",
-    image: hpTowerCover,
-    gallery: [   hp1, hp2, hp3, hp4, hp5, hp6],
+    image: hpHero,
+    gallery: [hp1st, hpHero, hp1, hp2, hp4, hp5, hp6],
     priority: 1,
     tagline: "Corporate presence and civic identity in one composed tower form.",
     description:
@@ -985,7 +982,7 @@ export const allProjects: ProjectData[] = [
     location: "Sector 83, Alpha, India",
     year: "2020",
     image: triamExterior,
-    gallery: [triamHero, triamExterior,  triam1, triam2, triam3],
+    gallery: [triam1st, triamExterior, triam2, triam3],
     priority: 2,
     tagline: "A bold corporate tower designed for presence and performance.",
     description:
