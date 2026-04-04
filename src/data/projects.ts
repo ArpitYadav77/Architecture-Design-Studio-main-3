@@ -215,6 +215,7 @@ import amb5 from "@/assets/Ambala_Mall/amb5.jpeg";
 
 
 // Farmhouse
+import farmhouseExtCover from "@/assets/farmhouse/farmhouse_exterior.png";
 import farmhouseCover from "@/assets/farmhouse/image copy.png";
 import farmhouseExt1 from "@/assets/farmhouse/image.png";
 import farmhouseExt2 from "@/assets/farmhouse/image copy 2.png";
@@ -274,6 +275,7 @@ import nv9 from "@/assets/NV_Distilleries/nv9.jpeg";
 import nv10 from "@/assets/NV_Distilleries/nv10.jpeg";
 
 // TRIAM Tower
+import triamHeroNew from "@/assets/TRIAM TOWER/WhatsApp Image 2026-04-03 at 18.54.47.jpeg";
 import triamExterior from "@/assets/TRIAM TOWER/traim_exterior.png";
 import triam1st from "@/assets/TRIAM TOWER/1st.jpeg";
 import triam2 from "@/assets/TRIAM TOWER/triam2.jpeg";
@@ -954,8 +956,8 @@ export const allProjects: ProjectData[] = [
     category: "Corporate",
     location: "Sector 83, Alpha, India",
     year: "2020",
-    image: triamExterior,
-    gallery: [triam1st, triamExterior, triam2, triam3],
+    image: triamHeroNew,
+    gallery: [triamHeroNew, triam1st, triamExterior, triam2, triam3],
     priority: 2,
     tagline: "A bold corporate tower designed for presence and performance.",
     description:
@@ -990,7 +992,7 @@ export const allProjects: ProjectData[] = [
     category: "Residential",
     location: "Punjab, India",
     year: "2019",
-    image: farmhouseCover,
+    image: farmhouseExtCover,
     gallery: [fhGalleryImg0, fhGalleryImg1, fhGalleryImg2, fhGalleryImg3, fhGalleryImg4, fhGalleryImg5, fhGalleryImg6, fhGalleryImg7, fhGalleryImg8, fhGalleryImg9, fhGalleryImg10],
     tagline: "A countryside residence where open land and refined living meet.",
     description:
