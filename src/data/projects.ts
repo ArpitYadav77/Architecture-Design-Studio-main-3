@@ -1203,7 +1203,7 @@ export const allProjects: ProjectData[] = [
     location: "Chandigarh, India",
     year: "2026",
     image: dhrNew2,
-    gallery: [dhrNew1],
+    gallery: [dhrNew1, dhrNew2],
     tagline: "A refined architectural showcase of clean geometry and timeless appeal.",
     description: "This elegant contemporary residence showcases a refined architectural language defined by clean geometry, soft neutral tones, and premium material finishes. The striking façade features balanced volumes, expansive glazing, and subtle classical elements that lend a sense of sophistication and timeless appeal.",
     area: "5,840 sq ft",
