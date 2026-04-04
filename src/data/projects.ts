@@ -435,9 +435,11 @@ import dlu2 from "@/assets/Devi_Lal_university/Devi_Lal_uni2.png";
 import dlu3 from "@/assets/Devi_Lal_university/Devi_Lal_uni3.png";
 
 // Farmville
-import fv1 from "@/assets/Farmville/Farmville6.png";
-import fv4 from "@/assets/Farmville/Farmville4.png";
-import fv5 from "@/assets/Farmville/Farmville5.png";
+import fvNew1 from "@/assets/Farmville/WhatsApp Image 2026-04-04 at 16.45.11 (1).jpeg";
+import fvNew2 from "@/assets/Farmville/WhatsApp Image 2026-04-04 at 16.45.11 (2).jpeg";
+import fvNew3 from "@/assets/Farmville/WhatsApp Image 2026-04-04 at 16.45.11.jpeg";
+import fvNew4 from "@/assets/Farmville/WhatsApp Image 2026-04-04 at 16.45.12 (1).jpeg";
+import fvNew5 from "@/assets/Farmville/WhatsApp Image 2026-04-04 at 16.45.12.jpeg";
 
 
 // Wave State
@@ -452,52 +454,22 @@ import ws11 from "@/assets/Wave_Estate/Wave_state11.png";
 import ws12 from "@/assets/Wave_Estate/Wave_state12.png";
 
 // Dr. Attri Residence
-
-// Dr. Attri Residence (updated series 1–30)
-import da1 from "@/assets/Dr.Attri/image.png";
-import da2 from "@/assets/Dr.Attri/image copy.png";
-import da3 from "@/assets/Dr.Attri/image copy 2.png";
-import da4 from "@/assets/Dr.Attri/image copy 3.png";
-import da5 from "@/assets/Dr.Attri/image copy 4.png";
-import da6 from "@/assets/Dr.Attri/image copy 5.png";
-import da7 from "@/assets/Dr.Attri/image copy 6.png";
-import da8 from "@/assets/Dr.Attri/image copy 7.png";
-import da9 from "@/assets/Dr.Attri/image copy 8.png";
-import da10 from "@/assets/Dr.Attri/image copy 9.png";
-import da11 from "@/assets/Dr.Attri/image copy 10.png";
-import da12 from "@/assets/Dr.Attri/image copy 11.png";
-import da13 from "@/assets/Dr.Attri/image copy 12.png";
-import da14 from "@/assets/Dr.Attri/image copy 13.png";
-import da15 from "@/assets/Dr.Attri/image copy 14.png";
-import da16 from "@/assets/Dr.Attri/image copy 15.png";
-import da17 from "@/assets/Dr.Attri/image copy 16.png";
-import da18 from "@/assets/Dr.Attri/image copy 17.png";
-import da19 from "@/assets/Dr.Attri/image copy 18.png";
-import da20 from "@/assets/Dr.Attri/image copy 19.png";
-import da21 from "@/assets/Dr.Attri/image copy 20.png";
-import da22 from "@/assets/Dr.Attri/image copy 21.png";
-import da23 from "@/assets/Dr.Attri/image copy 22.png";
-import da24 from "@/assets/Dr.Attri/image copy 23.png";
-import da25 from "@/assets/Dr.Attri/image copy 24.png";
-import da26 from "@/assets/Dr.Attri/image copy 25.png";
-import da27 from "@/assets/Dr.Attri/image copy 26.png";
-import da28 from "@/assets/Dr.Attri/image copy 27.png";
-import da29 from "@/assets/Dr.Attri/image copy 28.png";
-import da30 from "@/assets/Dr.Attri/image copy 29.png";
+import daNew1 from "@/assets/Dr.Attri/WhatsApp Image 2026-04-04 at 16.45.04.jpeg";
+import daNew2 from "@/assets/Dr.Attri/WhatsApp Image 2026-04-04 at 16.45.05 (1).jpeg";
+import daNew3 from "@/assets/Dr.Attri/WhatsApp Image 2026-04-04 at 16.45.05.jpeg";
 
 
 // Dr. Harkant Residence
-import dhr2 from "@/assets/Dr.Harkant/Dr_Harkant_residence2.png";
-import dhr3 from "@/assets/Dr.Harkant/Dr_Harkant_residence3.png";
-import dhr4 from "@/assets/Dr.Harkant/Dr_Harkant_residence4.png";
-import dhr5 from "@/assets/Dr.Harkant/Dr_Harkant_residence5.png";
-import dhr7 from "@/assets/Dr.Harkant/Dr_Harkant_residence7.png";
-import dhr8 from "@/assets/Dr.Harkant/Dr_Harkant_residence8.png";
-import dhr10 from "@/assets/Dr.Harkant/Dr_Harkant_residence10.png";
+import dhrNew1 from "@/assets/Dr.Harkant/WhatsApp Image 2026-04-04 at 16.45.06 (1).jpeg";
+import dhrNew2 from "@/assets/Dr.Harkant/WhatsApp Image 2026-04-04 at 16.45.06.jpeg";
 
 // Ecocity
-import eco1 from "@/assets/Ecocity/Ecocity3.png";
-import eco3 from "@/assets/Ecocity/Ecocity1.png";
+import ecoNew1 from "@/assets/Ecocity/WhatsApp Image 2026-04-04 at 16.45.07 (1).jpeg";
+import ecoNew2 from "@/assets/Ecocity/WhatsApp Image 2026-04-04 at 16.45.07 (2).jpeg";
+import ecoNew3 from "@/assets/Ecocity/WhatsApp Image 2026-04-04 at 16.45.07.jpeg";
+import ecoNew4 from "@/assets/Ecocity/WhatsApp Image 2026-04-04 at 16.45.08 (1).jpeg";
+import ecoNew5 from "@/assets/Ecocity/WhatsApp Image 2026-04-04 at 16.45.08.jpeg";
+import ecoNew6 from "@/assets/Ecocity/WhatsApp Image 2026-04-04 at 16.45.09.jpeg";
 
 
 // Doon
@@ -528,8 +500,11 @@ import sunderlalImg3 from "@/assets/Sunderlal_University/SUNDERLAL_UNIVERSITY_3.
 import sunderlalImg4 from "@/assets/Sunderlal_University/SUNDERLAL_UNIVERSITY_4.png";
 
 // Wentworth
-import wentworthImg from "@/assets/wentWorth.png";
-import wentworth2Img from "@/assets/wentworth2.png";
+import wntNew1 from "@/assets/wentWorth/WhatsApp Image 2026-04-04 at 16.45.13.jpeg";
+import wntNew2 from "@/assets/wentWorth/WhatsApp Image 2026-04-04 at 16.45.14 (1).jpeg";
+import wntNew3 from "@/assets/wentWorth/WhatsApp Image 2026-04-04 at 16.45.14.jpeg";
+import wntNew4 from "@/assets/wentWorth/WhatsApp Image 2026-04-04 at 16.45.15 (1).jpeg";
+import wntNew5 from "@/assets/wentWorth/WhatsApp Image 2026-04-04 at 16.45.15.jpeg";
 
 import sunderlalHero from "@/assets/Sunderlal_University/sunderlal_hero.jpg";
 import crsuHero from "@/assets/crsu_hero.png";
@@ -1193,8 +1168,8 @@ export const allProjects: ProjectData[] = [
     category: "Residential",
     location: "Punjab, India",
     year: "2022",
-    image: fv5,
-    gallery: [fv1, fv4],
+    image: fvNew3,
+    gallery: [fvNew1, fvNew2, fvNew4, fvNew5],
     tagline: "A rural residential estate blending countryside charm with modern living.",
     description:
       "Farmville is a residential estate that reimagines rural living through a contemporary architectural lens. The project organises a series of dwelling units within a lush, landscaped setting that preserves the openness and tranquillity of the agricultural landscape.\n\nEach residence is designed to frame views across open fields while maintaining privacy and a composed facade from the shared estate roads. Construction employs local materials — brick, stone, and timber — finished to a standard that balances rural authenticity with the expectations of modern domestic comfort.",
@@ -1210,12 +1185,8 @@ export const allProjects: ProjectData[] = [
     category: "Residential",
     location: "Chandigarh, India",
     year: "2026",
-    image: da1,
-    gallery: [
-      da2, da3, da4, da5, da6, da7, da8, da9, da10,
-      da11, da12, da13, da14, da15, da16, da17, da18, da19, da20,
-      da21, da22, da23, da24, da25, da26, da27, da28, da29, da30
-    ],
+    image: daNew1,
+    gallery: [daNew1, daNew2, daNew3],
     tagline: "Urban living redefined through industrial and organic design elements.",
     description: "This contemporary residential development redefines urban living through a sophisticated blend of industrial and organic design elements. The structure features a striking multi-level facade, characterized by textured concrete finishes, warm brick jaali accents, and expansive glass windows that ensure sun-drenched interiors and seamless views.",
     area: "3,786.7 sq ft",
@@ -1229,8 +1200,8 @@ export const allProjects: ProjectData[] = [
     category: "Residential",
     location: "Chandigarh, India",
     year: "2026",
-    image: dhr2,
-    gallery: [dhr3, dhr4, dhr5, dhr7, dhr8, dhr10],
+    image: dhrNew2,
+    gallery: [dhrNew1],
     tagline: "A refined architectural showcase of clean geometry and timeless appeal.",
     description: "This elegant contemporary residence showcases a refined architectural language defined by clean geometry, soft neutral tones, and premium material finishes. The striking façade features balanced volumes, expansive glazing, and subtle classical elements that lend a sense of sophistication and timeless appeal.",
     area: "5,840 sq ft",
@@ -1244,8 +1215,8 @@ export const allProjects: ProjectData[] = [
     category: "Residential",
     location: "Ecocity, New Chandigarh",
     year: "2025",
-    image: eco3,
-    gallery: [eco1],
+    image: ecoNew3,
+    gallery: [ecoNew1, ecoNew2, ecoNew4, ecoNew5, ecoNew6],
     tagline: "Modern luxury living defined by comfort, exclusivity, and understated elegance.",
     description: "Designed for modern luxury living, the home offers generous indoor spaces that seamlessly connect to outdoor areas, including landscaped surroundings and open terraces. The secure entry and thoughtfully designed layout ensure privacy while maintaining a welcoming atmosphere. This project embodies comfort, exclusivity, and understated elegance in a contemporary residential setting.",
     area: "4,590.7 sq ft",
@@ -1328,8 +1299,8 @@ export const allProjects: ProjectData[] = [
     category: "Residential",
     location: "India",
     year: "2021",
-    image: wentworthImg,
-    gallery: [wentworth2Img],
+    image: wntNew3,
+    gallery: [wntNew1, wntNew2, wntNew4, wntNew5],
     tagline: "A premium residential project defined by refined design and generous proportions.",
     description:
       "Wentworth is a premium residential project that brings together thoughtful planning, quality materials, and generous proportions to create homes of lasting value.\n\nThe architecture balances a composed, formal exterior with warm, light-filled interiors planned around the rhythms of contemporary family life. Careful attention to detail — from the joinery profiles to the landscaping — ensures a cohesive living environment that rewards daily experience.",
