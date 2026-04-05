@@ -52,9 +52,9 @@ const MasonryGallery = memo<MasonryGalleryProps>(({ images, title, category }) =
         <div className="absolute inset-0 bg-black/0 group-hover:bg-black/[0.04] transition-colors duration-700 pointer-events-none" />
       </div>
 
-      {/* Secondary Images Grid (3 Columns) — Left to Right Sequence */}
+      {/* Secondary Images Grid — iPad Optimized (2 cols) & Desktop (3 cols) */}
       {secondaryImages.length > 0 && (
-        <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-6 items-start">
+        <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6 items-start">
           {secondaryImages.map((src, idx) => (
             <div 
               key={`${src}-${idx}`}
@@ -65,7 +65,7 @@ const MasonryGallery = memo<MasonryGalleryProps>(({ images, title, category }) =
                 alt={`Gallery view ${idx + 2}`}
                 loading="lazy"
                 decoding="async"
-                className="w-full aspect-[3/2] object-cover transition-all duration-1000 ease-out transform group-hover:scale-[1.05]"
+                className="w-full aspect-square object-cover transition-all duration-1000 ease-out transform group-hover:scale-[1.05]"
               />
               <div className="absolute inset-0 bg-black/0 group-hover:bg-black/[0.04] transition-colors duration-700 pointer-events-none" />
               <div className="absolute inset-0 opacity-0 group-hover:opacity-100 shadow-[inset_0_0_50px_rgba(0,0,0,0.1)] transition-opacity duration-700 pointer-events-none" />
