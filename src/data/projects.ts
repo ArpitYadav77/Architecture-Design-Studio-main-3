@@ -13,6 +13,7 @@ import hbvGalleryImg3 from "@/assets/Hotel_Barog_Valley/WhatsApp Image 2026-04-0
 import hbvGalleryImg5 from "@/assets/Hotel_Barog_Valley/WhatsApp Image 2026-04-02 at 12.01.56.jpeg";
 import hbvGalleryImg6 from "@/assets/Hotel_Barog_Valley/WhatsApp Image 2026-04-02 at 12.01.57 (1).jpeg";
 import hbvGalleryImg8 from "@/assets/Hotel_Barog_Valley/WhatsApp Image 2026-04-02 at 12.01.57.jpeg";
+import hbvNewHero from "@/assets/Hotel_Barog_Valley/WhatsApp Image 2026-04-05 at 13.57.47.jpeg";
 
 
 // Auto generated imports for Kasauli
@@ -194,19 +195,8 @@ import uniLibrary from "@/assets/Ranbir_University/ranbir_university_interior.pn
 import ambalaHero from "@/assets/Ambala_Mall/Ambala_Mall_Hero.png";
 import ambalaG1 from "@/assets/Ambala_Mall/Galaxy_world_Mall1.png";
 import ambalaG2 from "@/assets/Ambala_Mall/Galaxy_world_Mall2.png";
-import ambalaInt1 from "@/assets/Ambala_Mall/image.png";
-import ambalaInt2 from "@/assets/Ambala_Mall/image copy.png";
-import ambalaInt3 from "@/assets/Ambala_Mall/image copy 2.png";
-import ambalaInt4 from "@/assets/Ambala_Mall/image copy 3.png";
-import ambalaInt5 from "@/assets/Ambala_Mall/image copy 4.png";
-import ambalaInt6 from "@/assets/Ambala_Mall/image copy 5.png";
-import ambalaInt7 from "@/assets/Ambala_Mall/image copy 6.png";
-import ambalaInt8 from "@/assets/Ambala_Mall/image copy 7.png";
 import galaxyMallPng from "@/assets/Ambala_Mall/galaxy_mall.png";
 import amb1 from "@/assets/Ambala_Mall/amb1.jpeg";
-import amb2 from "@/assets/Ambala_Mall/amb2.jpeg";
-import amb3 from "@/assets/Ambala_Mall/amb3.jpeg";
-import amb4 from "@/assets/Ambala_Mall/amb4.jpeg";
 import amb5 from "@/assets/Ambala_Mall/amb5.jpeg";
 
 // Clinic (webp files missing — using numbered png fallbacks)
@@ -834,7 +824,7 @@ export const allProjects: ProjectData[] = [
     location: "Amritsar, Punjab",
     year: "2015",
     image: amritsarCover,
-    gallery: [        am9, am10, am11, am12, am13, am14, am15, am16, am17, am18, am19],
+    gallery: [am15, amritsarCover, am9, am10, am11, am12, am13, am14, am17, am18, am19],
     tagline: "A luxury hotel landmark bringing world-class hospitality to the city of the Golden Temple.",
     description:
       "Hotel Le Meridien, Amritsar is a landmark hospitality commission that demanded architecture capable of holding its own against one of the world's most iconic pilgrimage cities.\n\nThe hotel's design draws from the classical layering and material richness of Amritsari architecture — warm stone cladding, deep-set arched openings, and ornamental grilles — while delivering the spatial efficiency and contemporary comfort expected of an international five-star property. The arrival sequence is ceremonial: a long approach drive, a generous porte-cochère, and a double-height lobby whose proportions command immediate attention.\n\nGuest rooms are oriented to maximise natural light while maintaining privacy; the landscaped podium gardens and rooftop pool create a private world of calm within the city's vibrant fabric.",
@@ -850,7 +840,8 @@ export const allProjects: ProjectData[] = [
     location: "Chandigarh, India",
     year: "2015",
     image: golfCover,
-    gallery: [golfGalleryImg0, golfGalleryImg1, golfGalleryImg2, golfGalleryImg3, golfGalleryImg4, golfGalleryImg5, golfGalleryImg6, golfGalleryImg7, golfGalleryImg8, golfGalleryImg9, golfGalleryImg10, golfGalleryImg11],
+    gallery: [
+      golfGalleryImg10, golfCover, golfGalleryImg1, golfGalleryImg2, golfGalleryImg3, golfGalleryImg4, golfGalleryImg5, golfGalleryImg6, golfGalleryImg7, golfGalleryImg8, golfGalleryImg9, golfGalleryImg11],
     tagline: "A hospitality landmark set within the lush greens of Chandigarh.",
     description:
       "The Chandigarh Golf Club commission asked for a clubhouse facility that would be equally at home hosting elite tournament events and relaxed weekend rounds. The design responds to the landscape first — the building traces the contour of the 18th fairway, its long horizontal profile reading as a natural extension of the rolling greens rather than an imposition upon them.\n\nFrom the approach drive, the building presents a welcoming forecourt framed by a generous porte-cochère. Inside, the plan organises changing rooms, pro shop, bar, and dining room in a clear sequence from arrival to the panoramic terrace overlooking the course. The terrace — shaded by a deep cantilevered canopy — functions as the social heart of the building: a place to watch play, celebrate results, and simply enjoy the landscape.\n\nMaterial choices reinforce the relationship with the course: warm sandstone, open timber ceilings, and brass fittings that will patina beautifully over time.",
@@ -867,9 +858,9 @@ export const allProjects: ProjectData[] = [
     year: "2020",
     image: chandigarhSqCover,
     gallery: [
-       csCoverPng,
-           cs6,   
-          cs15, cs16,  cs18, cs19, cs20,
+      csCoverPng,
+      cs6,
+      cs15, cs16, cs18, cs19, cs20,
       cs21, cs22, cs23, cs24, cs25],
     priority: 4,
     tagline: "A striking modern landmark designed as a premier commercial and lifestyle destination.",
@@ -886,7 +877,7 @@ export const allProjects: ProjectData[] = [
     location: "Mohali, Punjab",
     year: "2017",
     image: clubhouseHero,
-    gallery: [clubhouseHero, clubhouse1, mcW1, mcW2],
+    gallery: [clubhouse1, clubhouseHero, mcW1, mcW2],
     tagline: "A members' club conceived for leisure, community, and refined living.",
     description:
       "The Mohali Club is a private members' facility serving one of Punjab's fastest-growing residential and commercial precincts. The brief called for a clubhouse that would feel genuinely exclusive without being unwelcoming — a place where members could entertain guests, conduct informal business, or simply relax in surroundings of understated quality.\n\nThe building is organised around a landscaped internal courtyard that acts as a cooling device, a visual amenity, and a spatial anchor. Dining, bar, and lounge spaces wrap this courtyard on three sides, each zone with a distinct character but unified by a consistent material language of terracotta tile, teak joinery, and painted plaster.\n\nA sports wing to the rear houses a gymnasium, squash courts, and a 25-metre pool. The connection between social and sports wings was designed as a sheltered walkway lined with planting — a transition that reinforces the sense of moving through different parts of a composed estate rather than a single building.",
@@ -1078,7 +1069,7 @@ export const allProjects: ProjectData[] = [
     location: "Bilaspur, Chhattisgarh",
     year: "2016",
     image: sunderlalHero,
-    gallery: [sunderlalBsa1, sunderlalImg1, sunderlalImg2, sunderlalImg3, sunderlalImg4],
+    gallery: [sunderlalBsa1, sunderlalImg4, sunderlalImg1, sunderlalImg2, sunderlalImg3],
     tagline: "An open university campus designed for accessible higher education.",
     description:
       "Sited within the campus of Pt. Sundarlal Sharma (Open) University in Bilaspur, Chhattisgarh, the design intervention is conceptualized to deliver a highly structured institutional framework optimized for distance education, administrative efficiency, and rigorous academic pursuits. The architectural planning is driven by pragmatic spatial organization and highly legible circulation nodes, achieving a harmonious integration of formal structures and inviting public realms. By establishing a unified and accessible campus character, the design cultivates an environment that encourages intuitive interactions and supports the institution's progressive mandate for equitable learning, research innovation, and sustainable institutional growth.",
@@ -1130,13 +1121,10 @@ export const allProjects: ProjectData[] = [
     category: "Commercial",
     location: "Ambala, Haryana",
     year: "2024",
-    image: ambalaHero,
+    image: ambalaG1,
     gallery: [
-      ambalaHero, ambalaG1, ambalaG2,
-      ambalaInt1, ambalaInt2, ambalaInt3, ambalaInt4,
-      ambalaInt5, ambalaInt6, ambalaInt7, ambalaInt8,
-      amb1, amb2, amb3, amb4, amb5,
-      galaxyMallPng
+      ambalaG1, amb5, galaxyMallPng,
+      amb1, ambalaG2, ambalaHero
     ],
     order: 1,
     priority: 2,
@@ -1153,8 +1141,8 @@ export const allProjects: ProjectData[] = [
     category: "Hospitality",
     location: "Barog, Himachal Pradesh",
     year: "2021",
-    image: hbvHero,
-    gallery: [hbvGalleryImg0, hbvGalleryImg1, hbvGalleryImg2, hbvGalleryImg3, hbvGalleryImg5, hbvGalleryImg6, hbvGalleryImg8],
+    image: hbvNewHero,
+    gallery: [hbvNewHero, hbvHero, hbvGalleryImg0, hbvGalleryImg1, hbvGalleryImg2, hbvGalleryImg5, hbvGalleryImg6, hbvGalleryImg8, hbvGalleryImg3],
     tagline: "A valley retreat where architecture and landscape merge seamlessly.",
     description:
       "Hotel Barog Valley is a hospitality project nestled in the scenic hills of Barog, Himachal Pradesh. The design responds to the dramatic topography by stepping the building down the slope, ensuring every guest room captures panoramic valley views.\n\nThe material palette draws from the local vernacular — stone masonry walls, timber-framed windows, and slate roofing — while providing the spatial efficiency and modern comfort expected of a contemporary hotel. Public spaces are oriented towards the valley, with generous terraces and lounges that blur the boundary between built form and landscape.",
