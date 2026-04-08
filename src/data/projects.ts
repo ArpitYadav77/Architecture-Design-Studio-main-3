@@ -216,8 +216,8 @@ import farmhouseInt3 from "@/assets/farmhouse/farmhouse_interior3.webp";
 // Haryana CM Residence
 import haryanaCMInterior from "@/assets/Haryana_CM/HaryanaCm_hero.jpeg";
 
-// HP Tower (D141 H&H technologies)
-// HP Tower (D141 H&H technologies)
+// HP Tower (HnH)
+// HP Tower (HnH)
 import hpHero from "@/assets/D141 H&H technologies/Hero.jpeg";
 import hp1st from "@/assets/D141 H&H technologies/1st.jpeg";
 import hp1 from "@/assets/D141 H&H technologies/hp1.jpeg";
@@ -234,7 +234,7 @@ import landmarkWaveExt from "@/assets/Wave_Estate/Wave_state2.png";
 
 
 
-// Mohali Club (CLUBHOUSE TDI MOHALI)
+// Mohali Club (Clubhouse Tdi Mohali)
 import clubhouseHero from "@/assets/CLUBHOUSE TDI MOHALI/hero image.jpeg";
 import clubhouse1 from "@/assets/CLUBHOUSE TDI MOHALI/1st.jpeg";
 import mcW1 from "@/assets/CLUBHOUSE TDI MOHALI/WhatsApp Image 2026-04-02 at 23.54.16 (1).jpeg";
@@ -819,7 +819,7 @@ export const allProjects: ProjectData[] = [
 
   {
     slug: "hotel-le-meridien-amritsar",
-    title: "HOTEL LE MERIDIEN, AMRITSAR",
+    title: "Hotel Le Meridien, Amritsar",
     category: "Hospitality",
     location: "Amritsar, Punjab",
     year: "2015",
@@ -871,7 +871,7 @@ export const allProjects: ProjectData[] = [
 
   {
     slug: "mohali-club",
-    title: "CLUBHOUSE TDI MOHALI",
+    title: "Clubhouse Tdi Mohali",
     category: "Commercial",
     priority: 3,
     location: "Mohali, Punjab",
@@ -888,7 +888,7 @@ export const allProjects: ProjectData[] = [
 
   {
     slug: "kasauli-retreat",
-    title: "AMAYA, KASAULI",
+    title: "Amaya, Kasauli",
     category: "Hospitality",
     location: "Kasauli, Himachal Pradesh",
     year: "2020",
@@ -925,8 +925,8 @@ export const allProjects: ProjectData[] = [
 
 
   {
-    slug: "d-141-hh-technologies",
-    title: "D141 H&H technologies",
+    slug: "hnh",
+    title: "HnH",
     category: "Commercial",
     location: "Chandigarh, India",
     year: "2014",
@@ -943,7 +943,7 @@ export const allProjects: ProjectData[] = [
 
   {
     slug: "triam-tower",
-    title: "TRIAM TOWER, I-42, SECTOR 83, ALPHA",
+    title: "Triam Tower, I-42,Sector 83, Alpha",
     category: "Corporate",
     location: "Sector 83, Alpha, India",
     year: "2020",
@@ -960,7 +960,7 @@ export const allProjects: ProjectData[] = [
 
   {
     slug: "nv-distilleries",
-    title: "NV DISTILLERIES & BREWERIES PVT. LTD",
+    title: "Nv Distilleries & Breweries pvt.Ltd",
     category: "Corporate",
     location: "India",
     year: "2018",
@@ -1047,7 +1047,7 @@ export const allProjects: ProjectData[] = [
 
   {
     slug: "kurukshetra-university",
-    title: "KURUKSHETRA UNIVERSITY, KURUKSHETRA",
+    title: "Kurukshetra University, Kurukshetra",
     category: "Institutional",
     location: "Kurukshetra, Haryana",
     year: "2023",
@@ -1064,7 +1064,7 @@ export const allProjects: ProjectData[] = [
 
   {
     slug: "pt-sundarlal-sharma-university",
-    title: "PT. SUNDARLAL SHARMA (OPEN) UNIVERSITY, CHHATTISGARH",
+    title: "Pt. Sundarlal Sharma University , Chattisgarh",
     category: "Institutional",
     location: "Bilaspur, Chhattisgarh",
     year: "2016",
@@ -1216,7 +1216,7 @@ export const allProjects: ProjectData[] = [
 
   {
     slug: "doon",
-    title: "DOON VALLEY PUBLIC SCHOOL",
+    title: "Doon Valley Public School",
     category: "Institutional",
     location: "Solan, Himachal Pradesh",
     year: "2023",
@@ -1380,7 +1380,7 @@ export const allProjects: ProjectData[] = [
 
   {
     slug: "naar-tower",
-    title: "NAAR TOWER",
+    title: "Naar Tower",
     category: "Corporate",
     location: "Chandigarh, India",
     year: "2024",

@@ -181,7 +181,7 @@ const Hero = memo(() => {
 
       {/* ─── Firm identity bar — top left below navbar ─── */}
       <div
-        className="absolute top-[76px] left-4 sm:left-6 md:left-12 lg:left-24 z-20 flex items-center gap-3 opacity-0 animate-fade-up"
+        className="absolute top-[76px] left-14 sm:left-20 md:left-24 lg:left-24 z-20 flex items-center gap-3 opacity-0 animate-fade-up"
         style={{ animationDelay: "0.2s", animationFillMode: "forwards" }}
       >
         <span className="text-[10px] text-white/70 uppercase font-medium tracking-[0.22em]">
@@ -205,7 +205,7 @@ const Hero = memo(() => {
       </div>
 
       {/* ─── Left-aligned text content ─── */}
-      <div className="relative z-10 h-full flex flex-col justify-end pb-20 sm:pb-24 md:pb-32 px-4 sm:px-6 md:px-12 lg:px-24">
+      <div className="relative z-10 h-full flex flex-col justify-end pb-20 sm:pb-24 md:pb-32 px-14 sm:px-20 md:px-24 lg:px-24">
         {/* Slide label */}
         <p
           key={`label-${currentIndex}`}
@@ -222,7 +222,7 @@ const Hero = memo(() => {
         {/* Main heading */}
         <h1
           key={`h-${currentIndex}`}
-          className="text-3xl sm:text-4xl md:text-7xl lg:text-8xl font-serif font-light leading-[1.08] mb-4 sm:mb-6 text-white opacity-0 animate-fade-up"
+          className="text-2xl sm:text-4xl md:text-7xl lg:text-8xl font-serif font-light leading-[1.08] mb-4 sm:mb-6 text-white opacity-0 animate-fade-up"
           style={{
             animationDelay: "0.35s",
             animationFillMode: "forwards",
@@ -283,8 +283,8 @@ const Hero = memo(() => {
         className="absolute left-2 sm:left-6 top-1/2 -translate-y-1/2 z-20 text-white/60 hover:text-white transition-colors duration-300 disabled:opacity-30 disabled:cursor-not-allowed group"
         aria-label="Previous slide"
       >
-        <div className="p-3 sm:p-2 bg-black/20 hover:bg-black/40 backdrop-blur-sm rounded-full transition-colors duration-300 min-w-[44px] min-h-[44px] flex items-center justify-center">
-          <ChevronLeft className="w-6 h-6 sm:w-8 sm:h-8" />
+        <div className="p-2 sm:p-2 bg-black/20 hover:bg-black/40 backdrop-blur-sm rounded-full transition-colors duration-300 min-w-[40px] min-h-[40px] sm:min-w-[44px] sm:min-h-[44px] flex items-center justify-center">
+          <ChevronLeft className="w-5 h-5 sm:w-8 sm:h-8" />
         </div>
       </button>
 
@@ -294,8 +294,8 @@ const Hero = memo(() => {
         className="absolute right-2 sm:right-6 top-1/2 -translate-y-1/2 z-20 text-white/60 hover:text-white transition-colors duration-300 disabled:opacity-30 disabled:cursor-not-allowed group"
         aria-label="Next slide"
       >
-        <div className="p-3 sm:p-2 bg-black/20 hover:bg-black/40 backdrop-blur-sm rounded-full transition-colors duration-300 min-w-[44px] min-h-[44px] flex items-center justify-center">
-          <ChevronRight className="w-6 h-6 sm:w-8 sm:h-8" />
+        <div className="p-2 sm:p-2 bg-black/20 hover:bg-black/40 backdrop-blur-sm rounded-full transition-colors duration-300 min-w-[40px] min-h-[40px] sm:min-w-[44px] sm:min-h-[44px] flex items-center justify-center">
+          <ChevronRight className="w-5 h-5 sm:w-8 sm:h-8" />
         </div>
       </button>
 
