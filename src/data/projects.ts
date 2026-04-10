@@ -820,6 +820,7 @@ export const allProjects: ProjectData[] = [
   {
     slug: "hotel-le-meridien-amritsar",
     title: "Hotel Le Meridien, Amritsar",
+    priority: 1,
     category: "Hospitality",
     location: "Amritsar, Punjab",
     year: "2015",
@@ -836,6 +837,7 @@ export const allProjects: ProjectData[] = [
   {
     slug: "chandigarh-golf-club",
     title: "Chandigarh Golf Club",
+    priority: 2,
     category: "Hospitality",
     location: "Chandigarh, India",
     year: "2015",
@@ -889,6 +891,7 @@ export const allProjects: ProjectData[] = [
   {
     slug: "kasauli-retreat",
     title: "Amaya, Kasauli",
+    priority: 3,
     category: "Hospitality",
     location: "Kasauli, Himachal Pradesh",
     year: "2020",
@@ -1138,6 +1141,7 @@ export const allProjects: ProjectData[] = [
   {
     slug: "hotel-barog-valley",
     title: "Hotel Barog Valley",
+    priority: 4,
     category: "Hospitality",
     location: "Barog, Himachal Pradesh",
     year: "2021",
