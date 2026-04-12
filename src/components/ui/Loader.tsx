@@ -5,13 +5,16 @@ import { cn } from "@/lib/utils";
  * Loader renders as a fixed overlay ON TOP of the already-mounted app.
  * Incorporates a squeeze/pop entrance and then zooms massively into the center of the logo.
  */
-const Loader = ({ onFinish }: { onFinish: () => void }) => {
+const Loader = ({ onFinish, onFadeStart }: { onFinish: () => void; onFadeStart?: () => void }) => {
   const [isLeaving, setIsLeaving] = useState(false);
 
   useEffect(() => {
     // Phase 1: Logo sequence (bounce + massive zoom) is ~2.4s
     // Phase 2: Fade out the background completely at the end of zoom (~1.9s)
-    const leaveTimeout = setTimeout(() => setIsLeaving(true), 1900);
+    const leaveTimeout = setTimeout(() => {
+      setIsLeaving(true);
+      onFadeStart?.();
+    }, 1900);
     
     // Phase 3: Unmount fully once animation completes
     const finishTimeout = setTimeout(() => onFinish(), 2500);
@@ -20,7 +23,7 @@ const Loader = ({ onFinish }: { onFinish: () => void }) => {
       clearTimeout(leaveTimeout);
       clearTimeout(finishTimeout);
     };
-  }, [onFinish]);
+  }, [onFinish, onFadeStart]);
 
   return (
     <div
@@ -29,7 +32,7 @@ const Loader = ({ onFinish }: { onFinish: () => void }) => {
         isLeaving ? "opacity-0 pointer-events-none" : "opacity-100"
       )}
       style={{
-        backgroundColor: "#fdfcfb", // Force light premium background
+        backgroundColor: "#fdfcfb", // Solid light premium background
       }}
     >
       <div className="relative flex items-center justify-center">

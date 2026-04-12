@@ -71,7 +71,7 @@ const slides = [
    ─ One plays while the other preloads the next video.
    ─ On slide change, opacity swaps — zero flicker, no DOM churn.
    ═══════════════════════════════════════════════════════════════════ */
-const Hero = memo(() => {
+const Hero = memo(({ isStarted = true }: { isStarted?: boolean }) => {
   /* ── State ── */
   const [currentIndex, setCurrentIndex] = useState(0);
   const [isTransitioning, setIsTransitioning] = useState(false);
@@ -85,8 +85,8 @@ const Hero = memo(() => {
 
   /* ── Core transition ──────────────────────────────────────────── */
   const goTo = useCallback(
-    (target: number) => {
-      if (busyRef.current || target === indexRef.current) return;
+    (target: number, force: boolean = false) => {
+      if (!force && (busyRef.current || target === indexRef.current)) return;
       busyRef.current = true;
       setIsTransitioning(true);
 
@@ -102,9 +102,7 @@ const Hero = memo(() => {
 
       // After crossfade completes → housekeeping
       setTimeout(() => {
-        // Pause the old video to prevent playing multiple high-res videos simultaneously,
-        // which heavily consumes CPU/GPU resources and causes severe stutter.
-        if (oldVideo) {
+        if (oldVideo && oldIndex !== target) {
           oldVideo.pause();
           if (oldVideo.el) {
             oldVideo.el.currentTime = 0;
@@ -127,20 +125,26 @@ const Hero = memo(() => {
     [goTo],
   );
 
-  /* ── Bootstrap: play only the initial video ──────────────── */
+  /* ── Bootstrap/Reset: Handle entry ──────────────── */
   useEffect(() => {
-    videoRefs.current[0]?.play();
-  }, []);
+    if (isStarted) {
+      // Force jump to slide 0 when started (revealed from welcome)
+      goTo(0, true);
+    } else {
+      // Just play the first video in background
+      videoRefs.current[0]?.play();
+    }
+  }, [isStarted, goTo]);
 
   /* ── Near-end → pre-trigger crossfade for seamless looping ──────── */
   const handleVideoNearEnd = useCallback((index: number) => {
-    if (index === indexRef.current) nextSlide();
-  }, [nextSlide]);
+    if (isStarted && index === indexRef.current) nextSlide();
+  }, [nextSlide, isStarted]);
 
   /* ── Video ended → fallback advance (only when that layer is active) */
   const handleVideoEnded = useCallback((index: number) => {
-    if (index === indexRef.current) nextSlide();
-  }, [nextSlide]);
+    if (isStarted && index === indexRef.current) nextSlide();
+  }, [nextSlide, isStarted]);
 
   /* ── Render ───────────────────────────────────────────────────── */
   return (
@@ -179,146 +183,151 @@ const Hero = memo(() => {
         />
       </div>
 
-      {/* ─── Firm identity bar — top left below navbar ─── */}
-      <div
-        className="absolute top-[76px] left-14 sm:left-20 md:left-24 lg:left-24 z-20 flex items-center gap-3 opacity-0 animate-fade-up"
-        style={{ animationDelay: "0.2s", animationFillMode: "forwards" }}
-      >
-        <span className="text-[10px] text-white/70 uppercase font-medium tracking-[0.22em]">
-          Est. 1983
-        </span>
-        <span className="w-8 h-[1px] bg-accent/80" />
-        <span className="text-[10px] text-white/70 uppercase font-medium tracking-[0.22em]">
-          Chandigarh, India
-        </span>
-      </div>
-
-      {/* ─── Location badge — right side (desktop only) ─── */}
-      <div
-        className="absolute top-[76px] right-6 md:right-12 z-20 hidden md:flex items-center gap-2 opacity-0 animate-fade-up"
-        style={{ animationDelay: "0.2s", animationFillMode: "forwards" }}
-      >
-        <MapPin className="w-4 h-4 text-accent" />
-        <span className="text-[11px] text-white/80 uppercase tracking-[0.18em]">
-          1514, Sector 7C, Chandigarh
-        </span>
-      </div>
-
-      {/* ─── Left-aligned text content ─── */}
-      <div className="relative z-10 h-full flex flex-col justify-end pb-20 sm:pb-24 md:pb-32 px-14 sm:px-20 md:px-24 lg:px-24">
-        {/* Slide label */}
-        <p
-          key={`label-${currentIndex}`}
-          className="text-[10px] sm:text-[11px] text-accent font-semibold mb-4 sm:mb-5 opacity-0 animate-fade-up uppercase"
-          style={{
-            animationDelay: "0.2s",
-            animationFillMode: "forwards",
-            letterSpacing: "0.20em",
-          }}
-        >
-          {slides[currentIndex].label}
-        </p>
-
-        {/* Main heading */}
-        <h1
-          key={`h-${currentIndex}`}
-          className="text-2xl sm:text-4xl md:text-7xl lg:text-8xl font-serif font-light leading-[1.08] mb-4 sm:mb-6 text-white opacity-0 animate-fade-up"
-          style={{
-            animationDelay: "0.35s",
-            animationFillMode: "forwards",
-            letterSpacing: "0.01em",
-            whiteSpace: "pre-line",
-          }}
-        >
-          {slides[currentIndex].heading}
-        </h1>
-
-        {/* Accent line */}
-        <div
-          key={`line-${currentIndex}`}
-          className="w-10 sm:w-12 h-[2px] bg-accent mb-4 sm:mb-6 opacity-0 animate-fade-up"
-          style={{ animationDelay: "0.5s", animationFillMode: "forwards" }}
-        />
-
-        {/* Subtext */}
-        <p
-          key={`sub-${currentIndex}`}
-          className="text-sm sm:text-base md:text-lg text-white/80 font-light mb-8 sm:mb-10 max-w-xl opacity-0 animate-fade-up"
-          style={{
-            animationDelay: "0.6s",
-            animationFillMode: "forwards",
-            letterSpacing: "0.02em",
-            lineHeight: "1.7",
-          }}
-        >
-          {slides[currentIndex].sub}
-        </p>
-
-        {/* CTAs — stack on very small screens, 44px min tap target */}
-        <div
-          className="flex flex-col sm:flex-row gap-3 sm:gap-4 opacity-0 animate-fade-up"
-          style={{ animationDelay: "0.75s", animationFillMode: "forwards" }}
-        >
-          <Link
-            to="/projects"
-            className="px-8 sm:px-10 py-3.5 sm:py-4 bg-accent hover:bg-[#D4A45C] text-white text-xs sm:text-sm font-medium uppercase transition-colors duration-300 text-center min-h-[44px] flex items-center justify-center"
-            style={{ letterSpacing: "0.12em" }}
+      {/* ─── Hero content and UI — only visible when isStarted is true ─── */}
+      {isStarted && (
+        <div className="contents animate-page-fade">
+          {/* ─── Firm identity bar — top left below navbar ─── */}
+          <div
+            className="absolute top-[76px] left-14 sm:left-20 md:left-24 lg:left-24 z-20 flex items-center gap-3 opacity-0 animate-fade-up"
+            style={{ animationDelay: "0.2s", animationFillMode: "forwards" }}
           >
-            View Portfolio
-          </Link>
-          <Link
-            to="/contact"
-            className="px-8 sm:px-10 py-3.5 sm:py-4 border border-white/40 hover:border-white text-white text-xs sm:text-sm font-medium uppercase transition-colors duration-300 hover:bg-white/10 text-center min-h-[44px] flex items-center justify-center"
-            style={{ letterSpacing: "0.12em" }}
+            <span className="text-[10px] text-white/70 uppercase font-medium tracking-[0.22em]">
+              Est. 1983
+            </span>
+            <span className="w-8 h-[1px] bg-accent/80" />
+            <span className="text-[10px] text-white/70 uppercase font-medium tracking-[0.22em]">
+              Chandigarh, India
+            </span>
+          </div>
+
+          {/* ─── Location badge — right side (desktop only) ─── */}
+          <div
+            className="absolute top-[76px] right-6 md:right-12 z-20 hidden md:flex items-center gap-2 opacity-0 animate-fade-up"
+            style={{ animationDelay: "0.2s", animationFillMode: "forwards" }}
           >
-            Get in Touch
-          </Link>
-        </div>
-      </div>
+            <MapPin className="w-4 h-4 text-accent" />
+            <span className="text-[11px] text-white/80 uppercase tracking-[0.18em]">
+              1514, Sector 7C, Chandigarh
+            </span>
+          </div>
 
-      {/* ─── Navigation arrows — 44px min tap target ─── */}
-      <button
-        onClick={prevSlide}
-        disabled={isTransitioning}
-        className="absolute left-2 sm:left-6 top-1/2 -translate-y-1/2 z-20 text-white/60 hover:text-white transition-colors duration-300 disabled:opacity-30 disabled:cursor-not-allowed group"
-        aria-label="Previous slide"
-      >
-        <div className="p-2 sm:p-2 bg-black/20 hover:bg-black/40 backdrop-blur-sm rounded-full transition-colors duration-300 min-w-[40px] min-h-[40px] sm:min-w-[44px] sm:min-h-[44px] flex items-center justify-center">
-          <ChevronLeft className="w-5 h-5 sm:w-8 sm:h-8" />
-        </div>
-      </button>
+          {/* ─── Left-aligned text content ─── */}
+          <div className="relative z-10 h-full flex flex-col justify-end pb-20 sm:pb-24 md:pb-32 px-14 sm:px-20 md:px-24 lg:px-24">
+            {/* Slide label */}
+            <p
+              key={`label-${currentIndex}`}
+              className="text-[10px] sm:text-[11px] text-accent font-semibold mb-4 sm:mb-5 opacity-0 animate-fade-up uppercase"
+              style={{
+                animationDelay: "0.2s",
+                animationFillMode: "forwards",
+                letterSpacing: "0.20em",
+              }}
+            >
+              {slides[currentIndex].label}
+            </p>
 
-      <button
-        onClick={nextSlide}
-        disabled={isTransitioning}
-        className="absolute right-2 sm:right-6 top-1/2 -translate-y-1/2 z-20 text-white/60 hover:text-white transition-colors duration-300 disabled:opacity-30 disabled:cursor-not-allowed group"
-        aria-label="Next slide"
-      >
-        <div className="p-2 sm:p-2 bg-black/20 hover:bg-black/40 backdrop-blur-sm rounded-full transition-colors duration-300 min-w-[40px] min-h-[40px] sm:min-w-[44px] sm:min-h-[44px] flex items-center justify-center">
-          <ChevronRight className="w-5 h-5 sm:w-8 sm:h-8" />
-        </div>
-      </button>
+            {/* Main heading */}
+            <h1
+              key={`h-${currentIndex}`}
+              className="text-2xl sm:text-4xl md:text-7xl lg:text-8xl font-serif font-light leading-[1.08] mb-4 sm:mb-6 text-white opacity-0 animate-fade-up"
+              style={{
+                animationDelay: "0.35s",
+                animationFillMode: "forwards",
+                letterSpacing: "0.01em",
+                whiteSpace: "pre-line",
+              }}
+            >
+              {slides[currentIndex].heading}
+            </h1>
 
-      {/* ─── Pagination dots — padded for mobile tap ─── */}
-      <div className="absolute bottom-8 sm:bottom-12 left-1/2 -translate-x-1/2 z-20 flex gap-3">
-        {slides.map((_, index) => (
-          <button
-            key={index}
-            onClick={() => goTo(index)}
-            disabled={isTransitioning}
-            className="group disabled:cursor-not-allowed p-2 -m-2"
-            aria-label={`Go to slide ${index + 1}`}
-          >
+            {/* Accent line */}
             <div
-              className={`h-[1px] transition-all duration-500 ${
-                index === currentIndex
-                  ? "w-12 bg-accent"
-                  : "w-8 bg-white/40 group-hover:bg-white/70"
-              }`}
+              key={`line-${currentIndex}`}
+              className="w-10 sm:w-12 h-[2px] bg-accent mb-4 sm:mb-6 opacity-0 animate-fade-up"
+              style={{ animationDelay: "0.5s", animationFillMode: "forwards" }}
             />
+
+            {/* Subtext */}
+            <p
+              key={`sub-${currentIndex}`}
+              className="text-sm sm:text-base md:text-lg text-white/80 font-light mb-8 sm:mb-10 max-w-xl opacity-0 animate-fade-up"
+              style={{
+                animationDelay: "0.6s",
+                animationFillMode: "forwards",
+                letterSpacing: "0.02em",
+                lineHeight: "1.7",
+              }}
+            >
+              {slides[currentIndex].sub}
+            </p>
+
+            {/* CTAs — stack on very small screens, 44px min tap target */}
+            <div
+              className="flex flex-col sm:flex-row gap-3 sm:gap-4 opacity-0 animate-fade-up"
+              style={{ animationDelay: "0.75s", animationFillMode: "forwards" }}
+            >
+              <Link
+                to="/projects"
+                className="px-8 sm:px-10 py-3.5 sm:py-4 bg-accent hover:bg-[#D4A45C] text-white text-xs sm:text-sm font-medium uppercase transition-colors duration-300 text-center min-h-[44px] flex items-center justify-center"
+                style={{ letterSpacing: "0.12em" }}
+              >
+                View Portfolio
+              </Link>
+              <Link
+                to="/contact"
+                className="px-8 sm:px-10 py-3.5 sm:py-4 border border-white/40 hover:border-white text-white text-xs sm:text-sm font-medium uppercase transition-colors duration-300 hover:bg-white/10 text-center min-h-[44px] flex items-center justify-center"
+                style={{ letterSpacing: "0.12em" }}
+              >
+                Get in Touch
+              </Link>
+            </div>
+          </div>
+
+          {/* ─── Navigation arrows — 44px min tap target ─── */}
+          <button
+            onClick={prevSlide}
+            disabled={isTransitioning}
+            className="absolute left-2 sm:left-6 top-1/2 -translate-y-1/2 z-20 text-white/60 hover:text-white transition-colors duration-300 disabled:opacity-30 disabled:cursor-not-allowed group"
+            aria-label="Previous slide"
+          >
+            <div className="p-2 sm:p-2 bg-black/20 hover:bg-black/40 backdrop-blur-sm rounded-full transition-colors duration-300 min-w-[40px] min-h-[40px] sm:min-w-[44px] sm:min-h-[44px] flex items-center justify-center">
+              <ChevronLeft className="w-5 h-5 sm:w-8 sm:h-8" />
+            </div>
           </button>
-        ))}
-      </div>
+
+          <button
+            onClick={nextSlide}
+            disabled={isTransitioning}
+            className="absolute right-2 sm:right-6 top-1/2 -translate-y-1/2 z-20 text-white/60 hover:text-white transition-colors duration-300 disabled:opacity-30 disabled:cursor-not-allowed group"
+            aria-label="Next slide"
+          >
+            <div className="p-2 sm:p-2 bg-black/20 hover:bg-black/40 backdrop-blur-sm rounded-full transition-colors duration-300 min-w-[40px] min-h-[40px] sm:min-w-[44px] sm:min-h-[44px] flex items-center justify-center">
+              <ChevronRight className="w-5 h-5 sm:w-8 sm:h-8" />
+            </div>
+          </button>
+
+          {/* ─── Pagination dots — padded for mobile tap ─── */}
+          <div className="absolute bottom-8 sm:bottom-12 left-1/2 -translate-x-1/2 z-20 flex gap-3">
+            {slides.map((_, index) => (
+              <button
+                key={index}
+                onClick={() => goTo(index)}
+                disabled={isTransitioning}
+                className="group disabled:cursor-not-allowed p-2 -m-2"
+                aria-label={`Go to slide ${index + 1}`}
+              >
+                <div
+                  className={`h-[1px] transition-all duration-500 ${
+                    index === currentIndex
+                      ? "w-12 bg-accent"
+                      : "w-8 bg-white/40 group-hover:bg-white/70"
+                  }`}
+                />
+              </button>
+            ))}
+          </div>
+        </div>
+      )}
     </section>
   );
 });
