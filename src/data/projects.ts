@@ -1277,7 +1277,7 @@ export const allProjects: ProjectData[] = [
     title: "Royal Government of Bhutan Office Development",
     category: "Competition",
     location: "Bhutan",
-    year: "2023",
+    year: "2026",
     image: bhutan1,
     gallery: [bhutan1, bhutan2, bhutan3, bhutan4, bhutan5, bhutan6, bhutan7],
     tagline: "Architectural dialogue with Bhutanese heritage and modern administration.",
