@@ -116,6 +116,30 @@ import rajasthan1 from "@/assets/RAJASTHAN BHAVAN/WhatsApp Image 2026-04-02 at 1
 import rajasthan2 from "@/assets/RAJASTHAN BHAVAN/WhatsApp Image 2026-04-02 at 12.15.55 (1).jpeg";
 import rajasthan3 from "@/assets/RAJASTHAN BHAVAN/WhatsApp Image 2026-04-02 at 12.15.55.jpeg";
 
+// Roshni Renewables
+import roshniHero from "@/assets/Roshni_Renewables/hero.jpeg";
+import roshniImg1 from "@/assets/Roshni_Renewables/WhatsApp Image 2026-04-16 at 12.39.26.jpeg";
+import roshniImg2 from "@/assets/Roshni_Renewables/WhatsApp Image 2026-04-16 at 12.39.27.jpeg";
+import roshniImg3 from "@/assets/Roshni_Renewables/WhatsApp Image 2026-04-16 at 12.39.27 (2).jpeg";
+import roshniImg4 from "@/assets/Roshni_Renewables/WhatsApp Image 2026-04-16 at 12.39.28.jpeg";
+import roshniImg5 from "@/assets/Roshni_Renewables/WhatsApp Image 2026-04-16 at 12.39.28 (1).jpeg";
+import roshniImg6 from "@/assets/Roshni_Renewables/WhatsApp Image 2026-04-16 at 12.39.28 (2).jpeg";
+import roshniImg7 from "@/assets/Roshni_Renewables/WhatsApp Image 2026-04-16 at 12.39.29.jpeg";
+import roshniImg8 from "@/assets/Roshni_Renewables/WhatsApp Image 2026-04-16 at 12.39.29 (1).jpeg";
+import roshniImg9 from "@/assets/Roshni_Renewables/WhatsApp Image 2026-04-16 at 12.39.29 (2).jpeg";
+import roshniImg10 from "@/assets/Roshni_Renewables/WhatsApp Image 2026-04-16 at 12.39.30.jpeg";
+import roshniImg11 from "@/assets/Roshni_Renewables/WhatsApp Image 2026-04-16 at 12.39.30 (1).jpeg";
+import roshniImg12 from "@/assets/Roshni_Renewables/WhatsApp Image 2026-04-16 at 12.39.30 (2).jpeg";
+
+// LUVAS Gate
+import luvasGateImg1 from "@/assets/LUVAS/WhatsApp Image 2026-04-16 at 16.04.28.jpeg";
+import luvasGateImg2 from "@/assets/LUVAS/WhatsApp Image 2026-04-16 at 16.04.28 (1).jpeg";
+import luvasGateImg3 from "@/assets/LUVAS/WhatsApp Image 2026-04-16 at 16.04.29.jpeg";
+import luvasGateImg4 from "@/assets/LUVAS/WhatsApp Image 2026-04-16 at 16.04.29 (1).jpeg";
+import luvasGateImg5 from "@/assets/LUVAS/WhatsApp Image 2026-04-16 at 16.04.30.jpeg";
+import luvasGateImg6 from "@/assets/LUVAS/WhatsApp Image 2026-04-16 at 16.04.30 (1).jpeg";
+import luvasGateImg7 from "@/assets/LUVAS/WhatsApp Image 2026-04-16 at 16.04.31.jpeg";
+
 export interface ProjectData {
   slug: string;
   title: string;
@@ -820,7 +844,7 @@ export const allProjects: ProjectData[] = [
   {
     slug: "hotel-le-meridien-amritsar",
     title: "Hotel Le Meridien, Amritsar",
-    priority: 1,
+    priority: -1000,
     category: "Hospitality",
     location: "Amritsar, Punjab",
     year: "2015",
@@ -952,7 +976,7 @@ export const allProjects: ProjectData[] = [
     year: "2020",
     image: triamHeroNew,
     gallery: [triamHeroNew, triam1st, triamExterior, triam2, triam3],
-    priority: 2,
+    priority: -1100,
     tagline: "A bold corporate tower designed for presence and performance.",
     description:
       "TRIAM TOWER at I-42, Sector 83, Alpha is a corporate office development conceived to project institutional confidence while delivering efficient, flexible floor plates suited to modern commercial tenants.\n\nThe tower's facade is a disciplined composition of glass and pre-cast concrete panels that modulate light and scale across the elevation. At street level, a double-height lobby with stone finishes and curated lighting establishes the building's identity from the moment of arrival.\n\nThe project demonstrates Bachitter Singh Associates' ability to deliver corporate architecture that balances civic presence with the pragmatic demands of commercial real estate.",
@@ -1004,7 +1028,7 @@ export const allProjects: ProjectData[] = [
     year: "2021",
     image: clinicGalleryImg0,
     gallery: [clinicGalleryImg0, clinicGalleryImg1, clinicGalleryImg2, clinicGalleryImg3, clinicGalleryImg4],
-    priority: 1,
+    priority: 10000,
     tagline: "A healthcare interior that prioritises calm, clarity, and patient dignity.",
     description:
       "Designing a medical clinic requires resolving a fundamental tension: the space must be efficient and hygienic, yet calming and humane. This project in Chandigarh addressed that challenge through material restraint, careful spatial sequencing, and a palette chosen to reduce clinical anxiety without sacrificing cleanliness or function.\n\nThe entry and waiting area is deliberately airy, with high ceilings, warm-toned wall panels, and indirect lighting that avoids the harshness of conventional medical environments. Consultation rooms are compact but precisely planned — each with a window, good natural light, and storage that keeps clinical equipment out of sight when not in use.\n\nThe circulation spine — a wide, gently lit passage — connects all zones of the clinic while providing clear wayfinding. Materials throughout are selected for ease of cleaning and long-term durability: porcelain floor tiles, moisture-resistant wall finishes, and solid-core joinery.",
@@ -1271,6 +1295,7 @@ export const allProjects: ProjectData[] = [
     tagline: "A master plan for future-ready academic infrastructure.",
     description: "Competition entry for Bhilai University master plan, envisioning a campus that promotes interdisciplinary learning and sustainable growth.",
     status: "Competition",
+    priority: 10001,
   },
   {
     slug: "sbfi",
@@ -1396,6 +1421,41 @@ export const allProjects: ProjectData[] = [
     client: "Naar Group",
     status: "Ongoing",
     priority: 3,
+  },
+  {
+    slug: "roshni-renewables-valco",
+    title: "Roshni Renewables - Valco Group",
+    category: "Corporate",
+    location: "Rajpura, Punjab",
+    year: "2026",
+    image: roshniImg6,
+    gallery: [
+      roshniHero, roshniImg6, roshniImg1, roshniImg2, roshniImg3, roshniImg4, 
+      roshniImg5, roshniImg7, roshniImg8, roshniImg9, 
+      roshniImg10, roshniImg11, roshniImg12
+    ],
+    priority: -999,
+    tagline: "Punjab’s first solar-powered industrial development.",
+    description: "Roshni Renewables is an upcoming industrial development envisioned as Punjab’s first solar-powered plant, located in Rajpura. The project is conceived as a progressive industrial campus that integrates renewable energy infrastructure with contemporary architectural expression.\n\nThe design approach focuses on creating a strong and recognizable identity while maintaining functional efficiency. The built form combines a large-span industrial shed with a refined administrative block that addresses the main entry. The façade composition uses a mix of exposed brick, metal cladding, and high-performance glazing to achieve a balance between robustness and modernity.\n\nA key feature of the project is the layered spatial experience—from the entrance gate and security cabin to the landscaped forecourt and the main building frontage. The arrival sequence is designed to create a sense of openness and order, with clear segregation of pedestrian and vehicular movement. The administrative block is articulated with terraces, green walls, and shaded outdoor spaces, enhancing both aesthetics and environmental performance.\n\nSustainability is central to the design intent. Along with the integration of solar energy systems, the project incorporates passive strategies such as controlled daylighting, shading devices, and landscape buffers to improve thermal comfort and reduce energy demand.\n\nOverall, Roshni Renewables is envisioned as a future-ready industrial facility that not only supports efficient operations but also sets a benchmark for sustainable and architecturally expressive industrial design in the region.",
+    client: "Valco Group",
+    area: "26147.625 sq. m",
+    status: "Ongoing"
+  },
+  {
+    slug: "gate-luvas",
+    title: "GATE LUVAS",
+    category: "Institutional",
+    location: "Hisar, Haryana",
+    year: "2023",
+    image: luvasGateImg6,
+    gallery: [
+      luvasGateImg6, luvasGateImg7, luvasGateImg5, luvasGateImg1, 
+      luvasGateImg2, luvasGateImg3, luvasGateImg4
+    ],
+    priority: 7,
+    tagline: "A monumental gateway for Lala Lajpat Rai University.",
+    description: "The entrance gateway for the Lala Lajpat Rai University of Veterinary and Animal Sciences (LUVAS) is designed as a landmark structure that marks the transition from the city to the academic precinct. The architecture employs a robust palette of local sandstone and modern accents, creating a sense of permanence and institutional pride. The design prioritizes clear segregation of vehicular and pedestrian flows, ensuring safe and efficient access to the 1,125-acre campus.",
+    status: "Built",
   }];
 
 // ── CMS-managed projects (Decap CMS → /content/projects/*.json) ─────────────
@@ -1460,8 +1520,19 @@ export const landmarkProjects: ProjectData[] = [];
 // ── portfolio subset (includes all CMS projects) ─────────────────────────────
 export const portfolioProjects = _allCombined
   .sort((a, b) => {
-    const ap = a.priority ?? a.order ?? Infinity;
-    const bp = b.priority ?? b.order ?? Infinity;
+    // Explicit priority for requested ordering
+    const getSortPriority = (p: ProjectData) => {
+      if (p.slug === "triam-tower") return -1100;
+      if (p.slug === "hotel-le-meridien-amritsar") return -1000;
+      if (p.slug === "roshni-renewables-valco") return -999;
+      if (p.slug === "clinic") return 10000;
+      if (p.slug === "bhilai-university") return 10001;
+      return p.priority ?? p.order ?? 500; // Default to a middle-high value for others
+    };
+
+    const ap = getSortPriority(a);
+    const bp = getSortPriority(b);
+
     if (ap !== bp) return ap - bp;
     return a.title.localeCompare(b.title);
   });

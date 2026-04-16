@@ -65,7 +65,7 @@ const ProjectsPage = () => {
             const getPriority = (obj: any) => {
               if (typeof obj.priority === "number") return obj.priority;
               if (typeof obj.P === "number") return obj.P;
-              return Infinity;
+              return 500;
             };
 
             const ap = getPriority(a);
