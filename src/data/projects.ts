@@ -574,8 +574,7 @@ import llruBsa1 from "@/assets/BSA/BSA/6. Lala Lajpat Rai University of veterina
 import llruBsa2 from "@/assets/BSA/BSA/6. Lala Lajpat Rai University of veterinary and Animal Science, Hisar/2.jpeg";
 import llruBsa3 from "@/assets/BSA/BSA/6. Lala Lajpat Rai University of veterinary and Animal Science, Hisar/3.jpeg";
 import llruBsa4 from "@/assets/BSA/BSA/6. Lala Lajpat Rai University of veterinary and Animal Science, Hisar/4.jpeg";
-import llruBsa5 from "@/assets/BSA/BSA/6. Lala Lajpat Rai University of veterinary and Animal Science, Hisar/5.jpeg";
-import llruBsa6 from "@/assets/BSA/BSA/6. Lala Lajpat Rai University of veterinary and Animal Science, Hisar/6.jpeg";
+
 import llruBsa7 from "@/assets/BSA/BSA/6. Lala Lajpat Rai University of veterinary and Animal Science, Hisar/7.jpeg";
 import llruBsa8 from "@/assets/BSA/BSA/6. Lala Lajpat Rai University of veterinary and Animal Science, Hisar/8.jpeg";
 import llruBsa9 from "@/assets/BSA/BSA/6. Lala Lajpat Rai University of veterinary and Animal Science, Hisar/9.jpeg";
@@ -805,7 +804,7 @@ export const allProjects: ProjectData[] = [
     year: "2018",
     image: llrpHero,
     gallery: [
-      llruBsa1, llruBsa2, llruBsa3, llruBsa4, llruBsa5, llruBsa6, llruBsa7, llruBsa8, llruBsa9, llruBsa10,
+      llruBsa1, llruBsa2, llruBsa3, llruBsa4, llruBsa7, llruBsa8, llruBsa9, llruBsa10,
       llruBsa11, llruBsa12, llruBsa13, llruBsa14, llruBsa15, llruBsa16
     ],
     tagline: "A campus designed for knowledge, community, and institutional pride.",
@@ -1430,8 +1429,8 @@ export const allProjects: ProjectData[] = [
     year: "2026",
     image: roshniImg6,
     gallery: [
-      roshniHero, roshniImg6, roshniImg1, roshniImg2, roshniImg3, roshniImg4, 
-      roshniImg5, roshniImg7, roshniImg8, roshniImg9, 
+      roshniHero, roshniImg6, roshniImg1, roshniImg2, roshniImg3, roshniImg4,
+      roshniImg5, roshniImg7, roshniImg8, roshniImg9,
       roshniImg10, roshniImg11, roshniImg12
     ],
     priority: -999,
@@ -1449,7 +1448,7 @@ export const allProjects: ProjectData[] = [
     year: "2023",
     image: luvasGateImg6,
     gallery: [
-      luvasGateImg6, luvasGateImg7, luvasGateImg5, luvasGateImg1, 
+      luvasGateImg6, luvasGateImg7, luvasGateImg5, luvasGateImg1,
       luvasGateImg2, luvasGateImg3, luvasGateImg4
     ],
     priority: 7,
