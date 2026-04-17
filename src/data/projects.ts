@@ -1442,7 +1442,7 @@ export const allProjects: ProjectData[] = [
   },
   {
     slug: "gate-luvas",
-    title: "GATE LUVAS",
+    title: "Gate Luvas",
     category: "Institutional",
     location: "Hisar, Haryana",
     year: "2023",
