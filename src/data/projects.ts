@@ -140,6 +140,30 @@ import luvasGateImg5 from "@/assets/LUVAS/WhatsApp Image 2026-04-16 at 16.04.30.
 import luvasGateImg6 from "@/assets/LUVAS/WhatsApp Image 2026-04-16 at 16.04.30 (1).jpeg";
 import luvasGateImg7 from "@/assets/LUVAS/WhatsApp Image 2026-04-16 at 16.04.31.jpeg";
 
+// Chandigarh Housing Board
+import chb1 from "@/assets/Chandigarh_Housing_Board/WhatsApp Image 2026-04-24 at 18.57.02 (1).jpeg";
+import chb2 from "@/assets/Chandigarh_Housing_Board/WhatsApp Image 2026-04-24 at 18.57.02 (2).jpeg";
+import chb3 from "@/assets/Chandigarh_Housing_Board/WhatsApp Image 2026-04-24 at 18.57.02.jpeg";
+import chb4 from "@/assets/Chandigarh_Housing_Board/WhatsApp Image 2026-04-24 at 18.57.03 (1).jpeg";
+import chb5 from "@/assets/Chandigarh_Housing_Board/WhatsApp Image 2026-04-24 at 18.57.03.jpeg";
+import chb6 from "@/assets/Chandigarh_Housing_Board/WhatsApp Image 2026-04-24 at 18.57.04.jpeg";
+
+// PGI Cafeteria
+import pgi1 from "@/assets/PGI_Cafeteria/WhatsApp Image 2026-04-24 at 18.57.04 (1).jpeg";
+import pgi2 from "@/assets/PGI_Cafeteria/WhatsApp Image 2026-04-24 at 18.57.04.jpeg";
+import pgi3 from "@/assets/PGI_Cafeteria/WhatsApp Image 2026-04-24 at 18.57.05 (1).jpeg";
+import pgi4 from "@/assets/PGI_Cafeteria/WhatsApp Image 2026-04-24 at 18.57.05 (2).jpeg";
+import pgi5 from "@/assets/PGI_Cafeteria/WhatsApp Image 2026-04-24 at 18.57.05.jpeg";
+import pgi6 from "@/assets/PGI_Cafeteria/WhatsApp Image 2026-04-24 at 18.57.06 (1).jpeg";
+import pgi7 from "@/assets/PGI_Cafeteria/WhatsApp Image 2026-04-24 at 18.57.06 (2).jpeg";
+import pgi8 from "@/assets/PGI_Cafeteria/WhatsApp Image 2026-04-24 at 18.57.06.jpeg";
+import pgi9 from "@/assets/PGI_Cafeteria/WhatsApp Image 2026-04-24 at 18.57.07 (1).jpeg";
+import pgi10 from "@/assets/PGI_Cafeteria/WhatsApp Image 2026-04-24 at 18.57.07 (2).jpeg";
+import pgi11 from "@/assets/PGI_Cafeteria/WhatsApp Image 2026-04-24 at 18.57.07.jpeg";
+import pgi12 from "@/assets/PGI_Cafeteria/WhatsApp Image 2026-04-24 at 18.57.08 (1).jpeg";
+import pgi13 from "@/assets/PGI_Cafeteria/WhatsApp Image 2026-04-24 at 18.57.08 (2).jpeg";
+import pgi14 from "@/assets/PGI_Cafeteria/WhatsApp Image 2026-04-24 at 18.57.08.jpeg";
+
 export interface ProjectData {
   slug: string;
   title: string;
@@ -1455,6 +1479,30 @@ export const allProjects: ProjectData[] = [
     tagline: "A monumental gateway for Lala Lajpat Rai University.",
     description: "The entrance gateway for the Lala Lajpat Rai University of Veterinary and Animal Sciences (LUVAS) is designed as a landmark structure that marks the transition from the city to the academic precinct. The architecture employs a robust palette of local sandstone and modern accents, creating a sense of permanence and institutional pride. The design prioritizes clear segregation of vehicular and pedestrian flows, ensuring safe and efficient access to the 1,125-acre campus.",
     status: "Built",
+  },
+  {
+    slug: "chandigarh-housing-board",
+    title: "Chandigarh Housing Board",
+    category: "Competition",
+    location: "Chandigarh, India",
+    year: "2024",
+    image: chb6,
+    gallery: [chb6, chb1, chb2, chb3, chb4, chb5],
+    tagline: "A sustainable and community-focused residential environment.",
+    description: "The proposed housing development envisions a sustainable and community-focused residential environment. Mid-rise blocks are organized around landscaped courtyards, balancing density with open spaces and encouraging social interaction.\n\nThe design features stepped terraces and balcony planters, integrating greenery throughout and enhancing microclimate comfort. Rooftop solar panels support energy efficiency and reinforce the project’s sustainable vision.\n\nClear segregation of pedestrian and vehicular movement ensures safe circulation, while amenities like a clubhouse and sports areas activate community life.\n\nOverall, the proposal creates a modern, environmentally responsive housing development with a strong architectural identity for Chandigarh.",
+    status: "Competition",
+  },
+  {
+    slug: "pgi-cafeteria-competition",
+    title: "PGI Cafeteria: Competition Proposal",
+    category: "Competition",
+    location: "Chandigarh, India",
+    year: "2024",
+    image: pgi2,
+    gallery: [pgi2, pgi1, pgi3, pgi4, pgi5, pgi6, pgi7, pgi8, pgi9, pgi10, pgi11, pgi12, pgi13, pgi14],
+    tagline: "Redefining institutional dining through organic, site-responsive design.",
+    description: "This comprehensive proposal for the PGI Upper and Lower Cafeteria redefines institutional dining through an organic, site-responsive design that prioritizes both operational efficiency and environmental resilience.\n\nThe Lower Cafeteria serves as a high-capacity hub (166 PAX), featuring a specialized kitchen with dedicated mise-en-place zones and segregated seating for staff comfort. A core pillar of the design is climatic adaptability; the plan integrates a 6ft wide peripheral drain and landscaped berms to mitigate water ingress. Internally, a sophisticated network of grease traps and deep-sump pump systems ensures high hygiene standards and prevents waterlogging.\n\nBy balancing inclusive spatial planning—including ADA-compliant access—with robust technical infrastructure, this design provides a sustainable, modern environment tailored to the unique demands of the PGI community.",
+    status: "Competition",
   }];
 
 // ── CMS-managed projects (Decap CMS → /content/projects/*.json) ─────────────
