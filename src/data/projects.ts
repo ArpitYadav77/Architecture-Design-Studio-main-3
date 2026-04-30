@@ -131,14 +131,7 @@ import roshniImg10 from "@/assets/Roshni_Renewables/WhatsApp Image 2026-04-16 at
 import roshniImg11 from "@/assets/Roshni_Renewables/WhatsApp Image 2026-04-16 at 12.39.30 (1).jpeg";
 import roshniImg12 from "@/assets/Roshni_Renewables/WhatsApp Image 2026-04-16 at 12.39.30 (2).jpeg";
 
-// LUVAS Gate
-import luvasGateImg1 from "@/assets/LUVAS/WhatsApp Image 2026-04-16 at 16.04.28.jpeg";
-import luvasGateImg2 from "@/assets/LUVAS/WhatsApp Image 2026-04-16 at 16.04.28 (1).jpeg";
-import luvasGateImg3 from "@/assets/LUVAS/WhatsApp Image 2026-04-16 at 16.04.29.jpeg";
-import luvasGateImg4 from "@/assets/LUVAS/WhatsApp Image 2026-04-16 at 16.04.29 (1).jpeg";
-import luvasGateImg5 from "@/assets/LUVAS/WhatsApp Image 2026-04-16 at 16.04.30.jpeg";
-import luvasGateImg6 from "@/assets/LUVAS/WhatsApp Image 2026-04-16 at 16.04.30 (1).jpeg";
-import luvasGateImg7 from "@/assets/LUVAS/WhatsApp Image 2026-04-16 at 16.04.31.jpeg";
+
 
 // Chandigarh Housing Board
 import chb1 from "@/assets/Chandigarh_Housing_Board/WhatsApp Image 2026-04-24 at 18.57.02 (1).jpeg";
@@ -610,6 +603,14 @@ import llruBsa14 from "@/assets/BSA/BSA/6. Lala Lajpat Rai University of veterin
 import llruBsa15 from "@/assets/BSA/BSA/6. Lala Lajpat Rai University of veterinary and Animal Science, Hisar/15.jpeg";
 import llruBsa16 from "@/assets/BSA/BSA/6. Lala Lajpat Rai University of veterinary and Animal Science, Hisar/16.jpeg";
 
+import luvasGateImg1 from "@/assets/Lajpat_Rai_University/WhatsApp Image 2026-04-16 at 16.04.28.jpeg";
+import luvasGateImg2 from "@/assets/Lajpat_Rai_University/WhatsApp Image 2026-04-16 at 16.04.28 (1).jpeg";
+import luvasGateImg3 from "@/assets/Lajpat_Rai_University/WhatsApp Image 2026-04-16 at 16.04.29.jpeg";
+import luvasGateImg4 from "@/assets/Lajpat_Rai_University/WhatsApp Image 2026-04-16 at 16.04.29 (1).jpeg";
+import luvasGateImg5 from "@/assets/Lajpat_Rai_University/WhatsApp Image 2026-04-16 at 16.04.30.jpeg";
+import luvasGateImg6 from "@/assets/Lajpat_Rai_University/WhatsApp Image 2026-04-16 at 16.04.30 (1).jpeg";
+import luvasGateImg7 from "@/assets/Lajpat_Rai_University/WhatsApp Image 2026-04-16 at 16.04.31.jpeg";
+
 import sunderlalBsa1 from "@/assets/BSA/BSA/5. Pt. Sunderlal Sharma (open) Uni/1.jpeg";
 
 // Competition Projects
@@ -829,7 +830,9 @@ export const allProjects: ProjectData[] = [
     image: llrpHero,
     gallery: [
       llruBsa1, llruBsa2, llruBsa3, llruBsa4, llruBsa7, llruBsa8, llruBsa9, llruBsa10,
-      llruBsa11, llruBsa12, llruBsa13, llruBsa14, llruBsa15, llruBsa16
+      llruBsa11, llruBsa12, llruBsa13, llruBsa14, llruBsa15, llruBsa16,
+      luvasGateImg1, luvasGateImg2, luvasGateImg3, luvasGateImg4, luvasGateImg5, luvasGateImg6, luvasGateImg7,
+      universityCover, universityInt2
     ],
     tagline: "A campus designed for knowledge, community, and institutional pride.",
     description:
@@ -1463,22 +1466,6 @@ export const allProjects: ProjectData[] = [
     client: "Valco Group",
     area: "26147.625 sq. m",
     status: "Ongoing"
-  },
-  {
-    slug: "gate-luvas",
-    title: "Gate Luvas",
-    category: "Institutional",
-    location: "Hisar, Haryana",
-    year: "2023",
-    image: luvasGateImg6,
-    gallery: [
-      luvasGateImg6, luvasGateImg7, luvasGateImg5, luvasGateImg1,
-      luvasGateImg2, luvasGateImg3, luvasGateImg4
-    ],
-    priority: 7,
-    tagline: "A monumental gateway for Lala Lajpat Rai University.",
-    description: "The entrance gateway for the Lala Lajpat Rai University of Veterinary and Animal Sciences (LUVAS) is designed as a landmark structure that marks the transition from the city to the academic precinct. The architecture employs a robust palette of local sandstone and modern accents, creating a sense of permanence and institutional pride. The design prioritizes clear segregation of vehicular and pedestrian flows, ensuring safe and efficient access to the 1,125-acre campus.",
-    status: "Built",
   },
   {
     slug: "chandigarh-housing-board",
