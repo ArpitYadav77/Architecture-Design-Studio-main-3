@@ -55,12 +55,17 @@ import WelcomePage from "@/components/WelcomePage";
 const App = () => {
   const [loading, setLoading] = useState(true);
   const [showWelcome, setShowWelcome] = useState(false);
+
+  // Prevent welcome overlay from re-appearing on remount/navigation.
+  const WELCOME_DONE_KEY = "welcomeDone";
+  const hasWelcomeDone = typeof window !== "undefined" && window.sessionStorage.getItem(WELCOME_DONE_KEY) === "1";
   const [isHeroActive, setIsHeroActive] = useState(false);
 
   // Hero content animates when it becomes active
   const isStarted = !loading && isHeroActive;
 
   const handleFadeStart = () => {
+    if (hasWelcomeDone) return;
     setShowWelcome(true);
   };
 
@@ -74,6 +79,11 @@ const App = () => {
 
   const handleWelcomeEnd = () => {
     setShowWelcome(false);
+    try {
+      window.sessionStorage.setItem(WELCOME_DONE_KEY, "1");
+    } catch {
+      // ignore
+    }
   };
 
   return (
