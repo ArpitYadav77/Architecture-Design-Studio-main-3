@@ -1,0 +1,124 @@
+# ─── Decap CMS Configuration ──────────────────────────────────────────────────
+# Docs: https://decapcms.org/docs/configuration-options/
+#
+# IMPORTANT: Replace "your-github-username/your-repo-name" below with
+# your actual GitHub repository path before deploying.
+# ──────────────────────────────────────────────────────────────────────────────
+
+backend:
+  name: github
+  repo: ArpitYadav77/Architecture-Design-Studio
+  branch: main
+  commit_messages:
+    create: "content: add project {{slug}}"
+    update: "content: update project {{slug}}"
+    delete: "content: remove project {{slug}}"
+
+# Where uploaded images are stored (in the repo)
+media_folder: "public/uploads"
+# How uploaded images are referenced in content
+public_folder: "/uploads"
+
+# Slug sanitisation
+slug:
+  encoding: "ascii"
+  clean_accents: true
+  sanitize_replacement: "-"
+
+collections:
+  # ── Projects (Selected Work) ────────────────────────────────────────────────
+  - name: "projects"
+    label: "Projects"
+    label_singular: "Project"
+    description: "Manage projects shown in the Selected Work section."
+    folder: "content/projects"
+    create: true
+    delete: true
+    extension: "json"
+    format: "json"
+    slug: "{{slug}}"
+    summary: "{{title}} — {{category}} · {{location}}"
+    sortable_fields: ["date", "title", "category"]
+
+    fields:
+      - label: "Title"
+        name: "title"
+        widget: "string"
+        hint: "Project name displayed on the card and detail page."
+
+      - label: "Category"
+        name: "category"
+        widget: "select"
+        options:
+          - "Commercial"
+          - "Cultural"
+          - "Education"
+          - "Hospitality"
+          - "Interior"
+          - "Residential"
+          - "Urban"
+          - "Competition"
+          - "Civic & Legislative"
+
+      - label: "Location"
+        name: "location"
+        widget: "string"
+        hint: "e.g. Chandigarh, India"
+
+      - label: "Year"
+        name: "year"
+        widget: "string"
+        hint: "e.g. 2024"
+
+      - label: "Tagline"
+        name: "tagline"
+        widget: "string"
+        required: false
+        hint: "Short one-liner shown on card hover."
+
+      - label: "Description"
+        name: "description"
+        widget: "text"
+        hint: "Body text for the project detail page. Use double line-breaks for paragraphs."
+
+      - label: "Cover Image"
+        name: "coverImage"
+        widget: "image"
+        hint: "Primary image shown on the card and as the detail page hero."
+        media_library:
+          config:
+            multiple: false
+
+      - label: "Gallery Images"
+        name: "galleryImages"
+        widget: "list"
+        required: false
+        hint: "Additional images for the detail page gallery."
+        field:
+          label: "Image"
+          name: "image"
+          widget: "image"
+
+      - label: "Area"
+        name: "area"
+        widget: "string"
+        required: false
+        hint: "e.g. 4,200 sq m"
+
+      - label: "Client"
+        name: "client"
+        widget: "string"
+        required: false
+
+      - label: "Status"
+        name: "status"
+        widget: "string"
+        required: false
+        hint: "e.g. Built, Completed 2024, In Progress"
+
+      - label: "Date"
+        name: "date"
+        widget: "datetime"
+        date_format: "YYYY-MM-DD"
+        time_format: false
+        hint: "Used to sort projects — newest appear first."
