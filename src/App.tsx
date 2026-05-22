@@ -1,4 +1,4 @@
-import { useState, lazy, Suspense } from "react";
+import { useEffect, useState, lazy, Suspense } from "react";
 import { Toaster } from "@/components/ui/toaster";
 import { Toaster as Sonner } from "@/components/ui/sonner";
 import { TooltipProvider } from "@/components/ui/tooltip";
@@ -58,18 +58,31 @@ const App = () => {
 
   // Prevent welcome overlay from re-appearing on remount/navigation.
   const WELCOME_DONE_KEY = "welcomeDone";
-  const hasWelcomeDone = typeof window !== "undefined" && window.sessionStorage.getItem(WELCOME_DONE_KEY) === "1";
-  const [isHeroActive, setIsHeroActive] = useState(false);
+  const getHasWelcomeDone = () => {
+    try {
+      return typeof window !== "undefined" && window.sessionStorage.getItem(WELCOME_DONE_KEY) === "1";
+    } catch {
+      return false;
+    }
+  };
+  const [isHeroActive, setIsHeroActive] = useState(getHasWelcomeDone);
 
   // Hero content animates when it becomes active
   const isStarted = !loading && isHeroActive;
+
   const handleFadeStart = () => {
-    
-    if (hasWelcomeDone) {
-      handleStartReveal();
+    if (getHasWelcomeDone()) {
+      setIsHeroActive(true);
       return;
     }
     setShowWelcome(true);
+  };
+
+  const handleLoaderFinish = () => {
+    if (getHasWelcomeDone()) {
+      setIsHeroActive(true);
+    }
+    setLoading(false);
   };
 
   const handleStartReveal = () => {
@@ -77,6 +90,7 @@ const App = () => {
   };
 
   const handleWelcomeEnd = () => {
+    setIsHeroActive(true);
     setShowWelcome(false);
     try {
       window.sessionStorage.setItem(WELCOME_DONE_KEY, "1");
@@ -85,34 +99,46 @@ const App = () => {
     }
   };
 
+  // Fail-safe: prevent Welcome overlay from ever blocking the page.
+  // If Welcome stays visible for too long (e.g., reload + missing sessionStorage), hide it.
+  useEffect(() => {
+    if (!showWelcome) return;
+
+    const t = window.setTimeout(() => {
+      handleWelcomeEnd();
+      try {
+        window.sessionStorage.setItem(WELCOME_DONE_KEY, "1");
+      } catch {
+        // ignore
+      }
+    }, 5000);
+
+    return () => window.clearTimeout(t);
+    // eslint-disable-next-line react-hooks/exhaustive-deps
+  }, [showWelcome]);
+
   return (
     <TooltipProvider>
       <Toaster />
       <Sonner />
-      
+
       <div className={cn("transition-opacity duration-500", !isHeroActive ? "opacity-0" : "opacity-100")}>
         <BrowserRouter>
           <ScrollToTop />
           <AnimatedRoutes isStarted={isStarted} />
         </BrowserRouter>
       </div>
-      
-      {/* 
+
+      {/*
         The Welcome phase sits between the initial Loader and the main Hero.
         Loader fades -> Welcome appears underneath -> Loader unmounts -> App reveal.
       */}
       {loading && (
-        <Loader 
-          onFinish={handleLoaderFinish} 
-          onFadeStart={handleFadeStart} 
-        />
+        <Loader onFinish={handleLoaderFinish} onFadeStart={handleFadeStart} />
       )}
-      
+
       {showWelcome && (
-        <WelcomePage 
-          onEnter={handleWelcomeEnd} 
-          onStartReveal={handleStartReveal} 
-        />
+        <WelcomePage onEnter={handleWelcomeEnd} onStartReveal={handleStartReveal} />
       )}
     </TooltipProvider>
   );
