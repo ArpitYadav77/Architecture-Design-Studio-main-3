@@ -102,7 +102,7 @@ const AboutAndTeam = () => {
             <div>
               <ScrollReveal delay={100}>
                 <h2 className="text-3xl sm:text-4xl md:text-5xl font-serif font-light leading-tight mb-6 sm:mb-8">
-                  Architecture that harmonises <br className="hidden sm:block" />
+                  Architecture that harmonizes <br className="hidden sm:block" />
                   <span className="italic">vision, function & legacy</span>
                 </h2>
               </ScrollReveal>
