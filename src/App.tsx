@@ -64,7 +64,7 @@ const App = () => {
   // Hero content animates when it becomes active
   const isStarted = !loading && isHeroActive;
   const handleFadeStart = () => {
-    if (hasWelcomeDone) return;
+    
     if (hasWelcomeDone) {
       handleStartReveal();
       return;
