@@ -1,4 +1,4 @@
-import { useState, useEffect } from "react";
+import { useEffect, useRef, useState } from "react";
 import { Button } from "@/components/ui/button";
 import { cn } from "@/lib/utils";
 import welcomeImage from "@/assets/image.png";
@@ -17,11 +17,18 @@ const WelcomePage = ({ onEnter, onStartReveal }: WelcomePageProps) => {
     return () => clearTimeout(timer);
   }, []);
 
+  const enterCalledRef = useRef(false);
+
   const handleEnter = () => {
+    if (enterCalledRef.current) return;
+    enterCalledRef.current = true;
+
     onStartReveal();
     setIsExiting(true);
+
     // Wait for slide-up animation before calling onEnter
-    setTimeout(() => onEnter(), 1000);
+    const t = window.setTimeout(() => onEnter(), 1000);
+    return () => window.clearTimeout(t);
   };
 
   return (
